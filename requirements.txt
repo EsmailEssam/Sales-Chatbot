@@ -1,0 +1,2 @@
+crewai[tools,agentops]==0.95.0
+streamlit==1.42.2
