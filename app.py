@@ -1,4 +1,5 @@
 import streamlit as st
+from modules.crew import ai_crew
 
 # Configure page
 st.set_page_config(page_title="Sales Chatbot", page_icon="🏷")
@@ -17,6 +18,15 @@ def main():
         # Display user message
         with st.chat_message("user"):
             st.markdown(user_input)
+        
+        # Get AI response
+        with st.chat_message("assistant"):
+            message_placeholder = st.empty()
+            result = ai_crew.kickoff(inputs={
+              'user_input': user_input
+              })
+            
+            message_placeholder.markdown(result.raw)
 
 
 if __name__ == "__main__":
