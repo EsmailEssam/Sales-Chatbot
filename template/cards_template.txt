@@ -81,13 +81,6 @@
       }
     }
 
-    .section-title {
-      font-size: 1.875rem;
-      font-weight: bold;
-      margin-bottom: 1.5rem;
-      text-align: right;
-    }
-
     .featured-section {
       margin-bottom: 3rem;
     }
@@ -97,7 +90,6 @@
 <body>
   <div class="container">
     <div class="featured-section">
-      <h2 class="section-title">العروض المميزة</h2>
       <div class="grid-container">
 
         put_your_cards_here

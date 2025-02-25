@@ -74,3 +74,8 @@ def get_book_details(title: str) -> Optional[Dict]:
     if book:
         return book[0]
     return None
+
+@tool
+def no_book_needed():
+    """Indicate that no book data is needed for the query"""
+    return None

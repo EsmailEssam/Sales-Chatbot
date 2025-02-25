@@ -19,6 +19,7 @@ sales_consultant_task = Task(
         "The customer asked: '{query}'",
         "Provide personalized book recommendations and sales assistance.",
         "Your goal is to understand their needs and help them find the perfect book.",
+        "don't recommend any book if the customer doesn't ask for any book",
         "Use your knowledge of literature and sales techniques to create an engaging and helpful response."
         ]),
         expected_output="A JSON object containing personalized sales assistance and book recommendations",
