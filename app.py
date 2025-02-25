@@ -1,6 +1,20 @@
 import streamlit as st
 # from modules.crew import ai_crew
 from modules.process_respond import process_query, books_to_html
+import os
+from dotenv import load_dotenv
+import agentops  
+
+# Load the Key token
+_ = load_dotenv(override=True)
+
+
+AGENTOPS_API_KEY = os.getenv('AGENTOPS_API_KEY')
+
+agentops.init(
+    api_key = AGENTOPS_API_KEY,
+    skip_auto_end_session = True
+)
 
 # Configure page
 st.set_page_config(page_title="Sales Chatbot", page_icon="🏷")

@@ -1,7 +1,7 @@
 from crewai import Crew, Process
-from .agents.manager import manager_agent , manager_task
-from .agents.data_retrieval import data_retrieva_agent , data_retrieva_task
-from .agents.sales_consultant import sales_consultant_agent , sales_consultant_task
+from agents.manager import manager_agent , manager_task
+from agents.data_retrieval import data_retrieva_agent , data_retrieva_task
+from agents.sales_consultant import sales_consultant_agent , sales_consultant_task
 
 
 

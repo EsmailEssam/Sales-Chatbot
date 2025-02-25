@@ -1,4 +1,4 @@
-from .sales_crew import ai_crew
+from sales_crew import ai_crew
 import os
 
 def books_to_html(books):

@@ -1,0 +1,21 @@
+Metadata-Version: 2.2
+Name: sales-agent
+Version: 0.1.0
+Summary: A brief description of your project
+Home-page: https://github.com/yourusername/your_project
+Author: Your Name
+Author-email: your_email@example.com
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Sales-Chatbot
