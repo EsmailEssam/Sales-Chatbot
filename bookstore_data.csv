@@ -1,0 +1,11 @@
+title                                    ,author              ,genre            ,price ,stock ,rating ,publication_year ,description
+The Great Gatsby                         ,F. Scott Fitzgerald ,Classic          ,12.99 ,   15 ,   4.5 ,            1925 ,"A story of wealth, love, and the American Dream in the 1920s."
+1984                                     ,George Orwell       ,Dystopian        ,10.99 ,   23 ,   4.8 ,            1949 ,A dystopian social science fiction novel set in a totalitarian future.
+To Kill a Mockingbird                    ,Harper Lee          ,Fiction          ,14.99 ,    8 ,   4.7 ,            1960 ,A novel about racial inequality and moral growth in the American South.
+Pride and Prejudice                      ,Jane Austen         ,Romance          , 9.99 ,   10 ,   4.6 ,            1813 ,A romantic novel of manners about marriage and social status.
+The Hobbit                               ,J.R.R. Tolkien      ,Fantasy          ,15.99 ,   18 ,   4.9 ,            1937 ,A fantasy adventure novel about a hobbit's quest to win a share of treasure.
+Harry Potter and the Philosopher's Stone ,J.K. Rowling        ,Fantasy          ,16.99 ,   32 ,   4.7 ,            1997 ,The first book in the Harry Potter series following a young wizard's journey.
+The Alchemist                            ,Paulo Coelho        ,Fiction          ,11.99 ,   14 ,   4.6 ,            1988 ,A philosophical novel about a shepherd's journey to find a treasure.
+The Catcher in the Rye                   ,J.D. Salinger       ,Coming-of-age    ,13.99 ,    7 ,   4.3 ,            1951 ,A novel about teenage angst and alienation in post-WWII America.
+Lord of the Flies                        ,William Golding     ,Allegory         ,10.49 ,   16 ,   4.2 ,            1954 ,A novel about a group of British boys stranded on an uninhabited island.
+Animal Farm                              ,George Orwell       ,Political Satire , 9.99 ,   22 ,   4.5 ,            1945 ,An allegorical novella about the Russian Revolution and Stalinism.

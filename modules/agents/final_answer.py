@@ -1,5 +1,5 @@
 from crewai import Agent, Task
-from Config import basic_llm
+from config import basic_llm
 
 final_answer_agent = Agent(
   role= "Final Answer Agent",

@@ -1,0 +1,13 @@
+       <div class="book-card">
+          <img src="img_url" alt="book_title">
+          <div class="card-content">
+            <h5 class="text-xl font-bold mb-2">book_title</h5>
+            <p class="text-gray-600 mb-2">بقلم: book_author</p>
+            <p><span class="discount-badge">خصم discount_percentage%</span></p>
+            <p class="text-lg mb-4">
+              السعر: <span class="price-deleted">price_befor_diccount</span>
+              <span class="price-current">price_after_discount</span>
+            </p>
+            <button class="buy-button">شراء الآن</button>
+          </div>
+        </div>
