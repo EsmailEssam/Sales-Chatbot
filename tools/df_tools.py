@@ -8,9 +8,8 @@ from langchain_community.tools import  WikipediaQueryRun
 
 
 # Load book dataset
-df = pd.read_csv(r"D:\GAN_AI\LangGraph\Seales_chat_bot2\Dataset\Books2.csv")  # Replace with actual dataset path
+df = pd.read_csv(r"D:\Electro Pi\Sales-Chatbot\Dataset\Books2.csv")  # Replace with actual dataset path
 df = df.drop("Unnamed: 0" , axis = 1)
-
 
 
 @tool
