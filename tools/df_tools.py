@@ -5,10 +5,11 @@ import pandas as pd
 
 from langchain_community.utilities import  WikipediaAPIWrapper
 from langchain_community.tools import  WikipediaQueryRun
-
+import os
 
 # Load book dataset
-df = pd.read_csv(r"D:\Electro Pi\Sales-Chatbot\Dataset\Books2.csv")  # Replace with actual dataset path
+DATA_PATH = os.path.join(os.getcwd(), 'Dataset', 'Books2.csv')
+df = pd.read_csv(DATA_PATH)
 df = df.drop("Unnamed: 0" , axis = 1)
 
 
