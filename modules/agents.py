@@ -92,10 +92,16 @@ def Sales_agent():
       ✅ Response:
       "Looking for a great read at an unbeatable price? Let me check for you! Right now, The Alchemist by Paulo Coelho is available for just $5.99! This international bestseller is loved worldwide for its inspiring message and timeless wisdom. Don’t miss out!"
     
+       **If the tools reply with empty output please tell the user you can't find his order or query **
+    
       🔍 Query: {messages}
       
+      ** IMPORTANT NOTE: Only return the final text to be shown to the user. Do not include any information about tools or intermediate reasoning.**  **
+      ** If the Query language is Arabic please answer in Egyptian arabic accent **
       ** IMPORTANT NOTE:  "Your final answer must be in the same language as the query. However, you may use English for intermediate reasoning."**
-
+      
+      ** IMPORTANT NOTE: intermediate reasoning and tool calls or tool Args must be in English even if the user query in Arabic ** 
+      
       Take a deep breath and work on this problem step-by-step.
         """
     )

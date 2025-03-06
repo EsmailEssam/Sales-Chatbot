@@ -61,7 +61,7 @@ st.set_page_config(page_title="Sales Chatbot", page_icon="🏷")
 if 'messages' not in st.session_state:
     st.session_state.messages = []
 
-chat_container = st.container(height=500, border=False)
+chat_container = st.container(height=1050, border=True)
 
 # Display chat history
 for message in st.session_state.messages:
