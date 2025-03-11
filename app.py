@@ -61,7 +61,7 @@ st.set_page_config(page_title="Sales Chatbot", page_icon="🏷")
 if 'messages' not in st.session_state:
     st.session_state.messages = []
 
-chat_container = st.container(height=1050, border=True)
+chat_container = st.container(height=500, border=True)
 
 # Display chat history
 for message in st.session_state.messages:
@@ -84,7 +84,7 @@ col1, col2 = st.columns([9, 1], vertical_alignment="top")
 with col1:
     user_input = st.chat_input("What is your question?", key="input")
 with col2:
-    if st.button("🎙"):
+    if st.button("🎙", use_container_width=True):
         user_input = recognize_speech()
 
 
