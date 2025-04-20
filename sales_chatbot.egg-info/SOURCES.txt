@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+sales_chatbot/__init__.py
+sales_chatbot/main.py
+sales_chatbot.egg-info/PKG-INFO
+sales_chatbot.egg-info/SOURCES.txt
+sales_chatbot.egg-info/dependency_links.txt
+sales_chatbot.egg-info/entry_points.txt
+sales_chatbot.egg-info/requires.txt
+sales_chatbot.egg-info/top_level.txt

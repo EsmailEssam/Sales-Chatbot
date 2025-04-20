@@ -1,0 +1,17 @@
+{
+	"request": {
+		"session_id": "session-abc123",
+		"message": "I have dry skin, what should I buy?",
+		"locale": "en"
+	},
+	"response": {
+		"text": "For dry skin, I recommend our Hydrating Face Serum. It contains hyaluronic acid...",
+		"suggestions": [
+			{
+				"product_id": "12345",
+				"caption": "Matches your dry skin concern and avoids fragrance."
+			}
+		],
+		"session_id": "session-abc123"
+	}
+}

@@ -22,7 +22,7 @@ def get_answer(user_input):
 
 if __name__ == "__main__":
     print("Hello, World!")
-    user_input = "ايه ارخص كتاب عندك؟"
+    user_input = "عاوز حاجه لتساقط الشعر؟"
     event = get_answer(user_input)
 
     print('*' *50)

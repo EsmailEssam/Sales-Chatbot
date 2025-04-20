@@ -1,18 +1,14 @@
-import sys
-from pathlib import Path
-sys.path.append(str(Path(__file__).parent.parent))  # Add project root to Python path
+"""
+Product search and query tools for the Sales Chatbot.
+"""
 
-from typing import List, Dict
-from langchain_core.tools import tool 
-import os
+from typing import List, Dict, Optional
+from langchain_core.tools import tool
+import pandas as pd
 
-from modules.helper.convert_json_to_df import convert_json_to_df
+from sales_chatbot.modules.helper.convert_json_to_df import convert_json_to_df
 
-json_file_path = os.path.join(os.getcwd(), 'Dataset', 'products.json')
-df = convert_json_to_df(json_file_path)
-# Convert price column to float
-df['price'] = df['price'].astype(float)
-# print(df.head())
+df = convert_json_to_df()
 
 @tool
 def search_products_by_concern(concern: str) -> List[Dict]:
@@ -101,7 +97,6 @@ def get_products_in_price_range(min_price: float, max_price: float) -> List[Dict
     matches = df[(df['price'] >= min_price) & (df['price'] <= max_price)]
     return matches.to_dict('records')
 
-# List of tools to be used with LangGraph
 tools = [
     search_products_by_concern,
     search_products_by_category,
@@ -109,4 +104,4 @@ tools = [
     get_lowest_price_products,
     get_highest_price_products,
     get_products_in_price_range
-]
+] 

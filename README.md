@@ -1,0 +1,81 @@
+# Sales Chatbot
+
+An AI-powered sales assistant built with LangGraph that helps users find and learn about products through natural conversation.
+
+## Features
+
+- Product search by name, category, or specific concerns
+- Price-based queries (lowest/highest price, price range)
+- Natural language understanding for product recommendations
+- Integration with external knowledge bases
+- Conversational interface for product inquiries
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/sales-chatbot.git
+cd sales-chatbot
+```
+
+2. Create a virtual environment:
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+3. Install dependencies:
+```bash
+pip install -e .
+```
+
+4. Set up environment variables:
+```bash
+cp .env.example .env
+# Edit .env with your API keys and configuration
+```
+
+## Usage
+
+1. Start the chatbot:
+```bash
+python main.py
+```
+
+2. Interact with the chatbot using natural language queries like:
+- "Show me products for hair loss"
+- "What are the cheapest products available?"
+- "Find skincare products for dry skin"
+- "What products are in the Hair Care category?"
+
+## Project Structure
+
+```
+sales-chatbot/
+├── app.py              # FastAPI application
+├── main.py            # Entry point
+├── tools/             # LangGraph tools
+│   └── df_tools.py    # DataFrame query tools
+├── modules/           # Core modules
+├── Dataset/           # Data files
+└── tests/            # Test files
+```
+
+## Development
+
+To contribute to the project:
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Run tests: `pytest`
+5. Submit a pull request
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+
+- Built with [LangGraph](https://github.com/langchain-ai/langgraph)
+- Uses LangChain for LLM integration 

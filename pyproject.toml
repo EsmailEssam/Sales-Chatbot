@@ -1,0 +1,58 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "pip>=21.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sales-chatbot"
+version = "0.1.0"
+description = "An AI sales assistant based on LangGraph for product queries and recommendations"
+readme = "README.md"
+authors = [
+    {name = "Your Name", email = "your.email@example.com"}
+]
+license = "MIT"
+requires-python = ">=3.8"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+dependencies = [
+    "langchain==0.3.19",
+    "langchain_community==0.3.18",
+    "langchain_core==0.3.40",
+    "langchain_google_genai==2.0.11",
+    "langgraph==0.3.2",
+    "pandas==2.2.3",
+    "python-dotenv==1.0.1",
+    "PyAudio",
+    "SpeechRecognition==3.11.0",
+    "wikipedia==1.4.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/sales-chatbot"
+Repository = "https://github.com/yourusername/sales-chatbot.git"
+
+[project.scripts]
+sales-chatbot = "sales_chatbot.main:main"
+
+[tool.setuptools]
+packages = ["sales_chatbot"]
+
+[tool.setuptools.package-data]
+sales_chatbot = ["*.json", "*.txt"]
+
+[tool.black]
+line-length = 88
+target-version = ['py38']
+include = '\.pyi?$'
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3 

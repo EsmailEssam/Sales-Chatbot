@@ -1,0 +1,426 @@
+{
+    "event_type": "products.updated",
+    "timestamp": "2025-04-17T16:56:53.725220Z",
+    "data": {
+        "products": [
+            {
+                "product_id": 1,
+                "name": "Herforte Lotion Spray (to fill in gaps and treat alopecia)",
+                "description": "Hair forte is a mixture of natural extracts and extracts of the most important hair oils with anti-dandruff agent, to be a quick treatment for hair loss, guaranteed and tested by dermatologists for fortifying hair & increase hair shaft strength to prevent hair loss. Also, Hair forte spray stimulates hair germination to be an effective solution to fill the frontal spaces in women and men, in addition to treating dandruff & itching associated with dryness and inflammation of the scalp, Hair forte spray is suitable for all hair types even oily & dry scalp.\r\n\r\nComposition:-\r\nHair forte spray with its unique formula to be effective in stimulating the blood circulation of the scalp and hair follicles to strengthen and nourish them to prevent hair loss and also to stimulate root germination for the growth of healthy, thick, long and strong hair without dandruff.\r\n\r\n\u2022\tJojoba Oil Extract.\r\n\u2022\tGarlic Oil Extract.\r\n\u2022\tNigella.\r\n\u2022\tRosemary.\r\n\u2022\tCaffeine.\r\n\u2022\tThyme Oil.\r\n\u2022\tSalicylic acid.\r\n\u2022\tPanthenol.\r\n\u2022\tAloe Vera.\r\n\u2022\tVitamin E.\r\nIndicated for:\r\n*Diffuse hair fall.\r\n*Adjuvant therapy for alopecia areata. \r\n*Controls split ends, roughness, dryness& brittleness of hair. \r\n*Controls dandruff.\r\n\r\nApplication:\r\nSpray onto wet or dry hair& scalp \u201c6 pump\u201d suitable amount then massage& style as usual, once or twice daily preferably start from the forehead to back of the head in a circular movement or as directed by physician.\r\n\r\nPackage:\r\n 120 ml.",
+                "ingredients": [],
+                "concerns": [
+                    [
+                        "Hair loss"
+                    ]
+                ],
+                "category": [
+                    "Hair Care",
+                    "Hair spray& lotion"
+                ],
+                "price": "200.00",
+                "product_file": null
+            },
+            {
+                "product_id": 2,
+                "name": "Hairforte Shampoo (for treating hair loss and dandruff + deep moisturizing)",
+                "description": "Hair Forte shampoo is an effective combination of anti-dandruff with natural extracts& important oils for hair to get rid of dandruff while nourishing &moisturizing hair to reduce hair falling also it helps in stimulating hair growth, Hair forte shampoo For Both Treated hair and Normal one.\r\n\r\nComposition:\r\n\r\n\u2022\tCaffeine.\r\n\u2022\tJojoba Oil.\r\n\u2022\tLavender Oil.\r\n\u2022\tCoconut Oil.\r\n\u2022\tOlive Oil.\r\n\u2022\tRosemary Oil.\r\n\u2022\tVitamin E.\r\n\u2022\tPanthenol.\r\n\u2022\tAloe Vera.\r\n\u2022\tZinc Pyrithione.\r\n\u2022\tGarlic Extract.\r\n\u2022\tTriclosan.\r\nIndicated for:\r\n\r\n*Treatment of dandruff.\r\n*Diffuse hair fall.\r\n*Adjuvant therapy for alopecia areata. \r\n*Controls split ends, roughness, dryness& brittleness of hair.\r\n\r\n\r\nApplication:\r\nApply a sufficient amount on wet hair and scalp, with gentle massage then rinse well with water from 1: 2 times weekly.\r\nPackage:\r\n 120 ml.",
+                "ingredients": [],
+                "concerns": [
+                    [
+                        "Dandruff"
+                    ]
+                ],
+                "category": [
+                    "Hair Care",
+                    "Shampoos"
+                ],
+                "price": "150.00",
+                "product_file": null
+            },
+            {
+                "product_id": 3,
+                "name": "Valdo moisturizing cream",
+                "description": "Valdo Moisturizing Cream\r\n-The best moisturizing cream for the face - hands - body and sensitive areas -\r\n -Valdo treats severe dryness and rebuilds the skin barrier.\r\n- Makes the skin soft and hydrated all day without scales\r\n-Valdo cream is rich in anti-inflammatory and antibacterial.\r\n -To treat skin infections and dissections also sunburn and burns first degree -\r\n-Accelerates wound healing. It is worth noting that its composition Valdo cream is rich in antioxidants.\r\n  - Collagen stimulator to provide freshness and get rid of pallor and dullness.\r\n - Protection against the appearance of premature wrinkles\r\n- For all skin types (for dry skin - for oily skin - for combination and normal skin)\r\n\r\nComposition:\r\nValdo cream is an ideal natural mix from most important natural extracts, oils& vitamins for complete skin care\r\n\u2022\tPanthenol \u201cVitamin B5\u201d.\r\n\u2022\tAloe Vera.\r\n\u2022\tCalendula.\r\n\u2022\tAlmond Oil.\r\n\u2022\tOlive Oil.\r\n\u2022\tAllantoin..\r\n\u2022\tGlycerin.\r\n\u2022\tVitamin E.\r\n\u2022\tVitamin C.\r\n\u2022\tDimethicone.\r\nIndicated for:\r\n\u2022\tEczema.\r\n\u2022\tDry Skin.\r\n\u2022\tSun burn.\r\n\u2022\tBurn \u201c1st\u201d degree.\r\n\u2022\tDipper rash.\r\n\u2022\tNipple Fissure.\r\n\u2022\tPost Laser care.\r\n\u2022\tAfter care of derma pen.\r\n\u2022\tReduce the early appearance of wrinkle.\r\n\u2022\tDaily skin routine for glowing& taut look.\r\n\u2022\tAdjuvant Therapy in Acne Vulgaris. \r\n\r\nApplication:-\r\nApply a suitable amount of the Valdo cream to skin twice daily.\r\nPackage:\r\n  40gm.",
+                "ingredients": [],
+                "concerns": [
+                    [
+                        "Eczema & Dry skin"
+                    ]
+                ],
+                "category": [
+                    "Skin Care",
+                    "Moisturizer"
+                ],
+                "price": "80.00",
+                "product_file": null
+            },
+            {
+                "product_id": 4,
+                "name": "Spleet Cream Scrub (Steam Alternative + Acne Treatment)",
+                "description": "Spleet is a gentle exfoliating cream with a unique triple action therapeutic formula for treating active acne, hidden pimple and dark spots, Spleet exfoliating has a soft peeling effect to remove dead skin buildup extremely dry, rough, scaly and aging skin Plus promoting a deep hydration that makes skin soft, smooth and less flaking. Spleet cream is safe for Face, hand, foot& full body and suitable for all kind of skin.\r\n\r\n\r\nComposition:- \r\nSpleet is an effective combination of the following:- \r\n\u2022\t Urea \r\n\u2022\tSalicylic Acid \r\n\u2022\tLactic Acid\r\n\u2022\tTea Tree Oil.\r\n\u2022\tChamomile.\r\nIndicated for:\r\n\u2022\tSevere dry Skin.\r\n\u2022\tKeratosis pilaris.\r\n\u2022\tCracked heel.\r\n\u2022\tRough, discolored elbow & knee.\r\n\u2022\tPsoriasis patches. \r\n\u2022\tEczema.\r\n\u2022\tActive acne.\r\n\u2022\tHidden pimple\r\n\u2022\tDark spots\r\n\u2022\tHydrate, brighten& smooth fine lines.\r\nApplication:-\r\nApply a suitable amount of the cream to skin once daily.\r\nFor sensitive skin just applied for 5 minute then washed.\r\nPackage:\r\n 40gm.",
+                "ingredients": [],
+                "concerns": [
+                    [
+                        "Strawberry skin treatment",
+                        "Acne& acne spots",
+                        "Hyperpigmentation& dark spots",
+                        "Sensitive areas& Bikini area brightening",
+                        "Dull& pale skin"
+                    ]
+                ],
+                "category": [
+                    "Personal Care",
+                    "Soft peel and Exfoliant"
+                ],
+                "price": "100.00",
+                "product_file": null
+            },
+            {
+                "product_id": 5,
+                "name": "Spleet Lightening Cream (for treating pigmentation and acne scars)",
+                "description": "Spleet whitening cream offers the strongest unique natural formula that works through triple powers of lighten- moisturize& skin rejuvenation with triple different mechanisms of action for Achieving a de-pigmentation effect to lighten dark spots effectively & unify the skin tone hinder the development of dark patches and  Keep skin hydrated& protected, it  also  stimulates collagen production and regulate sebum secretion to reduce the appearance of acne, pimple and large pores, Spleet whitening cream is sfor face, sensitive areas, under arm, bikini& full body and for All skin types \u201c dry skin - normal - mixed - oily or sensitive skin\" either for girls, women or  men, Spleet whitening cream.\r\n\r\n\r\nComposition: \r\nSpleet whitening cream is a potent composition from triple groups of ingredients \u201cskin lightening agents, skin exfoliating agents and skin moisturizing& antioxidant agents for treatment of hyperpigmentation and lighten dark spots effectively leaving skin hydrated and renewed.\r\n\r\n\u2022\tAlpha- Arbutin, \r\n\u2022\tKojic Acid. \r\n\u2022\tNiacinamide. \r\n\u2022\tLicorice. \r\n\u2022\tGlycolic Acid. \r\n\u2022\tVitamin A.\r\n\u2022\tVitamin C.\r\n\u2022\tVitamin E\r\n\u2022\tZinc oxid.\r\n\u2022\t Allantoin.\r\n\u2022\tGlycerin.\r\nIndicated for:\r\no\tSun Exposure. \r\no\tAge Spots                     \r\no\tMelasma.\r\no\tPost Inflammatory hyperpigmentation as:\r\n\u2022\tAcne scars.\r\n\u2022\tSunburn.                \r\n\u2022\tAfter care of chemical peels.            \r\n\u2022\tPost laser resurfacing.\r\n\r\n\r\nApplications:\r\nApply a small amount on the face or area to be lightened once at night and may be repeated when needed.\r\nPackage:\r\n 40gm.",
+                "ingredients": [],
+                "concerns": [
+                    [
+                        "Hyperpigmentation& dark spots",
+                        "Sensitive areas& Bikini area brightening",
+                        "Acne& acne spots"
+                    ]
+                ],
+                "category": [
+                    "Skin Care",
+                    "Whitening cream"
+                ],
+                "price": "100.00",
+                "product_file": null
+            },
+            {
+                "product_id": 6,
+                "name": "Spleet Eye Contour Cream (for treating dark circles + expression lines + deep moisturizing)",
+                "description": "An unique  potent  mix of natural  ingredients those act with three functions \u201chydrate- brighten- firm\u201d effectively addresses every single eye area concern- leaving the eye more brighter and smoother, that suitable for all kind of skin even sensitive skin. \r\n1- Truly nourish the skin with multiple nutrients & vitamin as vitamin E& K and stimulating blood circulation plus deeply moisturize skin around the eyes for brightening skin, reducing the dark circles without clogging the pores.\r\n  2- Improving skin hydration and elasticity the eye contour area deeply plus antioxidant effect that will help in reliving of puffiness& eye fatigue.\r\n3- Help in reducing the appearance of fine lines through promoting skin renewal and improving skin elasticity by stimulating of the collagen synthesis\r\nComposition: \r\n*Caffeine.\r\n*Liquorice Extract.  \r\n*Vitamin A.\r\n*Green Tea.\r\n *Almond Oil.\r\n *Wheat Germ Oil.\r\n *Chamomile Extract.\r\n*Allantoin.\r\n*Royal Jelly.\r\n*Panthenol.  \r\n*Collagen.\r\n\r\nIndicated for:\r\n\u2022\tTreatment of all types of dark circles: \r\nBrown dark Circle due to hyperpigmentation \u201cby Licorice\u201d \r\nBlack dark Circle due to lack of collagen and elasticity \u201cby royal, panthenol & collagen\u201d\r\nBlue dark Circle due to bad circulation \u201cwith caffeine& natural vitamin K extract\u201d.\r\n\u2022\tMoisturizes and strengthens the skin texture around the eyes. \r\n\u2022\tReduce the transparency of the tissues around the eye to reduce the appearance of dark circles. \r\n\u2022\tEye bag or puffiness.\r\n\r\n\u2022\tEraser of fine lines.\r\n\u2022\tRelieve of eye fatigue.\r\n\r\nApplication: \r\nApply a small amount with gentle smoothing under the eye area, can be used alone or under makeup.\r\n\r\nPackage:\r\n30 gm.",
+                "ingredients": [],
+                "concerns": [
+                    [
+                        "Hyperpigmentation& dark spots",
+                        "Dark circles \u201cblue- brown- black\u201d & puffiness"
+                    ]
+                ],
+                "category": [
+                    "Skin Care",
+                    "Eye cream"
+                ],
+                "price": "225.00",
+                "product_file": null
+            },
+            {
+                "product_id": 7,
+                "name": "Spleet Facial wash",
+                "description": "Spleet face wash with an unique the Canadian balanced formula that keeps skin pH balanced to be safe and  suitable for all skin types that work with 5 power to give marvels 5  effects and effectiveness to show the beauty of the skin naturally and safely, as it helps to clean the skin for getting rid  of accumulated makeup and debris to gives it a sense of freshness with an effect in lightening and enlightening the skin significantly, also helps it get rid of acne, pimples and reduce the appearance of enlarged pores and give  a tightening of the skin because it is rich in collagen stimuli plus natural collagen with important vitamins those rejuvenate and tighten the skin to help it fight the appearance of early wrinkles leaving the skin deeply moisturized along the day.\r\nComposition: \r\n\u2022\tAloe Vera Extract.\r\n\u2022\tJojoba Oil.\r\n\u2022\tTocopherol.\r\n\u2022\tCollagen.\r\n\u2022\tCamellia Sinensis Extract.\r\n\u2022\tGlycyrrhiza Glabra Leaf Extract.\r\n\u2022\tSalicylic Acid.\r\n\u2022\tGlycolic Acid.\r\n\u2022\tGlycerin.\r\n\u2022\tGlycine.\r\n\r\nIndicated for:\r\n\r\n\u2022 It cleans the skin effectively and safely.\r\n\u2022 Lighten skin color.\r\n\u2022 Moisturizing the skin deeply.\r\n\u2022 Treating Acne and pimples.\r\n\u2022 Rejuvenation and tightening of the skin.\r\n\u2022\tReduce the appearance of enlarged pores\r\n\u2022 Suitable for daily use.\r\n\u2022 A very small amount is sufficient.\r\n\u2022 Easy to rinse off.\r\n\u2022 Reduces fatty secretions.\r\n\u2022 Light and distinct scent.\r\n\u2022 Free of soap and does not cause clogged pores.\r\n\r\nApplication: \r\nApply a small amount on the face with a little of water, gently massage and then rinse, twice daily.\r\n\r\nPackage:\r\n200 ml.",
+                "ingredients": [],
+                "concerns": [
+                    [
+                        "Acne& acne spots",
+                        "Hyperpigmentation& dark spots",
+                        "Dull& pale skin",
+                        "Eczema & Dry skin"
+                    ]
+                ],
+                "category": [
+                    "Skin Care",
+                    "Cleansers"
+                ],
+                "price": "220.00",
+                "product_file": null
+            },
+            {
+                "product_id": 12,
+                "name": "Aceto-V Feminine Intimate wash",
+                "description": "Acet-V is a feminine Intimate wash with unique combination of real treatment for vaginal infection either bacterial or fungal plus moisturizers, tightening agents to enjoy daily activities& sexual intercourse. \r\nComposition:- \r\n*Chlorhexidine gluconate.\r\n *Cetrimide. \r\n*Aloe Vera.\r\n*Chamomile.\r\n*Glycerin.\r\n\r\nIndicated for:\r\n\u2022\tBacterial vaginosis. \r\n\u2022\tVaginal candidiasis.\r\n\u2022\tAtrophic Vaginitis.\r\n\u2022\tVaginal irritation& itching. \r\n\u2022\tPersonal hygiene during menstrual cycle.\r\n\u2022\tPersonal hygiene after sexual intercourse.\r\n\u2022\tPersonal hygiene after Labor.\r\n\u2022\tTighten the vagina.\r\nApplication:-\r\nApplied directly without dilution, once per day for external use only.\r\n\r\nPackage:\r\n250ml.",
+                "ingredients": [],
+                "concerns": [
+                    [
+                        "Sensitive areas& Bikini area brightening"
+                    ]
+                ],
+                "category": [
+                    "Personal Care",
+                    "Cleansers"
+                ],
+                "price": "90.00",
+                "product_file": null
+            },
+            {
+                "product_id": 14,
+                "name": "Valdo Sunscreen Lotion (No Oxidation, No Sweating + Skin Moisturizing)",
+                "description": "\uf0b7\u0627\u0644\u062d\u0645\u0627\u064a\u0629\u0645\u0646 \u0627\u0627\u0644\u0644\u062a\u0647\u0627\u0628\u0627\u062a\u0648\u062c\u0641\u0627\u0641 \u0627\u0644\u0628\u0634\u0631\u0629.\r\n\uf0b7\u064a\u062d\u0645\u064a \u0645\u0646 \u0627\u0644\u0634\u064a\u062e\u0648\u062e\u0629 \u0627\u0644\u0645\u0628\u0643\u0631\u0629 \u0644\u0644\u0628\u0634\u0631\u0629 \u0648\u0627\u0644\u062a\u062c\u0627\u0639\u064a\u062f.\r\n\uf0b7\u064a\u062d\u062f \u0645\u0646 \u0628\u0642\u0639 \u0627\u0644\u062c\u0644\u062f\u0648\u064a\u0642\u0644\u0644 \u0645\u0646 \u062e\u0637\u0631 \u0641\u0631\u0637 \u0627\u0644\u062a\u0635\u0628\u063a \"\u0627\u0644\u0628\u0642\u0639 \u0627\u0644\u062f\u0627\u0643\u0646\u0629\".\r\n\uf0b7\u064a\u0633\u0627\u0639\u062f \u0639\u0644\u0649 \u062a\u0642\u0644\u064a\u0644 \u0638\u0647\u0648\u0631 \u0628\u0639\u0636 \u0627\u0623\u0644\u0645\u0631\u0627\u0636 \u0627\u0644\u062c\u0644\u062f\u064a\u0629 \u0645\u062b\u0644 \u0627\u0644\u0648\u0631\u062f\u064a\u0629 \u0648\u0627\u0623\u0644\u0643\u0632\u064a\u0645\u0627 \u0648\u062d\u0628 \u0627\u0644\u0634\u0628\u0627\u0628.\r\n\u0637\u0631\u064a\u0642\u0629 \u0627\u0627\u0644\u0633\u062a\u062e\u062f\u0627\u0645:\r\n\u064a\u062a\u0645 \u0627\u0633\u062a\u062e\u062f\u0627\u0645\u0647 \u0642\u0628\u064403\u062f\u0642\u064a\u0642\u0629\u0645\u0646 \u0627\u0644\u062e\u0631\u0648\u062c \u0644\u0644\u0634\u0645\u0633 \u0623\u0648 \u0648\u0636\u0639 \u0627\u0644\u0645\u0643\u064a\u0627\u062c\u0648\u064a\u0643\u0631\u0631.\r\n\u0627\u0644\u0639\u0628\u0648\u0629:\r\n53\u062c\u0631\u0627\u0645.\r\n\u0627\u0644\u0633\u0639\u0631:\r\n053\u062c\u0646\u064a\u0647.\r\nValdo Sunscreen Lotion.\r\nValdo Sun Screen Lotion: A New Era in Skin Protection\r\n\u2022 Valdo goes beyond broad-spectrum protection. This innovative\r\nsunscreen with SPF 50+ not only shields your skin from UVA\r\nand UVB rays, but also defends against harmful blue light\r\nthanks to its cutting-edge Canadian blue light-cutting formula.\r\nThis multi-defense approach provides ultimate protection\r\nagainst the damaging effects of the sun.\r\n\u2022 Valdo sun screen offers exceptional sun protection, blocking up\r\nto 99% of the sun's rays. This helps minimize the cumulative\r\nhealth risks associated with long-term sun exposure.\r\n\u2022 Formulated with zinc oxide and titanium dioxide, Valdo sun\r\nscreen is ideal for sensitive and acne-prone skin. It's gentle and\r\nnon-irritating.\r\n\u2022 But Valdo doesn't stop there. This sunscreen also contains\r\nantioxidants and moisturizing agents that soothe redness and\r\nleave your skin looking radiant and youthful. Plus, it's dry-\r\ntouch, oil-free, and water-resistant for a comfortable, long-\r\nlasting wear.\r\nComposition:\r\nValdo is broad spectrum sunscreen lotion for high protection with line\r\nof skin filters for UVA, UVB, Blue ray protection also that contains\r\nantioxidant and moisturizing agents for soothing skin redness.\r\n\u2022 Bezophenone-3-Butyl Methoxydibenzoylmetane.\r\n\u2022 Ethylhexyl Methoxycinnamate.\r\n\u2022 Titanium Dioxide.\r\n\u2022 Zinc Oxide.\r\n\u2022 Allantoin.\r\n\u2022 Panthenol.\r\n\u2022 Tocopherol.\r\nIndicated for:\r\nUsing valdo sunscreen regularly:\r\n\uf0b7 Prevents Sunburn.\r\n\uf0b7 Protects from harmful effects of blue rays.\r\n\uf0b7 Protects from inflammation.\r\n\uf0b7 Lowers the Risk of Skin Cancer.\r\n\uf0b7 Protects against Premature Skin Aging& wrinkles.\r\n\uf0b7 Limits Blotchy Skin.\r\n\uf0b7 Reduces Hyperpigmentation \u201cdark spots\u201d Risk.\r\n\uf0b7 Helps reduce flare-up of certain skin conditions as rosacea, eczema, and acne.\r\nApplication:-\r\nIt is used 30 minutes before going out in the sun or applying makeup.\r\n\r\nComposition:\r\nValdo is broad spectrum sunscreen lotion for high protection with line\r\nof skin filters for UVA, UVB, Blue ray protection also that contains\r\nantioxidant and moisturizing agents for soothing skin redness.\r\n\u2022 Bezophenone-3-Butyl Methoxydibenzoylmetane.\r\n\u2022 Ethylhexyl Methoxycinnamate.\r\n\u2022 Titanium Dioxide.\r\n\u2022 Zinc Oxide.\r\n\u2022 Allantoin.\r\n\u2022 Panthenol.\r\n\u2022 Tocopherol.\r\nIndicated for:\r\nUsing valdo sunscreen regularly:\r\n\uf0b7 Prevents Sunburn.\r\n\uf0b7 Protects from harmful effects of blue rays.\r\n\uf0b7 Protects from inflammation.\r\n\uf0b7 Lowers the Risk of Skin Cancer.\r\n\uf0b7 Protects against Premature Skin Aging& wrinkles.\r\n\uf0b7 Limits Blotchy Skin.\r\n\uf0b7 Reduces Hyperpigmentation \u201cdark spots\u201d Risk.\r\n\uf0b7 Helps reduce flare-up of certain skin conditions as rosacea, eczema, and acne.\r\nApplication:-\r\nIt is used 30 minutes before going out in the sun or applying makeup.\r\nPackage:\r\n50gm.",
+                "ingredients": [],
+                "concerns": [
+                    [
+                        "Eczema & Dry skin"
+                    ]
+                ],
+                "category": [
+                    "Skin Care",
+                    "Sun screen"
+                ],
+                "price": "350.00",
+                "product_file": null
+            },
+            {
+                "product_id": 15,
+                "name": "Hairforte Oil Replacement Cream (for treating frizz, split ends and tangles)",
+                "description": "Hairfort  cream  is a special formula composed of the most important hair oils, natural extracts and vitamins to moisturize, condition and deeply nourishes hair from inside with its creamy texture to get rid of  tangling and hair frizz  leaving that healthy, smooth and shiny plus restoring the hair bonds to repair the hair shaft and reducing of hair split ends.  \r\n\u2022\tAlso, Hair forte cream protects hair from damage by external factors as ultraviolet rays & hairdressers and works as a protective layer for hair strands to reduce damage to reduce hair loss.\r\n\r\n\u2022\tHair forte cream is suitable for all types of hair either oily hair and or normal hair.",
+                "ingredients": [],
+                "concerns": [
+                    [
+                        "Dandruff"
+                    ]
+                ],
+                "category": [
+                    "Hair Care",
+                    "Oil replacement"
+                ],
+                "price": "180.00",
+                "product_file": null
+            },
+            {
+                "product_id": 19,
+                "name": "Get ready for Eid with a box of lightening, enlightenment and freshness with Dr. Samar",
+                "description": "Interpharma made a package to lighten and enlighten the skin \"lotion, lightening and peeling\":\r\nSpleet Wash is five in one to brighten and cleanse your skin with deep hydration.\r\nSpleet scrub to remove dead skin, pimples and traces in an easy step.\r\nSpleet lightening cream to lighten your skin with a triple action formula to lighten the security of this is the freshness that tightens.\r\nYalla open your skin safely and effectively in three repetitions with Interpharma Egycare.",
+                "ingredients": [],
+                "concerns": [
+                    [
+                        "Dull& pale skin"
+                    ]
+                ],
+                "category": [
+                    "Skin Care",
+                    "Moisturizer"
+                ],
+                "price": "370.00",
+                "product_file": null
+            },
+            {
+                "product_id": 23,
+                "name": "Package to lighten bikini and sensitive areas",
+                "description": "Bikini Lightening & Sensitive Areas Package (4pcs)\r\nYou can now open bikini and sensitive areas safely and effectively in simple steps: \r\n-The first\ud83d\udcccstep with deep hydration to eliminate any dryness and prevent tanning with the therapeutic moisturizing monster Valdo Cream twice a day. \r\n\r\n-The second step is \ud83d\udcccmoisturizing , refreshing and eliminating unpleasant odors with Aceto-v Lotion day after day. \r\n\r\n-The third\ud83d\udcccstep, light peeling with spleet peeled once a day for 3 hours and wash it \r\n\r\n-And the fourth and basic\ud83d\udcccstep with spleet lightening to lighten with us in 3 ways and 3 degrees of lightening and with its safe ingredients.\r\nAnd go back, the area is united.. clean.. and smells refreshing\ud83c\udf43.\r\nPackage surprise for only 310 EGP instead of 370 EGP\ud83c\udf81\ud83c\udf81\ud83c\udf81",
+                "ingredients": [],
+                "concerns": [
+                    [
+                        "Sensitive areas& Bikini area brightening"
+                    ]
+                ],
+                "category": [
+                    "Personal Care",
+                    "Cleansers"
+                ],
+                "price": "310.00",
+                "product_file": null
+            },
+            {
+                "product_id": 24,
+                "name": "Deep Moisturizing Hair Package (3pcs)",
+                "description": "Deep Moisturizing Hair Package (3pcs) \r\n And stop the falling, the frizzy bombardments \r\nFrom the Hair Fort collection in 3 steps: \r\n\r\nHair Forte Shampoo to moisturize your hair, eliminate dandruff and rest assured of Zero Sulfate-Zero Sodium.\u2714\ufe0f 1\r\nHairforte Spray for germination and fall while lengthening and strengthening hair follicles.\u2714\ufe0f 2\r\nHereforte is an oil replacement cream to moisturize, repair & soften RK rays\u2714\ufe0f 3\r\n\r\n\ud83d\udce2A routine rich in caffeine, rosemary, the most important vitamins, nutrient, moisturizing and anti-dandruff oil extracts.\r\n\r\nIt means from the first week you will see the difference and rest from dullness and dryness with frizz and breakage.\r\n\r\nAnd retrograde dense and without dandruff \u270c\ufe0f\r\nIf you ask for 2 packages on them a package of Valdo as a gift to solve skin problems in winter and get rid of dryness and eczema.. skin \ud83c\udf81  peels and also with a rich formula for deep hydration and building the skin barrier.",
+                "ingredients": [],
+                "concerns": [
+                    [
+                        "Dandruff"
+                    ]
+                ],
+                "category": [
+                    "Hair Care",
+                    "Repairing & hair moisturizing"
+                ],
+                "price": "470.00",
+                "product_file": null
+            },
+            {
+                "product_id": 25,
+                "name": "Package treatment of dandruff, voids and falling (two pieces)",
+                "description": "Package treatment of dandruff, voids and falling (two pieces)\r\nEnjoy healthy and strong\ud83c\udf39hair without dandruff or loss with\ud83d\udc48\ud83c\udffb your Hair Fort routine with the power \ud83d\udce2of caffeine and rosemary with garlic oil and jojoba with moisturizing elements and anti-dandruff with the power of salicylic in two steps\r\nFirst Step:\r\nHerforte_shampoo twice weekly.\r\nNext Step:\r\nHairforte_Spray twice daily on the scalp\r\n\ud83d\udce2And get rid of dandruff and scalp infections . And return to the health and strength of your hair without dandruff \r\nIf you ask for 2 packages on them a package of Valdo is a gift to solve the skin problems in winter and get rid of dryness and eczema.. skin peels \ud83c\udf81 and also with a rich formula to deeply moisturize and build the skin barrier",
+                "ingredients": [],
+                "concerns": [
+                    [
+                        "Hair loss"
+                    ]
+                ],
+                "category": [
+                    "Hair Care",
+                    "Repairing & hair moisturizing"
+                ],
+                "price": "299.00",
+                "product_file": null
+            },
+            {
+                "product_id": 26,
+                "name": "Post-peeling skincare package (5pcs)",
+                "description": "Post-peeling skincare package (5pcs)\r\nTo maintain the result of the session, you will start having a peeling session and you want to take the best result to lighten your skin safely and quickly \ud83d\udcaa\ud83c\udffb\ud83d\udc4c\ud83c\udffb\r\n\u270d\ufe0fStep one: Valdo cream must soothe skin inflammation and repair the skin barrier \r\nUVA-UVB  The second step: And of course, the foundation of sunscreen with Valdo - Sunscreen is wide-range with your hands to protect against blue rays \u270d\ufe0f... And the mams protect from the gas rays and also\r\n\u270d\ufe0f Step Three: Spleet Cleanser for lightening and freshness does not dry the skin  \r\n\u270d\ufe0fStep Four: Spleet peeled will make soft pile cream with urea in a safe ratio that gently removes the dark layer\r\nStep Five: Spleet lightening with safe and non-carcinogenic substances to reduce the melanin responsible for tanning \r\nViolin and anti-inflammatory.\r\nAnd rest assured we will get your color back with the routine of spleet and valdo\u270c\r\nIf you ask for 2 packages on them a package of Valdo is a gift to solve the skin problems in winter and get rid of dryness and eczema.. skin peels \ud83c\udf81 and also with a rich formula to deeply moisturize and build the skin barrier",
+                "ingredients": [],
+                "concerns": [
+                    [
+                        "Acne& acne spots"
+                    ]
+                ],
+                "category": [
+                    "Skin Care",
+                    "Cleansers"
+                ],
+                "price": "775.00",
+                "product_file": null
+            },
+            {
+                "product_id": 27,
+                "name": "Winter Skin Care Package With Complete Care (6 Pieces) \ud83d\ude09",
+                "description": "Winter Skin Care Package With Complete Care (6 Pieces) \ud83d\ude09 \r\nAnd we completed the routine for you in 6 steps: \r\n  Step One: Spleet lotion to lighten, moisturize and renew freshness\r\nValdo -  Skin Barrier Repair Cream that increases collagen production  The second step:\r\nStep Three: Sunscreen_valdo as the first Canadian technology with the highest protection factor from\r\nAnd for the first time UVA blue ray protection - UVB\r\nStep 4: Spleet_ Acne Treatment Exfoliator for skin rejuvenation 2: 3 hours and wash\r\n Step Five: Spleet_Lighten strongly Varbioten and kojic with licorice to lighten and unify skin tone safely\r\n Step Six: Spleet - eye Contour will eliminate circles, puffiness and fine lines in one step but it is  the first Canadian formula for all types of circles with the power of caffeine, licorice, vitamin K and green tea. To enlighten the eye contour\r\n\r\n\u270c\ufe0fEnjoy fresher, younger skin without pigmentation, wrinkles, halos or breakouts.\r\nIf you ask for 2 packages on them a package of Valdo is a gift to solve the skin problems in winter and get rid of dryness and eczema.. skin peels \ud83c\udf81 and also with a rich formula to deeply moisturize and build the skin barrier",
+                "ingredients": [],
+                "concerns": [
+                    [
+                        "Dull& pale skin"
+                    ]
+                ],
+                "category": [
+                    "Skin Care",
+                    "Soft peel and Exfoliant"
+                ],
+                "price": "950.00",
+                "product_file": null
+            },
+            {
+                "product_id": 28,
+                "name": "Skin & Eye Contour Enlightenment Package (4pcs)",
+                "description": "Skin & Eye Contour Enlightenment Package (4pcs) \r\nA surprise that concerns everyone who wants to open his skin and eye circumference and be with the highest freshness all the time\u270c\ufe0f\r\nAnd forget\r\n\ud83d\udeab Pigmentation. \ud83d\udeab stains. \r\n\ud83d\udeabcircles. \ud83d\udeab Traces of pimples.\r\nAnd keep your skin lightened. open Freshness. Net and more attractive every day.\r\n\r\nWith the Split Therapeutic Kit from \r\n1)Spleet lotion with the power of glycolic to lighten and freshen the skin \r\n\r\nSpleet exfoliating and light exfoliation that it makes for the skin to unify the skin tone 2) \r\n\r\nSpleet lightening with the power of alpha arbutin and licorice to lighten the skin in 3 ways and 3 shades 3) \r\n4)Enlightening the eye is the most important thing for the clarity of the skin to complete the spleet eye contour will eliminate circles and puffiness and fine lines in one step only\r\n\r\nIf you ask for 2 packages on them a package of Valdo is a gift to solve the skin problems in winter and get rid of dryness and eczema.. skin peels \ud83c\udf81 and also with a rich formula to deeply moisturize and build the skin barrier",
+                "ingredients": [],
+                "concerns": [
+                    [
+                        "Dark circles \u201cblue- brown- black\u201d & puffiness"
+                    ]
+                ],
+                "category": [
+                    "Skin Care",
+                    "Whitening cream"
+                ],
+                "price": "520.00",
+                "product_file": null
+            },
+            {
+                "product_id": 29,
+                "name": "Lightening and freshness routine with Rana Reda",
+                "description": "Daily freshness package\r\nStop for a minute and know how to build your skin barrier yourself in 3 basic therapeutic steps from your home.. come and tell you how: \r\nthe first step: \r\na lotion that maintains the balance of your skin and does not change its  pH.. like #Spleet_lotion with a balanced formula and the surprise will open it and moisturize it deeply.\r\nStep Two: \r\nMoisturizing and repairing the skin barrier increases the water content inside it, builds its bonds, stimulates collagen production, and provides it to you #Valdo_Cream , and from experience and surprise, any inflammation calms down.\r\nStep Three: \r\nProtection from the harmful rays of the sun in winter or summer and add that you must protect it from the blue light of the mobile and this is done by #Sunscreen_valdo alone, and what is new is that it moisturizes your skin and protects it from oxidation.\r\nAnd these are the basics of proven to lighten and freshen your skin with a strong skin barrier that challenges the problems of winter and summer together",
+                "ingredients": [],
+                "concerns": [
+                    [
+                        "Dull& pale skin"
+                    ]
+                ],
+                "category": [
+                    "Skin Care",
+                    "Cleansers"
+                ],
+                "price": "570.00",
+                "product_file": null
+            },
+            {
+                "product_id": 31,
+                "name": "Valdo Anti _aging Serum",
+                "description": "Discover the secret to youthful, radiant skin with Valdo Anti-Aging Serum, a revolutionary product that combines the power of Canadian nanotechnology with a rich formula of 7 essential benefits. This serum is specifically designed to deliver instant radiance, skin tightening, therapeutic skin lightening, antioxidant protection, wrinkle reduction, skin nourishment, and deep skin hydration.\r\nEffective Ingredients for Amazing Results:\r\nValdo Serum features a unique blend of active ingredients that work synergistically to achieve optimal results:\r\n\u2022\tHyaluronic Acid: For deep hydration and filling fine lines.\r\n\u2022\tNiacinamide: To brighten the skin and even out skin tone.\r\n\u2022\tCaffeine and Carnitine: To firm skin and improve the appearance of pores and control sebum production.\r\n\u2022\tGlycolic Acid, Alpha Arbutin, and Kojic Acid: To lighten dark spots and renew the skin.\r\n\u2022\tVitamin A, Vitamin E, Panthenol, Allantoin, and Glycerin: To renew, nourish and soften the skin.\r\nIndications for Use:\r\n\u2022\tWrinkles and Fine Lines: Visibly reduces their appearance.\r\n\u2022\tDark Spots and Hyperpigmentation: Lightens and evens out skin tone.\r\n\u2022\tEarly Sun Damage: Protects the skin from harmful effects.\r\n\u2022\tEnlarged Pores: Minimizes their size and improves their appearance.\r\n\u2022\tDry Skin: Provides long-lasting deep hydration.\r\n\u2022\tPaleness: Provides Instant Glow on spot.\r\n\u2022\tAcne: Helps control it and improve skin appearance.\r\n\u2022\tSkincare Treatments: Can be used after hydrafacial, oxygen, and radiofrequency treatments.\r\nHow to Use:\r\n\u2022\tApply a small amount of serum to damp skin.\r\n\u2022\tMassage the skin gently until the serum is fully absorbed.\r\n\u2022\tUse a suitable moisturizer afterward.",
+                "ingredients": [],
+                "concerns": [
+                    [
+                        "Dull& pale skin"
+                    ]
+                ],
+                "category": [
+                    "Skin Care",
+                    "Toner \u201ccoming soon\u201d"
+                ],
+                "price": "375.00",
+                "product_file": null
+            },
+            {
+                "product_id": 32,
+                "name": "Three steps and lighten up to 3 shades",
+                "description": "How can you make Ramadan an opportunity for clearer, brighter skin? As much as you love Ramadan, you may fear its skin problems (dryness, darkening, pigmentation, dull skin, or pimples). But Interpharma tells you:\r\nRest assured, we've got you covered with complete protection from all of this in just 3 steps:\r\nSpleet facialwash: With its five-step power to cleanse, brighten, and moisturize your skin, while also tightening it.\r\nSpleet exfoliating: With its unique formula that removes dead skin and dries up pimples.\r\nSplitter whitening: Provides protection against pigmentation, prevents its formation, and helps even out your skin tone.",
+                "ingredients": [],
+                "concerns": [
+                    [
+                        "Acne& acne spots"
+                    ]
+                ],
+                "category": [
+                    "Skin Care",
+                    "Cleansers"
+                ],
+                "price": "365.00",
+                "product_file": null
+            },
+            {
+                "product_id": 33,
+                "name": "Lasting softness and hydration",
+                "description": "Why is moisturizing your skin during Ramadan different than other times? \ud83e\udd14\r\nBecause Ramadan falls in the heart of winter, and dry skin and its problems are at their highest levels. \u203c\ufe0f\r\nSo, get your skin out of this situation and always keep this in your bag:\r\n\u2705Valdo Moisturizer: Effective protection against eczema, rebuilds your skin's barrier, and provides deep hydration without flaking or itching.\r\n\u2705Spleet Eye Contour: Erases any dark circles, treats their appearance, reduces the effects of eye fatigue, and tightens fine lines.\r\nOrder this duo and forget about moisturizing problems altogether. \ud83d\ude09",
+                "ingredients": [],
+                "concerns": [
+                    [
+                        "Eczema & Dry skin"
+                    ]
+                ],
+                "category": [
+                    "Skin Care",
+                    "Moisturizer"
+                ],
+                "price": "260.00",
+                "product_file": null
+            },
+            {
+                "product_id": 34,
+                "name": "Skin that speaks freshness",
+                "description": "How can you ensure dry skin during fasting?\r\nFasting significantly affects your skin (dryness, dullness, and pigmentation).\r\nProtect your skin from external factors with a moisturizing routine from Interpharma Egypt Care:\r\n\u2705Spleet Cleanser, which gives your skin the desired freshness, instant radiance, and immediate hydration from the first use.\r\n\u2705Valdo Moisturizer, which replenishes your skin's water loss, hydrates up to 3 times deeper, and rebuilds the skin barrier.\r\n\ud83d\udce9 Order your moisturizing bundle now and  prepare for Eid with freshness",
+                "ingredients": [],
+                "concerns": [
+                    [
+                        "Dull& pale skin"
+                    ]
+                ],
+                "category": [
+                    "Skin Care",
+                    "Cleansers"
+                ],
+                "price": "255.00",
+                "product_file": null
+            },
+            {
+                "product_id": 35,
+                "name": "Eyes without wrinkles, skin without pigmentation",
+                "description": "With minimal effort and faster results, you'll achieve brighter, more radiant skin without a single drop of makeup. \ud83d\udc40\r\nIf makeup hides the effects of late nights, dark circles, and fatigue on your skin, Ramadan is an unforgettable opportunity to experience the magic of natural brightening from Interpharma in just two steps:\u2728\r\n\u2705 Spleet Brightening Cream: Unifies your skin tone, reduces pigmentation, and deeply hydrates.\r\n\u2705 Spleet Eye Contour Cream: Reduces dark circles and puffiness around the eye area and conceals fine lines.\r\nAll this without a single drop of makeup.",
+                "ingredients": [],
+                "concerns": [
+                    [
+                        "Hyperpigmentation& dark spots"
+                    ]
+                ],
+                "category": [
+                    "Skin Care",
+                    "Eye cream"
+                ],
+                "price": "285.00",
+                "product_file": null
+            },
+            {
+                "product_id": 36,
+                "name": "Valdo Milk Body Lotion",
+                "description": "Experience smooth, hydrated, and radiant skin with Valdo Milk Lotion, the rich formula that combines deep hydration, skin brightening, and hair growth delay. This unique lotion deeply nourishes the skin, reduces dryness, itching, and redness, and restores skin elasticity and softness. Additionally, it helps slow down and delay excess hair growth, giving your skin an ultra-smooth texture for longer. With a long-lasting, captivating scent of white musk and vanilla.\r\nEffective Ingredients for Amazing Results:\r\nValdo Milk Lotion features a unique blend of active ingredients that work synergistically to achieve optimal results:\r\n\u2022\tHyaluronic Acid and Niacinamide: For deep hydration and skin brightening.\r\n\u2022\tShea Butter, Allantoin, and Panthenol: To soften and soothe the skin.\r\n\u2022\tCyperus Rotundus Oil (Sedge Oil): To delay excess hair growth.\r\n\u2022\tUrea, Chamomile Extract, and Licorice Root Extract: To soothe inflamed skin and brighten it.\r\n\u2022\tSweet Almond Oil and Lanolin: To nourish and hydrate the skin.\r\nIndications for Use:\r\n\u2022\tDry Skin Hydration and Softening: Provides long-lasting deep hydration.\r\n\u2022\tReducing Signs of Skin Aging: Helps maintain youthful and radiant skin.\r\n\u2022\tPost-Laser Skin Soothing: Relieves redness and irritation.\r\n\u2022\tInflamed Skin Relief: Reduces inflammation and redness.\r\n\u2022\tPost-Laser Hair Removal Skincare: Helps soothe and regenerate the skin.\r\n\u2022\tHair Growth Delay After Hair Removal: Slows down excess hair growth.\r\n\u2022\tSkin Renewal and Brightening: Gives the skin a radiant and refreshed look.\r\n\u2022\tImproves Skin Texture and odor: leave a very attractive odor last for long time without need for body splash.",
+                "ingredients": [],
+                "concerns": [
+                    [
+                        "Strawberry skin treatment"
+                    ]
+                ],
+                "category": [
+                    "Skin Care",
+                    "Moisturizer"
+                ],
+                "price": "275.00",
+                "product_file": null
+            }
+        ]
+    }
+}
