@@ -1,0 +1,1583 @@
+2025-04-20 13:48:03,007 [INFO] modules.tools.df_tools - Loading product data
+2025-04-20 13:48:03,007 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 13:48:03,013 [INFO] modules.helper.convert_json_to_df - Successfully converted JSON to DataFrame with 24 rows
+2025-04-20 13:48:03,023 [INFO] modules.tools.df_tools - Successfully loaded 24 products
+2025-04-20 13:48:04,779 [INFO] tools.df_tools - Loading product data
+2025-04-20 13:48:04,780 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 13:48:04,781 [INFO] modules.helper.convert_json_to_df - Successfully converted JSON to DataFrame with 24 rows
+2025-04-20 13:48:04,782 [INFO] tools.df_tools - Successfully loaded 24 products
+2025-04-20 13:48:04,795 [INFO] modules.llm_blocks.sales_agent - Loading environment variables
+2025-04-20 13:48:04,796 [INFO] modules.llm_blocks.sales_agent - Successfully loaded API key
+2025-04-20 13:48:04,797 [INFO] modules.llm_blocks.sales_agent - Initializing Google Gemini LLM
+2025-04-20 13:48:04,853 [INFO] modules.llm_blocks.sales_agent - Successfully initialized LLM
+2025-04-20 13:48:04,865 [INFO] modules.llm_blocks.sales_agent - Successfully bound tools to LLM
+2025-04-20 13:48:04,867 [INFO] modules.graph_blocks.nodes - Initializing tool node
+2025-04-20 13:48:04,868 [INFO] modules.graph_blocks.nodes - Tool node initialized successfully
+2025-04-20 13:48:04,870 [INFO] __main__ - Initializing graph
+2025-04-20 13:48:04,870 [INFO] modules.graph_blocks.graph - Creating new StateGraph
+2025-04-20 13:48:04,874 [INFO] modules.graph_blocks.graph - Successfully created and compiled graph
+2025-04-20 13:48:04,875 [INFO] __main__ - Graph initialized successfully
+2025-04-20 13:48:04,875 [INFO] __main__ - Starting main program
+2025-04-20 13:48:04,907 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-20 13:48:04,907 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-20 13:48:04,907 [ERROR] modules.llm_blocks.sales_agent - Error creating sales agent chain: [Errno 2] No such file or directory: 'D:\\Electro Pi\\Sales-Chatbot\\modules\\llm_blocks\\prompts\\sales_agent_prompt.txt'
+2025-04-20 13:48:04,908 [ERROR] modules.graph_blocks.nodes - Error running sales agent: Failed to create sales agent chain: [Errno 2] No such file or directory: 'D:\\Electro Pi\\Sales-Chatbot\\modules\\llm_blocks\\prompts\\sales_agent_prompt.txt'
+2025-04-20 13:48:04,909 [ERROR] __main__ - Error in get_answer: Failed to run sales agent: Failed to create sales agent chain: [Errno 2] No such file or directory: 'D:\\Electro Pi\\Sales-Chatbot\\modules\\llm_blocks\\prompts\\sales_agent_prompt.txt'
+2025-04-20 13:48:04,909 [ERROR] __main__ - Main program error: Failed to run sales agent: Failed to create sales agent chain: [Errno 2] No such file or directory: 'D:\\Electro Pi\\Sales-Chatbot\\modules\\llm_blocks\\prompts\\sales_agent_prompt.txt'
+2025-04-20 13:49:18,087 [INFO] modules.tools.df_tools - Loading product data
+2025-04-20 13:49:18,087 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 13:49:18,089 [INFO] modules.helper.convert_json_to_df - Successfully converted JSON to DataFrame with 24 rows
+2025-04-20 13:49:18,090 [INFO] modules.tools.df_tools - Successfully loaded 24 products
+2025-04-20 13:49:19,218 [INFO] tools.df_tools - Loading product data
+2025-04-20 13:49:19,219 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 13:49:19,222 [INFO] modules.helper.convert_json_to_df - Successfully converted JSON to DataFrame with 24 rows
+2025-04-20 13:49:19,224 [INFO] tools.df_tools - Successfully loaded 24 products
+2025-04-20 13:49:19,240 [INFO] modules.llm_blocks.sales_agent - Loading environment variables
+2025-04-20 13:49:19,241 [INFO] modules.llm_blocks.sales_agent - Successfully loaded API key
+2025-04-20 13:49:19,242 [INFO] modules.llm_blocks.sales_agent - Initializing Google Gemini LLM
+2025-04-20 13:49:19,272 [INFO] modules.llm_blocks.sales_agent - Successfully initialized LLM
+2025-04-20 13:49:19,290 [INFO] modules.llm_blocks.sales_agent - Successfully bound tools to LLM
+2025-04-20 13:49:19,291 [INFO] modules.graph_blocks.nodes - Initializing tool node
+2025-04-20 13:49:19,293 [INFO] modules.graph_blocks.nodes - Tool node initialized successfully
+2025-04-20 13:49:19,295 [INFO] __main__ - Initializing graph
+2025-04-20 13:49:19,295 [INFO] modules.graph_blocks.graph - Creating new StateGraph
+2025-04-20 13:49:19,302 [INFO] modules.graph_blocks.graph - Successfully created and compiled graph
+2025-04-20 13:49:19,303 [INFO] __main__ - Graph initialized successfully
+2025-04-20 13:49:19,303 [INFO] __main__ - Starting main program
+2025-04-20 13:49:19,321 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-20 13:49:19,321 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-20 13:49:19,322 [ERROR] modules.llm_blocks.sales_agent - Error creating sales agent chain: [Errno 2] No such file or directory: 'D:\\Electro Pi\\Sales-Chatbot\\modules\\llm_blocks\\prompts\\sales_agent_prompt.txt'
+2025-04-20 13:49:19,322 [ERROR] modules.graph_blocks.nodes - Error running sales agent: Failed to create sales agent chain: [Errno 2] No such file or directory: 'D:\\Electro Pi\\Sales-Chatbot\\modules\\llm_blocks\\prompts\\sales_agent_prompt.txt'
+2025-04-20 13:49:19,323 [ERROR] __main__ - Error in get_answer: Failed to run sales agent: Failed to create sales agent chain: [Errno 2] No such file or directory: 'D:\\Electro Pi\\Sales-Chatbot\\modules\\llm_blocks\\prompts\\sales_agent_prompt.txt'
+2025-04-20 13:49:19,323 [ERROR] __main__ - Main program error: Failed to run sales agent: Failed to create sales agent chain: [Errno 2] No such file or directory: 'D:\\Electro Pi\\Sales-Chatbot\\modules\\llm_blocks\\prompts\\sales_agent_prompt.txt'
+2025-04-20 13:51:41,285 [INFO] modules.tools.df_tools - Loading product data
+2025-04-20 13:51:41,285 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 13:51:41,288 [INFO] modules.helper.convert_json_to_df - Successfully converted JSON to DataFrame with 24 rows
+2025-04-20 13:51:41,289 [INFO] modules.tools.df_tools - Successfully loaded 24 products
+2025-04-20 13:51:42,364 [INFO] tools.df_tools - Loading product data
+2025-04-20 13:51:42,365 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 13:51:42,366 [INFO] modules.helper.convert_json_to_df - Successfully converted JSON to DataFrame with 24 rows
+2025-04-20 13:51:42,367 [INFO] tools.df_tools - Successfully loaded 24 products
+2025-04-20 13:51:42,382 [INFO] modules.llm_blocks.sales_agent - Loading environment variables
+2025-04-20 13:51:42,384 [INFO] modules.llm_blocks.sales_agent - Successfully loaded API key
+2025-04-20 13:51:42,384 [INFO] modules.llm_blocks.sales_agent - Initializing Google Gemini LLM
+2025-04-20 13:51:42,405 [INFO] modules.llm_blocks.sales_agent - Successfully initialized LLM
+2025-04-20 13:51:42,419 [INFO] modules.llm_blocks.sales_agent - Successfully bound tools to LLM
+2025-04-20 13:51:42,419 [INFO] modules.graph_blocks.nodes - Initializing tool node
+2025-04-20 13:51:42,420 [INFO] modules.graph_blocks.nodes - Tool node initialized successfully
+2025-04-20 13:51:42,423 [INFO] __main__ - Initializing graph
+2025-04-20 13:51:42,423 [INFO] modules.graph_blocks.graph - Creating new StateGraph
+2025-04-20 13:51:42,429 [INFO] modules.graph_blocks.graph - Successfully created and compiled graph
+2025-04-20 13:51:42,429 [INFO] __main__ - Graph initialized successfully
+2025-04-20 13:51:42,430 [INFO] __main__ - Starting main program
+2025-04-20 13:51:42,446 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-20 13:51:42,447 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-20 13:51:42,447 [ERROR] modules.llm_blocks.sales_agent - Error creating sales agent chain: [Errno 2] No such file or directory: '..\\..\\prompts\\sales_agent_prompt.txt'
+2025-04-20 13:51:42,448 [ERROR] modules.graph_blocks.nodes - Error running sales agent: Failed to create sales agent chain: [Errno 2] No such file or directory: '..\\..\\prompts\\sales_agent_prompt.txt'
+2025-04-20 13:51:42,449 [ERROR] __main__ - Error in get_answer: Failed to run sales agent: Failed to create sales agent chain: [Errno 2] No such file or directory: '..\\..\\prompts\\sales_agent_prompt.txt'
+2025-04-20 13:51:42,449 [ERROR] __main__ - Main program error: Failed to run sales agent: Failed to create sales agent chain: [Errno 2] No such file or directory: '..\\..\\prompts\\sales_agent_prompt.txt'
+2025-04-20 13:52:46,546 [INFO] modules.tools.df_tools - Loading product data
+2025-04-20 13:52:46,546 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 13:52:46,548 [INFO] modules.helper.convert_json_to_df - Successfully converted JSON to DataFrame with 24 rows
+2025-04-20 13:52:46,549 [INFO] modules.tools.df_tools - Successfully loaded 24 products
+2025-04-20 13:52:47,666 [INFO] tools.df_tools - Loading product data
+2025-04-20 13:52:47,666 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 13:52:47,669 [INFO] modules.helper.convert_json_to_df - Successfully converted JSON to DataFrame with 24 rows
+2025-04-20 13:52:47,670 [INFO] tools.df_tools - Successfully loaded 24 products
+2025-04-20 13:52:47,683 [INFO] modules.llm_blocks.sales_agent - Loading environment variables
+2025-04-20 13:52:47,684 [INFO] modules.llm_blocks.sales_agent - Successfully loaded API key
+2025-04-20 13:52:47,684 [INFO] modules.llm_blocks.sales_agent - Initializing Google Gemini LLM
+2025-04-20 13:52:47,705 [INFO] modules.llm_blocks.sales_agent - Successfully initialized LLM
+2025-04-20 13:52:47,720 [INFO] modules.llm_blocks.sales_agent - Successfully bound tools to LLM
+2025-04-20 13:52:47,720 [INFO] modules.graph_blocks.nodes - Initializing tool node
+2025-04-20 13:52:47,721 [INFO] modules.graph_blocks.nodes - Tool node initialized successfully
+2025-04-20 13:52:47,722 [INFO] __main__ - Initializing graph
+2025-04-20 13:52:47,723 [INFO] modules.graph_blocks.graph - Creating new StateGraph
+2025-04-20 13:52:47,730 [INFO] modules.graph_blocks.graph - Successfully created and compiled graph
+2025-04-20 13:52:47,730 [INFO] __main__ - Graph initialized successfully
+2025-04-20 13:52:47,731 [INFO] __main__ - Starting main program
+2025-04-20 13:52:47,752 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-20 13:52:47,753 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-20 13:52:47,754 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-20 13:52:47,764 [ERROR] modules.graph_blocks.nodes - Invalid state format - missing key: "Input to ChatPromptTemplate is missing variables {'message'}.  Expected: ['message'] Received: ['messages']\nNote: if you intended {message} to be part of the string and not a variable, please escape it with double curly braces like: '{{message}}'.\nFor troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/INVALID_PROMPT_INPUT "
+2025-04-20 13:52:47,765 [ERROR] __main__ - Error in get_answer: 'State is missing required key: "Input to ChatPromptTemplate is missing variables {\'message\'}.  Expected: [\'message\'] Received: [\'messages\']\\nNote: if you intended {message} to be part of the string and not a variable, please escape it with double curly braces like: \'{{message}}\'.\\nFor troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/INVALID_PROMPT_INPUT "'
+2025-04-20 13:52:47,765 [ERROR] __main__ - Main program error: 'State is missing required key: "Input to ChatPromptTemplate is missing variables {\'message\'}.  Expected: [\'message\'] Received: [\'messages\']\\nNote: if you intended {message} to be part of the string and not a variable, please escape it with double curly braces like: \'{{message}}\'.\\nFor troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/INVALID_PROMPT_INPUT "'
+2025-04-20 14:21:50,816 [INFO] modules.tools.df_tools - Loading product data
+2025-04-20 14:21:50,817 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 14:21:50,824 [INFO] modules.helper.convert_json_to_df - Successfully converted JSON to DataFrame with 24 rows
+2025-04-20 14:21:50,836 [INFO] modules.tools.df_tools - Successfully loaded 24 products
+2025-04-20 14:21:52,429 [INFO] tools.df_tools - Loading product data
+2025-04-20 14:21:52,429 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 14:21:52,431 [INFO] modules.helper.convert_json_to_df - Successfully converted JSON to DataFrame with 24 rows
+2025-04-20 14:21:52,431 [INFO] tools.df_tools - Successfully loaded 24 products
+2025-04-20 14:21:52,446 [INFO] modules.llm_blocks.sales_agent - Loading environment variables
+2025-04-20 14:21:52,447 [INFO] modules.llm_blocks.sales_agent - Successfully loaded API key
+2025-04-20 14:21:52,447 [INFO] modules.llm_blocks.sales_agent - Initializing Google Gemini LLM
+2025-04-20 14:21:52,475 [INFO] modules.llm_blocks.sales_agent - Successfully initialized LLM
+2025-04-20 14:21:52,490 [INFO] modules.llm_blocks.sales_agent - Successfully bound tools to LLM
+2025-04-20 14:21:52,490 [INFO] modules.graph_blocks.nodes - Initializing tool node
+2025-04-20 14:21:52,491 [INFO] modules.graph_blocks.nodes - Tool node initialized successfully
+2025-04-20 14:21:52,493 [INFO] __main__ - Initializing graph
+2025-04-20 14:21:52,493 [INFO] modules.graph_blocks.graph - Creating new StateGraph
+2025-04-20 14:21:52,499 [INFO] modules.graph_blocks.graph - Successfully created and compiled graph
+2025-04-20 14:21:52,499 [INFO] __main__ - Graph initialized successfully
+2025-04-20 14:21:52,500 [INFO] __main__ - Starting main program
+2025-04-20 14:21:52,519 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-20 14:21:52,520 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-20 14:21:52,522 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-20 14:21:59,543 [INFO] __main__ - Successfully generated response
+2025-04-20 14:21:59,544 [INFO] __main__ - Test response received
+2025-04-20 14:23:40,368 [INFO] modules.tools.df_tools - Loading product data
+2025-04-20 14:23:40,369 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 14:23:40,370 [INFO] modules.helper.convert_json_to_df - Successfully converted JSON to DataFrame with 24 rows
+2025-04-20 14:23:40,371 [INFO] modules.tools.df_tools - Successfully loaded 24 products
+2025-04-20 14:23:41,424 [INFO] tools.df_tools - Loading product data
+2025-04-20 14:23:41,425 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 14:23:41,427 [INFO] modules.helper.convert_json_to_df - Successfully converted JSON to DataFrame with 24 rows
+2025-04-20 14:23:41,428 [INFO] tools.df_tools - Successfully loaded 24 products
+2025-04-20 14:23:41,442 [INFO] modules.llm_blocks.sales_agent - Loading environment variables
+2025-04-20 14:23:41,443 [INFO] modules.llm_blocks.sales_agent - Successfully loaded API key
+2025-04-20 14:23:41,444 [INFO] modules.llm_blocks.sales_agent - Initializing Google Gemini LLM
+2025-04-20 14:23:41,467 [INFO] modules.llm_blocks.sales_agent - Successfully initialized LLM
+2025-04-20 14:23:41,480 [INFO] modules.llm_blocks.sales_agent - Successfully bound tools to LLM
+2025-04-20 14:23:41,481 [INFO] modules.graph_blocks.nodes - Initializing tool node
+2025-04-20 14:23:41,482 [INFO] modules.graph_blocks.nodes - Tool node initialized successfully
+2025-04-20 14:23:41,483 [INFO] main - Initializing graph
+2025-04-20 14:23:41,484 [INFO] modules.graph_blocks.graph - Creating new StateGraph
+2025-04-20 14:23:41,489 [INFO] modules.graph_blocks.graph - Successfully created and compiled graph
+2025-04-20 14:23:41,490 [INFO] main - Graph initialized successfully
+2025-04-20 14:23:41,638 [INFO] __main__ - Initialized new chat session
+2025-04-20 14:24:28,345 [INFO] modules.tools.df_tools - Loading product data
+2025-04-20 14:24:28,346 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 14:24:28,348 [INFO] modules.helper.convert_json_to_df - Successfully converted JSON to DataFrame with 24 rows
+2025-04-20 14:24:28,349 [INFO] modules.tools.df_tools - Successfully loaded 24 products
+2025-04-20 14:24:29,680 [INFO] tools.df_tools - Loading product data
+2025-04-20 14:24:29,680 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 14:24:29,682 [INFO] modules.helper.convert_json_to_df - Successfully converted JSON to DataFrame with 24 rows
+2025-04-20 14:24:29,683 [INFO] tools.df_tools - Successfully loaded 24 products
+2025-04-20 14:24:29,704 [INFO] modules.llm_blocks.sales_agent - Loading environment variables
+2025-04-20 14:24:29,706 [INFO] modules.llm_blocks.sales_agent - Successfully loaded API key
+2025-04-20 14:24:29,706 [INFO] modules.llm_blocks.sales_agent - Initializing Google Gemini LLM
+2025-04-20 14:24:29,821 [INFO] modules.llm_blocks.sales_agent - Successfully initialized LLM
+2025-04-20 14:24:29,840 [INFO] modules.llm_blocks.sales_agent - Successfully bound tools to LLM
+2025-04-20 14:24:29,841 [INFO] modules.graph_blocks.nodes - Initializing tool node
+2025-04-20 14:24:29,842 [INFO] modules.graph_blocks.nodes - Tool node initialized successfully
+2025-04-20 14:24:29,843 [INFO] main - Initializing graph
+2025-04-20 14:24:29,843 [INFO] modules.graph_blocks.graph - Creating new StateGraph
+2025-04-20 14:24:29,851 [INFO] modules.graph_blocks.graph - Successfully created and compiled graph
+2025-04-20 14:24:29,852 [INFO] main - Graph initialized successfully
+2025-04-20 14:24:29,950 [INFO] __main__ - Initialized new chat session
+2025-04-20 14:24:35,155 [INFO] __main__ - Received user input: hi
+2025-04-20 14:24:35,160 [INFO] main - Processing user input: hi
+2025-04-20 14:24:35,178 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-20 14:24:35,178 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-20 14:24:35,180 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-20 14:24:36,454 [INFO] main - Successfully generated response
+2025-04-20 14:24:36,454 [WARNING] __main__ - Could not parse book recommendations: list index out of range
+2025-04-20 14:24:36,456 [INFO] __main__ - Successfully processed and displayed AI response
+2025-04-20 14:24:53,977 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-20 14:24:53,977 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-20 14:24:53,980 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-20 14:24:56,976 [INFO] main - Successfully generated response
+2025-04-20 14:24:56,978 [WARNING] __main__ - Could not parse book recommendations: invalid syntax (<string>, line 1)
+2025-04-20 14:24:56,980 [INFO] __main__ - Successfully processed and displayed AI response
+2025-04-20 14:27:20,016 [INFO] modules.tools.df_tools - Loading product data
+2025-04-20 14:27:20,019 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 14:27:20,022 [INFO] modules.helper.convert_json_to_df - Successfully converted JSON to DataFrame with 24 rows
+2025-04-20 14:27:20,024 [INFO] modules.tools.df_tools - Successfully loaded 24 products
+2025-04-20 14:27:20,067 [INFO] modules.llm_blocks.sales_agent - Loading environment variables
+2025-04-20 14:27:20,070 [INFO] modules.llm_blocks.sales_agent - Successfully loaded API key
+2025-04-20 14:27:20,071 [INFO] modules.llm_blocks.sales_agent - Initializing Google Gemini LLM
+2025-04-20 14:27:20,078 [INFO] modules.llm_blocks.sales_agent - Successfully initialized LLM
+2025-04-20 14:27:20,110 [INFO] modules.llm_blocks.sales_agent - Successfully bound tools to LLM
+2025-04-20 14:27:20,110 [INFO] modules.graph_blocks.nodes - Initializing tool node
+2025-04-20 14:27:20,112 [INFO] modules.graph_blocks.nodes - Tool node initialized successfully
+2025-04-20 14:27:20,114 [INFO] main - Initializing graph
+2025-04-20 14:27:20,114 [INFO] modules.graph_blocks.graph - Creating new StateGraph
+2025-04-20 14:27:20,123 [INFO] modules.graph_blocks.graph - Successfully created and compiled graph
+2025-04-20 14:27:20,123 [INFO] main - Graph initialized successfully
+2025-04-20 14:27:41,530 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-20 14:27:41,530 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-20 14:27:41,531 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-20 14:27:43,107 [INFO] main - Successfully generated response
+2025-04-20 14:27:43,108 [WARNING] __main__ - Could not parse book recommendations: list index out of range
+2025-04-20 14:27:43,109 [INFO] __main__ - Successfully processed and displayed AI response
+2025-04-20 14:27:56,582 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-20 14:27:56,583 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-20 14:27:56,585 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-20 14:27:59,871 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-20 14:27:59,871 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-20 14:27:59,872 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-20 14:28:00,725 [INFO] main - Successfully generated response
+2025-04-20 14:28:00,726 [WARNING] __main__ - Could not parse book recommendations: eval() arg 1 must be a string, bytes or code object
+2025-04-20 14:28:00,726 [INFO] __main__ - Successfully processed and displayed AI response
+2025-04-20 14:28:08,995 [INFO] __main__ - Initialized new chat session
+2025-04-20 14:28:28,386 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-20 14:28:28,386 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-20 14:28:28,387 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-20 14:28:30,045 [INFO] main - Successfully generated response
+2025-04-20 14:28:30,046 [WARNING] __main__ - Could not parse book recommendations: invalid syntax (<string>, line 1)
+2025-04-20 14:28:30,047 [INFO] __main__ - Successfully processed and displayed AI response
+2025-04-20 14:29:13,653 [INFO] modules.tools.df_tools - Loading product data
+2025-04-20 14:29:13,653 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 14:29:13,655 [INFO] modules.helper.convert_json_to_df - Successfully converted JSON to DataFrame with 24 rows
+2025-04-20 14:29:13,656 [INFO] modules.tools.df_tools - Successfully loaded 24 products
+2025-04-20 14:29:14,876 [INFO] tools.df_tools - Loading product data
+2025-04-20 14:29:14,877 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 14:29:14,878 [INFO] modules.helper.convert_json_to_df - Successfully converted JSON to DataFrame with 24 rows
+2025-04-20 14:29:14,880 [INFO] tools.df_tools - Successfully loaded 24 products
+2025-04-20 14:29:14,904 [INFO] modules.llm_blocks.sales_agent - Loading environment variables
+2025-04-20 14:29:14,906 [INFO] modules.llm_blocks.sales_agent - Successfully loaded API key
+2025-04-20 14:29:14,906 [INFO] modules.llm_blocks.sales_agent - Initializing Google Gemini LLM
+2025-04-20 14:29:15,016 [INFO] modules.llm_blocks.sales_agent - Successfully initialized LLM
+2025-04-20 14:29:15,034 [INFO] modules.llm_blocks.sales_agent - Successfully bound tools to LLM
+2025-04-20 14:29:15,035 [INFO] modules.graph_blocks.nodes - Initializing tool node
+2025-04-20 14:29:15,036 [INFO] modules.graph_blocks.nodes - Tool node initialized successfully
+2025-04-20 14:29:15,037 [INFO] main - Initializing graph
+2025-04-20 14:29:15,038 [INFO] modules.graph_blocks.graph - Creating new StateGraph
+2025-04-20 14:29:15,045 [INFO] modules.graph_blocks.graph - Successfully created and compiled graph
+2025-04-20 14:29:15,045 [INFO] main - Graph initialized successfully
+2025-04-20 14:29:15,123 [INFO] __main__ - Initialized new chat session
+2025-04-20 14:29:35,239 [INFO] __main__ - Received user input: عاوز حاجه لتساقط الشعر
+2025-04-20 14:29:35,242 [INFO] main - Processing user input: عاوز حاجه لتساقط الشعر
+2025-04-20 14:29:35,258 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-20 14:29:35,259 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-20 14:29:35,261 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-20 14:29:37,250 [INFO] main - Successfully generated response
+2025-04-20 14:29:37,250 [WARNING] __main__ - Could not parse book recommendations: list index out of range
+2025-04-20 14:29:37,251 [INFO] __main__ - Successfully processed and displayed AI response
+2025-04-20 14:29:55,683 [INFO] __main__ - Received user input: طب حاجه للقشره 
+2025-04-20 14:29:55,687 [INFO] main - Processing user input: طب حاجه للقشره 
+2025-04-20 14:29:55,693 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-20 14:29:55,693 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-20 14:29:55,695 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-20 14:29:57,213 [INFO] main - Successfully generated response
+2025-04-20 14:29:57,214 [WARNING] __main__ - Could not parse book recommendations: invalid syntax (<string>, line 1)
+2025-04-20 14:29:57,215 [INFO] __main__ - Successfully processed and displayed AI response
+2025-04-20 14:43:39,096 [INFO] modules.tools.df_tools - Loading product data
+2025-04-20 14:43:39,096 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 14:43:39,099 [INFO] modules.helper.convert_json_to_df - Successfully converted JSON to DataFrame with 24 rows
+2025-04-20 14:43:39,100 [INFO] modules.tools.df_tools - Successfully loaded 24 products
+2025-04-20 14:43:40,728 [INFO] tools.df_tools - Loading product data
+2025-04-20 14:43:40,728 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 14:43:40,730 [INFO] modules.helper.convert_json_to_df - Successfully converted JSON to DataFrame with 24 rows
+2025-04-20 14:43:40,731 [INFO] tools.df_tools - Successfully loaded 24 products
+2025-04-20 14:43:40,748 [INFO] modules.llm_blocks.sales_agent - Loading environment variables
+2025-04-20 14:43:40,750 [INFO] modules.llm_blocks.sales_agent - Successfully loaded API key
+2025-04-20 14:43:40,750 [INFO] modules.llm_blocks.sales_agent - Initializing Google Gemini LLM
+2025-04-20 14:43:40,866 [INFO] modules.llm_blocks.sales_agent - Successfully initialized LLM
+2025-04-20 14:43:40,885 [INFO] modules.llm_blocks.sales_agent - Successfully bound tools to LLM
+2025-04-20 14:43:40,886 [INFO] modules.graph_blocks.nodes - Initializing tool node
+2025-04-20 14:43:40,889 [INFO] modules.graph_blocks.nodes - Tool node initialized successfully
+2025-04-20 14:43:40,890 [INFO] main - Initializing graph
+2025-04-20 14:43:40,891 [INFO] modules.graph_blocks.graph - Creating new StateGraph
+2025-04-20 14:43:40,900 [INFO] modules.graph_blocks.graph - Successfully created and compiled graph
+2025-04-20 14:43:40,901 [INFO] main - Graph initialized successfully
+2025-04-20 14:43:40,975 [INFO] __main__ - Initialized new chat session
+2025-04-20 14:44:03,743 [INFO] __main__ - Received user input: عاوز حاجه لتساقط الشعر 
+2025-04-20 14:44:03,746 [INFO] main - Processing user input: عاوز حاجه لتساقط الشعر 
+2025-04-20 14:44:03,770 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-20 14:44:03,770 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-20 14:44:03,772 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-20 14:44:05,608 [INFO] main - Successfully generated response
+2025-04-20 14:44:05,608 [WARNING] __main__ - Could not parse book recommendations: list index out of range
+2025-04-20 14:44:05,610 [INFO] __main__ - Successfully processed and displayed AI response
+2025-04-20 14:44:22,833 [INFO] __main__ - Received user input: السلام عليكم
+2025-04-20 14:44:22,838 [INFO] main - Processing user input: السلام عليكم
+2025-04-20 14:44:22,843 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-20 14:44:22,845 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-20 14:44:22,846 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-20 14:44:24,216 [INFO] main - Successfully generated response
+2025-04-20 14:44:24,227 [WARNING] __main__ - Could not parse book recommendations: invalid syntax (<string>, line 1)
+2025-04-20 14:44:24,228 [INFO] __main__ - Successfully processed and displayed AI response
+2025-04-20 14:44:49,582 [INFO] __main__ - Received user input: تقدر تساعدني ازاي؟
+2025-04-20 14:44:49,587 [INFO] main - Processing user input: تقدر تساعدني ازاي؟
+2025-04-20 14:44:49,595 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-20 14:44:49,596 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-20 14:44:49,597 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-20 14:44:50,273 [INFO] main - Successfully generated response
+2025-04-20 14:44:50,273 [WARNING] __main__ - Could not parse book recommendations: invalid character '؟' (U+061F) (<string>, line 1)
+2025-04-20 14:44:50,274 [INFO] __main__ - Successfully processed and displayed AI response
+2025-04-20 14:45:39,850 [INFO] modules.tools.df_tools - Loading product data
+2025-04-20 14:45:39,850 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 14:45:39,853 [INFO] modules.helper.convert_json_to_df - Successfully converted JSON to DataFrame with 24 rows
+2025-04-20 14:45:39,855 [INFO] modules.tools.df_tools - Successfully loaded 24 products
+2025-04-20 14:45:41,167 [INFO] tools.df_tools - Loading product data
+2025-04-20 14:45:41,168 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 14:45:41,170 [INFO] modules.helper.convert_json_to_df - Successfully converted JSON to DataFrame with 24 rows
+2025-04-20 14:45:41,171 [INFO] tools.df_tools - Successfully loaded 24 products
+2025-04-20 14:45:41,188 [INFO] modules.llm_blocks.sales_agent - Loading environment variables
+2025-04-20 14:45:41,190 [INFO] modules.llm_blocks.sales_agent - Successfully loaded API key
+2025-04-20 14:45:41,191 [INFO] modules.llm_blocks.sales_agent - Initializing Google Gemini LLM
+2025-04-20 14:45:41,295 [INFO] modules.llm_blocks.sales_agent - Successfully initialized LLM
+2025-04-20 14:45:41,313 [INFO] modules.llm_blocks.sales_agent - Successfully bound tools to LLM
+2025-04-20 14:45:41,313 [INFO] modules.graph_blocks.nodes - Initializing tool node
+2025-04-20 14:45:41,314 [INFO] modules.graph_blocks.nodes - Tool node initialized successfully
+2025-04-20 14:45:41,315 [INFO] main - Initializing graph
+2025-04-20 14:45:41,315 [INFO] modules.graph_blocks.graph - Creating new StateGraph
+2025-04-20 14:45:41,323 [INFO] modules.graph_blocks.graph - Successfully created and compiled graph
+2025-04-20 14:45:41,323 [INFO] main - Graph initialized successfully
+2025-04-20 14:45:41,393 [INFO] __main__ - Initialized new chat session
+2025-04-20 14:45:53,230 [INFO] __main__ - Received user input: عاوز حاجه لتساقط الشعر
+2025-04-20 14:45:53,233 [INFO] main - Processing user input: عاوز حاجه لتساقط الشعر
+2025-04-20 14:45:53,248 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-20 14:45:53,250 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-20 14:45:53,251 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-20 14:45:54,828 [INFO] modules.tools.df_tools - Searching products for concern: hair loss
+2025-04-20 14:45:54,839 [INFO] modules.tools.df_tools - Found 2 products for concern: hair loss
+2025-04-20 14:45:54,846 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-20 14:45:54,846 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-20 14:45:54,847 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-20 14:45:57,731 [INFO] main - Successfully generated response
+2025-04-20 14:45:57,732 [WARNING] __main__ - Could not parse book recommendations: name 'null' is not defined
+2025-04-20 14:45:57,735 [INFO] __main__ - Successfully processed and displayed AI response
+2025-04-20 14:47:05,631 [INFO] __main__ - Received user input: ممكن اعرف اقل سعر لمنتج عندك
+2025-04-20 14:47:05,634 [INFO] main - Processing user input: ممكن اعرف اقل سعر لمنتج عندك
+2025-04-20 14:47:05,663 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-20 14:47:05,664 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-20 14:47:05,667 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-20 14:47:06,742 [INFO] main - Successfully generated response
+2025-04-20 14:47:06,742 [WARNING] __main__ - Could not parse book recommendations: invalid syntax (<string>, line 1)
+2025-04-20 14:47:06,743 [INFO] __main__ - Successfully processed and displayed AI response
+2025-04-20 14:47:19,745 [INFO] __main__ - Received user input: ؟
+2025-04-20 14:47:19,747 [INFO] main - Processing user input: ؟
+2025-04-20 14:47:19,755 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-20 14:47:19,756 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-20 14:47:19,758 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-20 14:47:20,697 [INFO] modules.tools.df_tools - Getting 1 lowest price products
+2025-04-20 14:47:20,706 [INFO] modules.tools.df_tools - Found 1 lowest price products
+2025-04-20 14:47:20,708 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-20 14:47:20,708 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-20 14:47:20,710 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-20 14:47:23,734 [INFO] main - Successfully generated response
+2025-04-20 14:47:23,735 [WARNING] __main__ - Could not parse book recommendations: name 'null' is not defined
+2025-04-20 14:47:23,737 [INFO] __main__ - Successfully processed and displayed AI response
+2025-04-20 15:27:08,177 [INFO] modules.tools.df_tools - Loading product data
+2025-04-20 15:27:08,178 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 15:27:08,180 [INFO] modules.helper.convert_json_to_df - Successfully converted JSON to DataFrame with 24 rows
+2025-04-20 15:27:08,182 [INFO] modules.tools.df_tools - Successfully loaded 24 products
+2025-04-20 15:27:09,852 [INFO] tools.df_tools - Loading product data
+2025-04-20 15:27:09,852 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 15:27:09,854 [INFO] modules.helper.convert_json_to_df - Successfully converted JSON to DataFrame with 24 rows
+2025-04-20 15:27:09,855 [INFO] tools.df_tools - Successfully loaded 24 products
+2025-04-20 15:27:09,869 [INFO] modules.llm_blocks.sales_agent - Loading environment variables
+2025-04-20 15:27:09,870 [INFO] modules.llm_blocks.sales_agent - Successfully loaded API key
+2025-04-20 15:27:09,871 [INFO] modules.llm_blocks.sales_agent - Initializing Google Gemini LLM
+2025-04-20 15:27:09,932 [INFO] modules.llm_blocks.sales_agent - Successfully initialized LLM
+2025-04-20 15:27:09,947 [INFO] modules.llm_blocks.sales_agent - Successfully bound tools to LLM
+2025-04-20 15:27:09,952 [INFO] modules.graph_blocks.nodes - Initializing tool node
+2025-04-20 15:27:09,953 [INFO] modules.graph_blocks.nodes - Tool node initialized successfully
+2025-04-20 15:27:09,955 [INFO] __main__ - Initializing graph
+2025-04-20 15:27:09,956 [INFO] modules.graph_blocks.graph - Creating new StateGraph
+2025-04-20 15:27:09,962 [INFO] modules.graph_blocks.graph - Successfully created and compiled graph
+2025-04-20 15:27:09,963 [INFO] __main__ - Graph initialized successfully
+2025-04-20 15:27:09,963 [INFO] __main__ - Starting main program
+2025-04-20 15:27:09,963 [INFO] __main__ - Test input: عاوز حاجه لتساقط الشعر؟
+2025-04-20 15:27:09,964 [INFO] __main__ - Processing user input: عاوز حاجه لتساقط الشعر؟
+2025-04-20 15:27:09,977 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-20 15:27:09,977 [ERROR] modules.graph_blocks.nodes - Error running sales agent: string indices must be integers, not 'str'
+2025-04-20 15:27:09,978 [ERROR] __main__ - Error in get_answer: Failed to run sales agent: string indices must be integers, not 'str'
+2025-04-20 15:27:09,980 [ERROR] __main__ - Main program error: Failed to run sales agent: string indices must be integers, not 'str'
+2025-04-20 15:27:59,012 [INFO] modules.tools.df_tools - Loading product data
+2025-04-20 15:27:59,013 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 15:27:59,014 [INFO] modules.helper.convert_json_to_df - Successfully converted JSON to DataFrame with 24 rows
+2025-04-20 15:27:59,016 [INFO] modules.tools.df_tools - Successfully loaded 24 products
+2025-04-20 15:28:00,163 [INFO] tools.df_tools - Loading product data
+2025-04-20 15:28:00,164 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 15:28:00,165 [INFO] modules.helper.convert_json_to_df - Successfully converted JSON to DataFrame with 24 rows
+2025-04-20 15:28:00,166 [INFO] tools.df_tools - Successfully loaded 24 products
+2025-04-20 15:28:00,179 [INFO] modules.llm_blocks.sales_agent - Loading environment variables
+2025-04-20 15:28:00,180 [INFO] modules.llm_blocks.sales_agent - Successfully loaded API key
+2025-04-20 15:28:00,181 [INFO] modules.llm_blocks.sales_agent - Initializing Google Gemini LLM
+2025-04-20 15:28:00,205 [INFO] modules.llm_blocks.sales_agent - Successfully initialized LLM
+2025-04-20 15:28:00,221 [INFO] modules.llm_blocks.sales_agent - Successfully bound tools to LLM
+2025-04-20 15:28:00,228 [INFO] modules.graph_blocks.nodes - Initializing tool node
+2025-04-20 15:28:00,229 [INFO] modules.graph_blocks.nodes - Tool node initialized successfully
+2025-04-20 15:28:00,231 [INFO] __main__ - Initializing graph
+2025-04-20 15:28:00,231 [INFO] modules.graph_blocks.graph - Creating new StateGraph
+2025-04-20 15:28:00,236 [INFO] modules.graph_blocks.graph - Successfully created and compiled graph
+2025-04-20 15:28:00,237 [INFO] __main__ - Graph initialized successfully
+2025-04-20 15:28:00,237 [INFO] __main__ - Starting main program
+2025-04-20 15:28:00,237 [INFO] __main__ - Test input: عاوز حاجه لتساقط الشعر؟
+2025-04-20 15:28:00,238 [INFO] __main__ - Processing user input: عاوز حاجه لتساقط الشعر؟
+2025-04-20 15:28:00,248 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-20 15:28:00,248 [ERROR] modules.graph_blocks.nodes - Error running sales agent: string indices must be integers, not 'str'
+2025-04-20 15:28:00,249 [ERROR] __main__ - Error in get_answer: Failed to run sales agent: string indices must be integers, not 'str'
+2025-04-20 15:28:00,250 [ERROR] __main__ - Main program error: Failed to run sales agent: string indices must be integers, not 'str'
+2025-04-20 15:29:27,204 [INFO] modules.tools.df_tools - Loading product data
+2025-04-20 15:29:27,205 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 15:29:27,207 [INFO] modules.helper.convert_json_to_df - Successfully converted JSON to DataFrame with 24 rows
+2025-04-20 15:29:27,208 [INFO] modules.tools.df_tools - Successfully loaded 24 products
+2025-04-20 15:29:28,357 [INFO] tools.df_tools - Loading product data
+2025-04-20 15:29:28,357 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 15:29:28,358 [INFO] modules.helper.convert_json_to_df - Successfully converted JSON to DataFrame with 24 rows
+2025-04-20 15:29:28,360 [INFO] tools.df_tools - Successfully loaded 24 products
+2025-04-20 15:29:28,377 [INFO] modules.llm_blocks.sales_agent - Loading environment variables
+2025-04-20 15:29:28,379 [INFO] modules.llm_blocks.sales_agent - Successfully loaded API key
+2025-04-20 15:29:28,380 [INFO] modules.llm_blocks.sales_agent - Initializing Google Gemini LLM
+2025-04-20 15:29:28,403 [INFO] modules.llm_blocks.sales_agent - Successfully initialized LLM
+2025-04-20 15:29:28,432 [INFO] modules.llm_blocks.sales_agent - Successfully bound tools to LLM
+2025-04-20 15:29:28,463 [INFO] modules.graph_blocks.nodes - Initializing tool node
+2025-04-20 15:29:28,496 [INFO] modules.graph_blocks.nodes - Tool node initialized successfully
+2025-04-20 15:29:28,514 [INFO] __main__ - Initializing graph
+2025-04-20 15:29:28,516 [INFO] modules.graph_blocks.graph - Creating new StateGraph
+2025-04-20 15:29:28,524 [INFO] modules.graph_blocks.graph - Successfully created and compiled graph
+2025-04-20 15:29:28,524 [INFO] __main__ - Graph initialized successfully
+2025-04-20 15:29:28,524 [INFO] __main__ - Starting main program
+2025-04-20 15:29:28,524 [INFO] __main__ - Test input: عاوز حاجه لتساقط الشعر؟
+2025-04-20 15:29:28,525 [INFO] __main__ - Processing user input: عاوز حاجه لتساقط الشعر؟
+2025-04-20 15:29:28,533 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-20 15:29:28,534 [ERROR] modules.graph_blocks.nodes - Error running sales agent: string indices must be integers, not 'str'
+2025-04-20 15:29:28,535 [ERROR] __main__ - Error in get_answer: Failed to run sales agent: string indices must be integers, not 'str'
+2025-04-20 15:29:28,537 [ERROR] __main__ - Main program error: Failed to run sales agent: string indices must be integers, not 'str'
+2025-04-20 15:32:05,376 [INFO] modules.tools.df_tools - Loading product data
+2025-04-20 15:32:05,377 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 15:32:05,379 [INFO] modules.helper.convert_json_to_df - Successfully converted JSON to DataFrame with 24 rows
+2025-04-20 15:32:05,380 [INFO] modules.tools.df_tools - Successfully loaded 24 products
+2025-04-20 15:32:06,565 [INFO] tools.df_tools - Loading product data
+2025-04-20 15:32:06,565 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 15:32:06,568 [INFO] modules.helper.convert_json_to_df - Successfully converted JSON to DataFrame with 24 rows
+2025-04-20 15:32:06,569 [INFO] tools.df_tools - Successfully loaded 24 products
+2025-04-20 15:32:06,582 [INFO] modules.llm_blocks.sales_agent - Loading environment variables
+2025-04-20 15:32:06,583 [INFO] modules.llm_blocks.sales_agent - Successfully loaded API key
+2025-04-20 15:32:06,584 [INFO] modules.llm_blocks.sales_agent - Initializing Google Gemini LLM
+2025-04-20 15:32:06,608 [INFO] modules.llm_blocks.sales_agent - Successfully initialized LLM
+2025-04-20 15:32:06,625 [INFO] modules.llm_blocks.sales_agent - Successfully bound tools to LLM
+2025-04-20 15:32:06,627 [INFO] modules.graph_blocks.nodes - Initializing tool node
+2025-04-20 15:32:06,628 [INFO] modules.graph_blocks.nodes - Tool node initialized successfully
+2025-04-20 15:32:06,630 [INFO] __main__ - Initializing graph
+2025-04-20 15:32:06,630 [INFO] modules.graph_blocks.graph - Creating new StateGraph
+2025-04-20 15:32:06,637 [INFO] modules.graph_blocks.graph - Successfully created and compiled graph
+2025-04-20 15:32:06,637 [INFO] __main__ - Graph initialized successfully
+2025-04-20 15:32:06,639 [INFO] __main__ - Starting main program
+2025-04-20 15:32:06,639 [INFO] __main__ - Test input: عاوز حاجه لتساقط الشعر؟
+2025-04-20 15:32:06,639 [INFO] __main__ - Processing user input: عاوز حاجه لتساقط الشعر؟
+2025-04-20 15:32:06,651 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-20 15:32:06,652 [ERROR] modules.graph_blocks.nodes - Error running sales agent: string indices must be integers, not 'str'
+2025-04-20 15:32:06,653 [ERROR] __main__ - Error in get_answer: Failed to run sales agent: string indices must be integers, not 'str'
+2025-04-20 15:32:06,654 [ERROR] __main__ - Main program error: Failed to run sales agent: string indices must be integers, not 'str'
+2025-04-20 15:34:18,970 [INFO] modules.tools.df_tools - Loading product data
+2025-04-20 15:34:18,971 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 15:34:18,972 [INFO] modules.helper.convert_json_to_df - Successfully converted JSON to DataFrame with 24 rows
+2025-04-20 15:34:18,973 [INFO] modules.tools.df_tools - Successfully loaded 24 products
+2025-04-20 15:34:20,109 [INFO] tools.df_tools - Loading product data
+2025-04-20 15:34:20,110 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 15:34:20,111 [INFO] modules.helper.convert_json_to_df - Successfully converted JSON to DataFrame with 24 rows
+2025-04-20 15:34:20,112 [INFO] tools.df_tools - Successfully loaded 24 products
+2025-04-20 15:34:20,130 [INFO] modules.llm_blocks.sales_agent - Loading environment variables
+2025-04-20 15:34:20,131 [INFO] modules.llm_blocks.sales_agent - Successfully loaded API key
+2025-04-20 15:34:20,131 [INFO] modules.llm_blocks.sales_agent - Initializing Google Gemini LLM
+2025-04-20 15:34:20,153 [INFO] modules.llm_blocks.sales_agent - Successfully initialized LLM
+2025-04-20 15:34:20,171 [INFO] modules.llm_blocks.sales_agent - Successfully bound tools to LLM
+2025-04-20 15:34:20,173 [INFO] modules.graph_blocks.nodes - Initializing tool node
+2025-04-20 15:34:20,174 [INFO] modules.graph_blocks.nodes - Tool node initialized successfully
+2025-04-20 15:34:20,176 [INFO] __main__ - Initializing graph
+2025-04-20 15:34:20,176 [INFO] modules.graph_blocks.graph - Creating new StateGraph
+2025-04-20 15:34:20,182 [INFO] modules.graph_blocks.graph - Successfully created and compiled graph
+2025-04-20 15:34:20,183 [INFO] __main__ - Graph initialized successfully
+2025-04-20 15:34:20,183 [INFO] __main__ - Starting main program
+2025-04-20 15:34:20,185 [INFO] __main__ - Test input: عاوز حاجه لتساقط الشعر؟
+2025-04-20 15:34:20,185 [INFO] __main__ - Processing user input: عاوز حاجه لتساقط الشعر؟
+2025-04-20 15:34:20,186 [ERROR] __main__ - Error in get_answer: string indices must be integers, not 'str'
+2025-04-20 15:34:20,186 [ERROR] __main__ - Main program error: string indices must be integers, not 'str'
+2025-04-20 15:34:48,058 [INFO] modules.tools.df_tools - Loading product data
+2025-04-20 15:34:48,059 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 15:34:48,061 [INFO] modules.helper.convert_json_to_df - Successfully converted JSON to DataFrame with 24 rows
+2025-04-20 15:34:48,063 [INFO] modules.tools.df_tools - Successfully loaded 24 products
+2025-04-20 15:34:49,213 [INFO] tools.df_tools - Loading product data
+2025-04-20 15:34:49,214 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 15:34:49,215 [INFO] modules.helper.convert_json_to_df - Successfully converted JSON to DataFrame with 24 rows
+2025-04-20 15:34:49,216 [INFO] tools.df_tools - Successfully loaded 24 products
+2025-04-20 15:34:49,231 [INFO] modules.llm_blocks.sales_agent - Loading environment variables
+2025-04-20 15:34:49,232 [INFO] modules.llm_blocks.sales_agent - Successfully loaded API key
+2025-04-20 15:34:49,232 [INFO] modules.llm_blocks.sales_agent - Initializing Google Gemini LLM
+2025-04-20 15:34:49,255 [INFO] modules.llm_blocks.sales_agent - Successfully initialized LLM
+2025-04-20 15:34:49,274 [INFO] modules.llm_blocks.sales_agent - Successfully bound tools to LLM
+2025-04-20 15:34:49,275 [INFO] modules.graph_blocks.nodes - Initializing tool node
+2025-04-20 15:34:49,276 [INFO] modules.graph_blocks.nodes - Tool node initialized successfully
+2025-04-20 15:34:49,278 [INFO] __main__ - Initializing graph
+2025-04-20 15:34:49,278 [INFO] modules.graph_blocks.graph - Creating new StateGraph
+2025-04-20 15:34:49,286 [INFO] modules.graph_blocks.graph - Successfully created and compiled graph
+2025-04-20 15:34:49,286 [INFO] __main__ - Graph initialized successfully
+2025-04-20 15:34:49,286 [INFO] __main__ - Starting main program
+2025-04-20 15:34:49,287 [INFO] __main__ - Test input: عاوز حاجه لتساقط الشعر؟
+2025-04-20 15:34:49,287 [INFO] __main__ - Processing user input: عاوز حاجه لتساقط الشعر؟
+2025-04-20 15:34:49,287 [ERROR] __main__ - Error in get_answer: string indices must be integers, not 'str'
+2025-04-20 15:34:49,287 [ERROR] __main__ - Main program error: string indices must be integers, not 'str'
+2025-04-20 15:36:35,071 [INFO] modules.tools.df_tools - Loading product data
+2025-04-20 15:36:35,072 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 15:36:35,073 [INFO] modules.helper.convert_json_to_df - Successfully converted JSON to DataFrame with 24 rows
+2025-04-20 15:36:35,074 [INFO] modules.tools.df_tools - Successfully loaded 24 products
+2025-04-20 15:36:36,341 [INFO] tools.df_tools - Loading product data
+2025-04-20 15:36:36,342 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 15:36:36,344 [INFO] modules.helper.convert_json_to_df - Successfully converted JSON to DataFrame with 24 rows
+2025-04-20 15:36:36,345 [INFO] tools.df_tools - Successfully loaded 24 products
+2025-04-20 15:36:36,370 [INFO] modules.llm_blocks.sales_agent - Loading environment variables
+2025-04-20 15:36:36,370 [INFO] modules.llm_blocks.sales_agent - Successfully loaded API key
+2025-04-20 15:36:36,372 [INFO] modules.llm_blocks.sales_agent - Initializing Google Gemini LLM
+2025-04-20 15:36:36,400 [INFO] modules.llm_blocks.sales_agent - Successfully initialized LLM
+2025-04-20 15:36:36,425 [INFO] modules.llm_blocks.sales_agent - Successfully bound tools to LLM
+2025-04-20 15:36:36,438 [INFO] modules.graph_blocks.nodes - Initializing tool node
+2025-04-20 15:36:36,439 [INFO] modules.graph_blocks.nodes - Tool node initialized successfully
+2025-04-20 15:36:36,441 [INFO] __main__ - Initializing graph
+2025-04-20 15:36:36,441 [INFO] modules.graph_blocks.graph - Creating new StateGraph
+2025-04-20 15:36:36,446 [INFO] modules.graph_blocks.graph - Successfully created and compiled graph
+2025-04-20 15:36:36,448 [INFO] __main__ - Graph initialized successfully
+2025-04-20 15:36:36,448 [INFO] __main__ - Starting main program
+2025-04-20 15:36:36,448 [INFO] __main__ - Test input: عاوز حاجه لتساقط الشعر؟
+2025-04-20 15:36:36,449 [INFO] __main__ - Processing user input: عاوز حاجه لتساقط الشعر؟
+2025-04-20 15:36:36,450 [INFO] modules.helper.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-20 15:36:36,450 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-20 15:36:36,451 [INFO] modules.helper.convert_json_to_df - Successfully converted JSON to DataFrame with 24 rows
+2025-04-20 15:36:36,455 [INFO] modules.helper.df_manager - Successfully initialized DfManager
+2025-04-20 15:36:36,468 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-20 15:36:36,469 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-20 15:36:36,470 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-20 15:36:36,471 [ERROR] modules.graph_blocks.nodes - Invalid state format - missing key: 'available_concerns'
+2025-04-20 15:36:36,472 [ERROR] __main__ - Error in get_answer: "State is missing required key: 'available_concerns'"
+2025-04-20 15:36:36,473 [ERROR] __main__ - Main program error: "State is missing required key: 'available_concerns'"
+2025-04-20 15:37:20,022 [INFO] modules.tools.df_tools - Loading product data
+2025-04-20 15:37:20,023 [INFO] modules.helper.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 15:37:20,023 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 15:37:20,025 [INFO] modules.helper.convert_json_to_df - Successfully converted JSON to DataFrame with 24 rows
+2025-04-20 15:37:20,028 [INFO] modules.helper.df_manager - Successfully initialized DfManager
+2025-04-20 15:37:20,028 [INFO] modules.tools.df_tools - Successfully loaded 24 products
+2025-04-20 15:37:21,139 [INFO] tools.df_tools - Loading product data
+2025-04-20 15:37:21,140 [INFO] modules.helper.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 15:37:21,140 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 15:37:21,142 [INFO] modules.helper.convert_json_to_df - Successfully converted JSON to DataFrame with 24 rows
+2025-04-20 15:37:21,143 [INFO] modules.helper.df_manager - Successfully initialized DfManager
+2025-04-20 15:37:21,143 [INFO] tools.df_tools - Successfully loaded 24 products
+2025-04-20 15:37:21,162 [INFO] modules.llm_blocks.sales_agent - Loading environment variables
+2025-04-20 15:37:21,163 [INFO] modules.llm_blocks.sales_agent - Successfully loaded API key
+2025-04-20 15:37:21,164 [INFO] modules.llm_blocks.sales_agent - Initializing Google Gemini LLM
+2025-04-20 15:37:21,184 [INFO] modules.llm_blocks.sales_agent - Successfully initialized LLM
+2025-04-20 15:37:21,200 [INFO] modules.llm_blocks.sales_agent - Successfully bound tools to LLM
+2025-04-20 15:37:21,202 [INFO] modules.graph_blocks.nodes - Initializing tool node
+2025-04-20 15:37:21,203 [INFO] modules.graph_blocks.nodes - Tool node initialized successfully
+2025-04-20 15:37:21,204 [INFO] __main__ - Initializing graph
+2025-04-20 15:37:21,205 [INFO] modules.graph_blocks.graph - Creating new StateGraph
+2025-04-20 15:37:21,213 [INFO] modules.graph_blocks.graph - Successfully created and compiled graph
+2025-04-20 15:37:21,214 [INFO] __main__ - Graph initialized successfully
+2025-04-20 15:37:21,214 [INFO] __main__ - Starting main program
+2025-04-20 15:37:21,214 [INFO] __main__ - Test input: عاوز حاجه لتساقط الشعر؟
+2025-04-20 15:37:21,214 [INFO] __main__ - Processing user input: عاوز حاجه لتساقط الشعر؟
+2025-04-20 15:37:21,215 [INFO] modules.helper.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-20 15:37:21,215 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-20 15:37:21,218 [INFO] modules.helper.convert_json_to_df - Successfully converted JSON to DataFrame with 24 rows
+2025-04-20 15:37:21,220 [INFO] modules.helper.df_manager - Successfully initialized DfManager
+2025-04-20 15:37:21,231 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-20 15:37:21,231 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-20 15:37:21,232 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-20 15:37:23,411 [INFO] __main__ - Successfully generated response
+2025-04-20 15:37:23,412 [INFO] __main__ - Test response received
+2025-04-20 16:05:08,473 [INFO] modules.tools.df_tools - Loading product data
+2025-04-20 16:05:08,473 [INFO] modules.helper.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 16:05:08,473 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 16:05:08,476 [INFO] modules.helper.convert_json_to_df - Successfully converted JSON to DataFrame with 24 rows
+2025-04-20 16:05:08,480 [INFO] modules.helper.df_manager - Successfully initialized DfManager
+2025-04-20 16:05:08,480 [INFO] modules.tools.df_tools - Successfully loaded 24 products
+2025-04-20 16:05:10,447 [INFO] tools.df_tools - Loading product data
+2025-04-20 16:05:10,448 [INFO] modules.helper.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 16:05:10,448 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 16:05:10,450 [INFO] modules.helper.convert_json_to_df - Successfully converted JSON to DataFrame with 24 rows
+2025-04-20 16:05:10,453 [INFO] modules.helper.df_manager - Successfully initialized DfManager
+2025-04-20 16:05:10,453 [INFO] tools.df_tools - Successfully loaded 24 products
+2025-04-20 16:05:10,472 [INFO] modules.llm_blocks.sales_agent - Loading environment variables
+2025-04-20 16:05:10,474 [INFO] modules.llm_blocks.sales_agent - Successfully loaded API key
+2025-04-20 16:05:10,474 [INFO] modules.llm_blocks.sales_agent - Initializing Google Gemini LLM
+2025-04-20 16:05:10,539 [INFO] modules.llm_blocks.sales_agent - Successfully initialized LLM
+2025-04-20 16:05:10,556 [INFO] modules.llm_blocks.sales_agent - Successfully bound tools to LLM
+2025-04-20 16:05:10,557 [INFO] modules.graph_blocks.nodes - Initializing tool node
+2025-04-20 16:05:10,558 [INFO] modules.graph_blocks.nodes - Tool node initialized successfully
+2025-04-20 16:05:10,560 [INFO] __main__ - Initializing graph
+2025-04-20 16:05:10,560 [INFO] modules.graph_blocks.graph - Creating new StateGraph
+2025-04-20 16:05:10,567 [INFO] modules.graph_blocks.graph - Successfully created and compiled graph
+2025-04-20 16:05:10,568 [INFO] __main__ - Graph initialized successfully
+2025-04-20 16:05:10,568 [INFO] __main__ - Starting main program
+2025-04-20 16:05:10,569 [INFO] __main__ - Test input: عاوز حاجه لتساقط الشعر؟
+2025-04-20 16:05:10,569 [INFO] __main__ - Processing user input: عاوز حاجه لتساقط الشعر؟
+2025-04-20 16:05:10,569 [INFO] modules.helper.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-20 16:05:10,570 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-20 16:05:10,571 [INFO] modules.helper.convert_json_to_df - Successfully converted JSON to DataFrame with 24 rows
+2025-04-20 16:05:10,573 [INFO] modules.helper.df_manager - Successfully initialized DfManager
+2025-04-20 16:05:10,586 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-20 16:05:10,586 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-20 16:05:10,588 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-20 16:05:12,473 [INFO] __main__ - Successfully generated response
+2025-04-20 16:05:12,475 [INFO] __main__ - Test response received
+2025-04-20 16:06:45,258 [INFO] modules.tools.df_tools - Loading product data
+2025-04-20 16:06:45,259 [INFO] modules.helper.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 16:06:45,259 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 16:06:45,260 [INFO] modules.helper.convert_json_to_df - Successfully converted JSON to DataFrame with 24 rows
+2025-04-20 16:06:45,262 [INFO] modules.helper.df_manager - Successfully initialized DfManager
+2025-04-20 16:06:45,262 [INFO] modules.tools.df_tools - Successfully loaded 24 products
+2025-04-20 16:06:46,377 [INFO] tools.df_tools - Loading product data
+2025-04-20 16:06:46,377 [INFO] modules.helper.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 16:06:46,378 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 16:06:46,379 [INFO] modules.helper.convert_json_to_df - Successfully converted JSON to DataFrame with 24 rows
+2025-04-20 16:06:46,381 [INFO] modules.helper.df_manager - Successfully initialized DfManager
+2025-04-20 16:06:46,381 [INFO] tools.df_tools - Successfully loaded 24 products
+2025-04-20 16:06:46,398 [INFO] modules.llm_blocks.sales_agent - Loading environment variables
+2025-04-20 16:06:46,399 [INFO] modules.llm_blocks.sales_agent - Successfully loaded API key
+2025-04-20 16:06:46,400 [INFO] modules.llm_blocks.sales_agent - Initializing Google Gemini LLM
+2025-04-20 16:06:46,428 [INFO] modules.llm_blocks.sales_agent - Successfully initialized LLM
+2025-04-20 16:06:46,445 [INFO] modules.llm_blocks.sales_agent - Successfully bound tools to LLM
+2025-04-20 16:06:46,446 [INFO] modules.graph_blocks.nodes - Initializing tool node
+2025-04-20 16:06:46,447 [INFO] modules.graph_blocks.nodes - Tool node initialized successfully
+2025-04-20 16:06:46,450 [INFO] __main__ - Initializing graph
+2025-04-20 16:06:46,450 [INFO] modules.graph_blocks.graph - Creating new StateGraph
+2025-04-20 16:06:46,456 [INFO] modules.graph_blocks.graph - Successfully created and compiled graph
+2025-04-20 16:06:46,457 [INFO] __main__ - Graph initialized successfully
+2025-04-20 16:06:46,457 [INFO] __main__ - Starting main program
+2025-04-20 16:06:46,459 [INFO] __main__ - Test input: عاوز حاجه لتساقط الشعر؟
+2025-04-20 16:06:46,459 [INFO] __main__ - Processing user input: عاوز حاجه لتساقط الشعر؟
+2025-04-20 16:06:46,459 [INFO] modules.helper.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-20 16:06:46,460 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-20 16:06:46,461 [INFO] modules.helper.convert_json_to_df - Successfully converted JSON to DataFrame with 24 rows
+2025-04-20 16:06:46,463 [INFO] modules.helper.df_manager - Successfully initialized DfManager
+2025-04-20 16:06:46,463 [INFO] __main__ - Available concerns: {'Hyperpigmentation& dark spots', 'Hair loss', 'Sensitive areas& Bikini area brightening', 'Dandruff', 'Strawberry skin treatment', 'Eczema & Dry skin', 'Acne& acne spots', 'Dark circles “blue- brown- black” & puffiness', 'Dull& pale skin'}
+2025-04-20 16:06:46,463 [INFO] __main__ - Available categories: {'Personal Care', 'Hair spray& lotion', 'Shampoos', 'Moisturizer', 'Skin Care', 'Sun screen', 'Repairing & hair moisturizing', 'Toner “coming soon”', 'Soft peel and Exfoliant', 'Cleansers', 'Whitening cream', 'Eye cream', 'Oil replacement', 'Hair Care'}
+2025-04-20 16:06:46,464 [INFO] __main__ - Starting graph stream
+2025-04-20 16:06:46,474 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-20 16:06:46,475 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-20 16:06:46,478 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-20 16:06:47,309 [INFO] __main__ - Successfully generated response
+2025-04-20 16:06:47,310 [INFO] __main__ - Test response received
+2025-04-20 16:07:55,324 [INFO] modules.tools.df_tools - Loading product data
+2025-04-20 16:07:55,325 [INFO] modules.helper.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 16:07:55,325 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 16:07:55,329 [INFO] modules.helper.convert_json_to_df - Successfully converted JSON to DataFrame with 24 rows
+2025-04-20 16:07:55,333 [INFO] modules.helper.df_manager - Successfully initialized DfManager
+2025-04-20 16:07:55,333 [INFO] modules.tools.df_tools - Successfully loaded 24 products
+2025-04-20 16:07:57,379 [INFO] tools.df_tools - Loading product data
+2025-04-20 16:07:57,381 [INFO] modules.helper.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 16:07:57,381 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 16:07:57,384 [INFO] modules.helper.convert_json_to_df - Successfully converted JSON to DataFrame with 24 rows
+2025-04-20 16:07:57,387 [INFO] modules.helper.df_manager - Successfully initialized DfManager
+2025-04-20 16:07:57,387 [INFO] tools.df_tools - Successfully loaded 24 products
+2025-04-20 16:07:57,424 [INFO] modules.llm_blocks.sales_agent - Loading environment variables
+2025-04-20 16:07:57,425 [INFO] modules.llm_blocks.sales_agent - Successfully loaded API key
+2025-04-20 16:07:57,426 [INFO] modules.llm_blocks.sales_agent - Initializing Google Gemini LLM
+2025-04-20 16:07:57,567 [INFO] modules.llm_blocks.sales_agent - Successfully initialized LLM
+2025-04-20 16:07:57,588 [INFO] modules.llm_blocks.sales_agent - Successfully bound tools to LLM
+2025-04-20 16:07:57,589 [INFO] modules.graph_blocks.nodes - Initializing tool node
+2025-04-20 16:07:57,591 [INFO] modules.graph_blocks.nodes - Tool node initialized successfully
+2025-04-20 16:07:57,593 [INFO] main - Initializing graph
+2025-04-20 16:07:57,593 [INFO] modules.graph_blocks.graph - Creating new StateGraph
+2025-04-20 16:07:57,603 [INFO] modules.graph_blocks.graph - Successfully created and compiled graph
+2025-04-20 16:07:57,603 [INFO] main - Graph initialized successfully
+2025-04-20 16:07:57,730 [INFO] __main__ - Initialized new chat session
+2025-04-20 16:08:03,645 [INFO] __main__ - Received user input: hi
+2025-04-20 16:08:03,651 [INFO] main - Processing user input: hi
+2025-04-20 16:08:03,651 [INFO] modules.helper.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-20 16:08:03,653 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-20 16:08:03,656 [INFO] modules.helper.convert_json_to_df - Successfully converted JSON to DataFrame with 24 rows
+2025-04-20 16:08:03,657 [INFO] modules.helper.df_manager - Successfully initialized DfManager
+2025-04-20 16:08:03,659 [INFO] main - Available concerns: {'Eczema & Dry skin', 'Acne& acne spots', 'Hyperpigmentation& dark spots', 'Hair loss', 'Dark circles “blue- brown- black” & puffiness', 'Strawberry skin treatment', 'Sensitive areas& Bikini area brightening', 'Dandruff', 'Dull& pale skin'}
+2025-04-20 16:08:03,660 [INFO] main - Available categories: {'Repairing & hair moisturizing', 'Toner “coming soon”', 'Eye cream', 'Moisturizer', 'Personal Care', 'Sun screen', 'Soft peel and Exfoliant', 'Oil replacement', 'Hair spray& lotion', 'Shampoos', 'Cleansers', 'Hair Care', 'Skin Care', 'Whitening cream'}
+2025-04-20 16:08:03,660 [INFO] main - Starting graph stream
+2025-04-20 16:08:03,674 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-20 16:08:03,674 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-20 16:08:03,675 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-20 16:08:04,458 [INFO] main - Successfully generated response
+2025-04-20 16:08:04,458 [WARNING] __main__ - Could not parse book recommendations: list index out of range
+2025-04-20 16:08:04,459 [INFO] __main__ - Successfully processed and displayed AI response
+2025-04-20 16:08:20,953 [INFO] __main__ - Received user input: عاوز حاجه لتساقط الشعر
+2025-04-20 16:08:20,958 [INFO] main - Processing user input: عاوز حاجه لتساقط الشعر
+2025-04-20 16:08:20,958 [INFO] modules.helper.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-20 16:08:20,958 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-20 16:08:20,961 [INFO] modules.helper.convert_json_to_df - Successfully converted JSON to DataFrame with 24 rows
+2025-04-20 16:08:20,964 [INFO] modules.helper.df_manager - Successfully initialized DfManager
+2025-04-20 16:08:20,965 [INFO] main - Available concerns: {'Eczema & Dry skin', 'Acne& acne spots', 'Hyperpigmentation& dark spots', 'Hair loss', 'Dark circles “blue- brown- black” & puffiness', 'Strawberry skin treatment', 'Sensitive areas& Bikini area brightening', 'Dandruff', 'Dull& pale skin'}
+2025-04-20 16:08:20,965 [INFO] main - Available categories: {'Repairing & hair moisturizing', 'Toner “coming soon”', 'Eye cream', 'Moisturizer', 'Personal Care', 'Sun screen', 'Soft peel and Exfoliant', 'Oil replacement', 'Hair spray& lotion', 'Shampoos', 'Cleansers', 'Hair Care', 'Skin Care', 'Whitening cream'}
+2025-04-20 16:08:20,965 [INFO] main - Starting graph stream
+2025-04-20 16:08:20,972 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-20 16:08:20,972 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-20 16:08:20,973 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-20 16:08:21,693 [INFO] modules.tools.df_tools - Searching products for concern: Hair loss
+2025-04-20 16:08:21,698 [INFO] modules.tools.df_tools - Found 2 products for concern: Hair loss
+2025-04-20 16:08:21,704 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-20 16:08:21,704 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-20 16:08:21,705 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-20 16:08:23,623 [INFO] main - Successfully generated response
+2025-04-20 16:08:23,624 [WARNING] __main__ - Could not parse book recommendations: name 'null' is not defined
+2025-04-20 16:08:23,627 [INFO] __main__ - Successfully processed and displayed AI response
+2025-04-20 16:10:06,626 [INFO] __main__ - Received user input: عاوز اسبراي للشعر 
+2025-04-20 16:10:06,643 [INFO] main - Processing user input: عاوز اسبراي للشعر 
+2025-04-20 16:10:06,645 [INFO] modules.helper.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-20 16:10:06,649 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-20 16:10:06,653 [INFO] modules.helper.convert_json_to_df - Successfully converted JSON to DataFrame with 24 rows
+2025-04-20 16:10:06,656 [INFO] modules.helper.df_manager - Successfully initialized DfManager
+2025-04-20 16:10:06,658 [INFO] main - Available concerns: {'Eczema & Dry skin', 'Acne& acne spots', 'Hyperpigmentation& dark spots', 'Hair loss', 'Dark circles “blue- brown- black” & puffiness', 'Strawberry skin treatment', 'Sensitive areas& Bikini area brightening', 'Dandruff', 'Dull& pale skin'}
+2025-04-20 16:10:06,659 [INFO] main - Available categories: {'Repairing & hair moisturizing', 'Toner “coming soon”', 'Eye cream', 'Moisturizer', 'Personal Care', 'Sun screen', 'Soft peel and Exfoliant', 'Oil replacement', 'Hair spray& lotion', 'Shampoos', 'Cleansers', 'Hair Care', 'Skin Care', 'Whitening cream'}
+2025-04-20 16:10:06,660 [INFO] main - Starting graph stream
+2025-04-20 16:10:06,671 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-20 16:10:06,672 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-20 16:10:06,674 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-20 16:10:08,195 [INFO] main - Successfully generated response
+2025-04-20 16:10:08,196 [WARNING] __main__ - Could not parse book recommendations: invalid syntax (<string>, line 1)
+2025-04-20 16:10:08,197 [INFO] __main__ - Successfully processed and displayed AI response
+2025-04-20 16:10:19,419 [INFO] __main__ - Received user input: لترطيب الشعر
+2025-04-20 16:10:19,423 [INFO] main - Processing user input: لترطيب الشعر
+2025-04-20 16:10:19,424 [INFO] modules.helper.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-20 16:10:19,424 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-20 16:10:19,429 [INFO] modules.helper.convert_json_to_df - Successfully converted JSON to DataFrame with 24 rows
+2025-04-20 16:10:19,431 [INFO] modules.helper.df_manager - Successfully initialized DfManager
+2025-04-20 16:10:19,432 [INFO] main - Available concerns: {'Eczema & Dry skin', 'Acne& acne spots', 'Hyperpigmentation& dark spots', 'Hair loss', 'Dark circles “blue- brown- black” & puffiness', 'Strawberry skin treatment', 'Sensitive areas& Bikini area brightening', 'Dandruff', 'Dull& pale skin'}
+2025-04-20 16:10:19,432 [INFO] main - Available categories: {'Repairing & hair moisturizing', 'Toner “coming soon”', 'Eye cream', 'Moisturizer', 'Personal Care', 'Sun screen', 'Soft peel and Exfoliant', 'Oil replacement', 'Hair spray& lotion', 'Shampoos', 'Cleansers', 'Hair Care', 'Skin Care', 'Whitening cream'}
+2025-04-20 16:10:19,434 [INFO] main - Starting graph stream
+2025-04-20 16:10:19,442 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-20 16:10:19,442 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-20 16:10:19,443 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-20 16:10:20,487 [INFO] main - Successfully generated response
+2025-04-20 16:10:20,487 [WARNING] __main__ - Could not parse book recommendations: invalid syntax (<string>, line 1)
+2025-04-20 16:10:20,488 [INFO] __main__ - Successfully processed and displayed AI response
+2025-04-20 16:11:04,937 [INFO] __main__ - Received user input: عاوز كريم مرطب للبشره 
+2025-04-20 16:11:04,953 [INFO] main - Processing user input: عاوز كريم مرطب للبشره 
+2025-04-20 16:11:04,953 [INFO] modules.helper.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-20 16:11:04,954 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-20 16:11:04,959 [INFO] modules.helper.convert_json_to_df - Successfully converted JSON to DataFrame with 24 rows
+2025-04-20 16:11:04,961 [INFO] modules.helper.df_manager - Successfully initialized DfManager
+2025-04-20 16:11:04,962 [INFO] main - Available concerns: {'Eczema & Dry skin', 'Acne& acne spots', 'Hyperpigmentation& dark spots', 'Hair loss', 'Dark circles “blue- brown- black” & puffiness', 'Strawberry skin treatment', 'Sensitive areas& Bikini area brightening', 'Dandruff', 'Dull& pale skin'}
+2025-04-20 16:11:04,963 [INFO] main - Available categories: {'Repairing & hair moisturizing', 'Toner “coming soon”', 'Eye cream', 'Moisturizer', 'Personal Care', 'Sun screen', 'Soft peel and Exfoliant', 'Oil replacement', 'Hair spray& lotion', 'Shampoos', 'Cleansers', 'Hair Care', 'Skin Care', 'Whitening cream'}
+2025-04-20 16:11:04,965 [INFO] main - Starting graph stream
+2025-04-20 16:11:04,982 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-20 16:11:04,982 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-20 16:11:04,984 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-20 16:11:06,080 [INFO] main - Successfully generated response
+2025-04-20 16:11:06,080 [WARNING] __main__ - Could not parse book recommendations: invalid syntax (<string>, line 1)
+2025-04-20 16:11:06,081 [INFO] __main__ - Successfully processed and displayed AI response
+2025-04-20 16:11:15,021 [INFO] __main__ - Received user input: عاديه
+2025-04-20 16:11:15,024 [INFO] main - Processing user input: عاديه
+2025-04-20 16:11:15,025 [INFO] modules.helper.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-20 16:11:15,027 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-20 16:11:15,029 [INFO] modules.helper.convert_json_to_df - Successfully converted JSON to DataFrame with 24 rows
+2025-04-20 16:11:15,032 [INFO] modules.helper.df_manager - Successfully initialized DfManager
+2025-04-20 16:11:15,032 [INFO] main - Available concerns: {'Eczema & Dry skin', 'Acne& acne spots', 'Hyperpigmentation& dark spots', 'Hair loss', 'Dark circles “blue- brown- black” & puffiness', 'Strawberry skin treatment', 'Sensitive areas& Bikini area brightening', 'Dandruff', 'Dull& pale skin'}
+2025-04-20 16:11:15,033 [INFO] main - Available categories: {'Repairing & hair moisturizing', 'Toner “coming soon”', 'Eye cream', 'Moisturizer', 'Personal Care', 'Sun screen', 'Soft peel and Exfoliant', 'Oil replacement', 'Hair spray& lotion', 'Shampoos', 'Cleansers', 'Hair Care', 'Skin Care', 'Whitening cream'}
+2025-04-20 16:11:15,033 [INFO] main - Starting graph stream
+2025-04-20 16:11:15,041 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-20 16:11:15,042 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-20 16:11:15,043 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-20 16:11:16,247 [INFO] main - Successfully generated response
+2025-04-20 16:11:16,247 [WARNING] __main__ - Could not parse book recommendations: name 'عاديه' is not defined
+2025-04-20 16:11:16,249 [INFO] __main__ - Successfully processed and displayed AI response
+2025-04-20 16:11:40,805 [INFO] __main__ - Received user input: ده بكام؟
+2025-04-20 16:11:40,808 [INFO] main - Processing user input: ده بكام؟
+2025-04-20 16:11:40,808 [INFO] modules.helper.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-20 16:11:40,809 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-20 16:11:40,811 [INFO] modules.helper.convert_json_to_df - Successfully converted JSON to DataFrame with 24 rows
+2025-04-20 16:11:40,816 [INFO] modules.helper.df_manager - Successfully initialized DfManager
+2025-04-20 16:11:40,817 [INFO] main - Available concerns: {'Eczema & Dry skin', 'Acne& acne spots', 'Hyperpigmentation& dark spots', 'Hair loss', 'Dark circles “blue- brown- black” & puffiness', 'Strawberry skin treatment', 'Sensitive areas& Bikini area brightening', 'Dandruff', 'Dull& pale skin'}
+2025-04-20 16:11:40,818 [INFO] main - Available categories: {'Repairing & hair moisturizing', 'Toner “coming soon”', 'Eye cream', 'Moisturizer', 'Personal Care', 'Sun screen', 'Soft peel and Exfoliant', 'Oil replacement', 'Hair spray& lotion', 'Shampoos', 'Cleansers', 'Hair Care', 'Skin Care', 'Whitening cream'}
+2025-04-20 16:11:40,818 [INFO] main - Starting graph stream
+2025-04-20 16:11:40,826 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-20 16:11:40,827 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-20 16:11:40,829 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-20 16:11:41,429 [INFO] modules.tools.df_tools - Searching products in category: Moisturizer
+2025-04-20 16:11:41,431 [INFO] modules.tools.df_tools - Found 4 products in category: Moisturizer
+2025-04-20 16:11:41,440 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-20 16:11:41,440 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-20 16:11:41,441 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-20 16:11:43,158 [INFO] main - Successfully generated response
+2025-04-20 16:11:43,159 [WARNING] __main__ - Could not parse book recommendations: name 'null' is not defined
+2025-04-20 16:11:43,161 [INFO] __main__ - Successfully processed and displayed AI response
+2025-04-20 17:06:31,317 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: C:\Users\DELL\AppData\Local\Temp\pytest-of-DELL\pytest-0\test_successful_conversion0\test_products.json
+2025-04-20 17:06:31,321 [INFO] modules.helper.convert_json_to_df - Successfully converted JSON to DataFrame with 2 rows
+2025-04-20 17:06:31,323 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: nonexistent.json
+2025-04-20 17:06:31,325 [ERROR] modules.helper.convert_json_to_df - JSON file not found: nonexistent.json
+2025-04-20 17:06:31,325 [ERROR] modules.helper.convert_json_to_df - Error converting JSON to DataFrame: JSON file not found: nonexistent.json
+2025-04-20 17:06:31,331 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: C:\Users\DELL\AppData\Local\Temp\pytest-of-DELL\pytest-0\test_invalid_json_format0\invalid.json
+2025-04-20 17:06:31,333 [ERROR] modules.helper.convert_json_to_df - Invalid JSON format: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2025-04-20 17:06:31,341 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: C:\Users\DELL\AppData\Local\Temp\pytest-of-DELL\pytest-0\test_empty_json0\empty.json
+2025-04-20 17:06:31,342 [ERROR] modules.helper.convert_json_to_df - Invalid JSON data format
+2025-04-20 17:06:31,343 [ERROR] modules.helper.convert_json_to_df - Error converting JSON to DataFrame: JSON data must be a non-empty dictionary
+2025-04-20 17:06:31,351 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: C:\Users\DELL\AppData\Local\Temp\pytest-of-DELL\pytest-0\test_missing_required_keys0\missing_keys.json
+2025-04-20 17:06:31,352 [ERROR] modules.helper.convert_json_to_df - Missing required keys in JSON data
+2025-04-20 17:06:31,354 [ERROR] modules.helper.convert_json_to_df - Error converting JSON to DataFrame: JSON must contain 'data.products' structure
+2025-04-20 17:09:02,511 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: C:\Users\DELL\AppData\Local\Temp\pytest-of-DELL\pytest-1\test_successful_conversion0\test_products.json
+2025-04-20 17:09:02,514 [INFO] modules.helper.convert_json_to_df - Successfully converted JSON to DataFrame with 2 rows
+2025-04-20 17:09:02,518 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: nonexistent.json
+2025-04-20 17:09:02,519 [ERROR] modules.helper.convert_json_to_df - JSON file not found: nonexistent.json
+2025-04-20 17:09:02,519 [ERROR] modules.helper.convert_json_to_df - Error converting JSON to DataFrame: JSON file not found: nonexistent.json
+2025-04-20 17:09:02,526 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: C:\Users\DELL\AppData\Local\Temp\pytest-of-DELL\pytest-1\test_invalid_json_format0\invalid.json
+2025-04-20 17:09:02,527 [ERROR] modules.helper.convert_json_to_df - Invalid JSON format: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2025-04-20 17:09:02,534 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: C:\Users\DELL\AppData\Local\Temp\pytest-of-DELL\pytest-1\test_empty_json0\empty.json
+2025-04-20 17:09:02,535 [ERROR] modules.helper.convert_json_to_df - Invalid JSON data format
+2025-04-20 17:09:02,536 [ERROR] modules.helper.convert_json_to_df - Error converting JSON to DataFrame: JSON data must be a non-empty dictionary
+2025-04-20 17:09:02,542 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: C:\Users\DELL\AppData\Local\Temp\pytest-of-DELL\pytest-1\test_missing_required_keys0\missing_keys.json
+2025-04-20 17:09:02,544 [ERROR] modules.helper.convert_json_to_df - Missing required keys in JSON data
+2025-04-20 17:09:02,544 [ERROR] modules.helper.convert_json_to_df - Error converting JSON to DataFrame: JSON must contain 'data.products' structure
+2025-04-20 17:10:05,049 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: C:\Users\DELL\AppData\Local\Temp\pytest-of-DELL\pytest-2\test_successful_conversion0\test_products.json
+2025-04-20 17:10:05,052 [INFO] modules.helper.convert_json_to_df - Successfully converted JSON to DataFrame with 2 rows
+2025-04-20 17:10:05,055 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: nonexistent.json
+2025-04-20 17:10:05,056 [ERROR] modules.helper.convert_json_to_df - JSON file not found: nonexistent.json
+2025-04-20 17:10:05,057 [ERROR] modules.helper.convert_json_to_df - Error converting JSON to DataFrame: JSON file not found: nonexistent.json
+2025-04-20 17:10:05,064 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: C:\Users\DELL\AppData\Local\Temp\pytest-of-DELL\pytest-2\test_invalid_json_format0\invalid.json
+2025-04-20 17:10:05,066 [ERROR] modules.helper.convert_json_to_df - Invalid JSON format: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2025-04-20 17:10:05,074 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: C:\Users\DELL\AppData\Local\Temp\pytest-of-DELL\pytest-2\test_empty_json0\empty.json
+2025-04-20 17:10:05,076 [ERROR] modules.helper.convert_json_to_df - Invalid JSON data format
+2025-04-20 17:10:05,077 [ERROR] modules.helper.convert_json_to_df - Error converting JSON to DataFrame: JSON data must be a non-empty dictionary
+2025-04-20 17:10:05,087 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: C:\Users\DELL\AppData\Local\Temp\pytest-of-DELL\pytest-2\test_missing_required_keys0\missing_keys.json
+2025-04-20 17:10:05,088 [ERROR] modules.helper.convert_json_to_df - Missing required keys in JSON data
+2025-04-20 17:10:05,088 [ERROR] modules.helper.convert_json_to_df - Error converting JSON to DataFrame: JSON must contain 'data.products' structure
+2025-04-20 17:13:22,485 [INFO] modules.helper.get_the_data_from_the_end_point - Fetching products from API: https://test-api.com/products
+2025-04-20 17:13:22,485 [INFO] modules.helper.get_the_data_from_the_end_point - Successfully retrieved 3 products
+2025-04-20 17:13:22,488 [INFO] modules.helper.get_the_data_from_the_end_point - Data successfully saved to C:\Users\DELL\AppData\Local\Temp\pytest-of-DELL\pytest-3\test_successful_fetch_and_save0\test_dataset\products.json
+2025-04-20 17:13:22,492 [INFO] modules.helper.get_the_data_from_the_end_point - Fetching products from API: https://test-api.com/products
+2025-04-20 17:13:22,492 [ERROR] modules.helper.get_the_data_from_the_end_point - API request failed: API Error
+2025-04-20 17:13:22,498 [INFO] modules.helper.get_the_data_from_the_end_point - Fetching products from API: https://test-api.com/products
+2025-04-20 17:13:22,499 [ERROR] modules.helper.get_the_data_from_the_end_point - Invalid JSON response: Invalid JSON: line 1 column 1 (char 0)
+2025-04-20 17:13:22,508 [INFO] modules.helper.get_the_data_from_the_end_point - Fetching products from API: https://test-api.com/products
+2025-04-20 17:13:22,509 [INFO] modules.helper.get_the_data_from_the_end_point - Successfully retrieved 3 products
+2025-04-20 17:13:22,510 [ERROR] modules.helper.get_the_data_from_the_end_point - Failed to save file: [Errno 13] Permission denied: 'C:\\Users\\DELL\\AppData\\Local\\Temp\\pytest-of-DELL\\pytest-3\\test_file_save_error0\\test_dataset\\products.json'
+2025-04-20 17:13:22,514 [INFO] modules.helper.get_the_data_from_the_end_point - Fetching products from API: https://nileva.meta-bytes.net/api/products
+2025-04-20 17:13:22,514 [INFO] modules.helper.get_the_data_from_the_end_point - Successfully retrieved 3 products
+2025-04-20 17:13:22,516 [INFO] modules.helper.get_the_data_from_the_end_point - Data successfully saved to Dataset\products.json
+2025-04-20 17:13:22,521 [INFO] modules.helper.get_the_data_from_the_end_point - Fetching products from API: https://custom-api.com/products
+2025-04-20 17:13:22,522 [INFO] modules.helper.get_the_data_from_the_end_point - Successfully retrieved 3 products
+2025-04-20 17:13:22,523 [ERROR] modules.helper.get_the_data_from_the_end_point - Failed to save file: [Errno 2] No such file or directory: 'custom_dir\\products.json'
+2025-04-20 17:14:25,028 [INFO] modules.helper.get_the_data_from_the_end_point - Fetching products from API: https://test-api.com/products
+2025-04-20 17:14:25,029 [INFO] modules.helper.get_the_data_from_the_end_point - Successfully retrieved 3 products
+2025-04-20 17:14:25,031 [INFO] modules.helper.get_the_data_from_the_end_point - Data successfully saved to C:\Users\DELL\AppData\Local\Temp\pytest-of-DELL\pytest-4\test_successful_fetch_and_save0\test_dataset\products.json
+2025-04-20 17:14:25,037 [INFO] modules.helper.get_the_data_from_the_end_point - Fetching products from API: https://test-api.com/products
+2025-04-20 17:14:25,039 [ERROR] modules.helper.get_the_data_from_the_end_point - API request failed: API Error
+2025-04-20 17:14:25,045 [INFO] modules.helper.get_the_data_from_the_end_point - Fetching products from API: https://test-api.com/products
+2025-04-20 17:14:25,046 [ERROR] modules.helper.get_the_data_from_the_end_point - Invalid JSON response: Invalid JSON: line 1 column 1 (char 0)
+2025-04-20 17:14:25,054 [INFO] modules.helper.get_the_data_from_the_end_point - Fetching products from API: https://test-api.com/products
+2025-04-20 17:14:25,055 [INFO] modules.helper.get_the_data_from_the_end_point - Successfully retrieved 3 products
+2025-04-20 17:14:25,056 [ERROR] modules.helper.get_the_data_from_the_end_point - Failed to save file: [Errno 13] Permission denied: 'C:\\Users\\DELL\\AppData\\Local\\Temp\\pytest-of-DELL\\pytest-4\\test_file_save_error0\\test_dataset\\products.json'
+2025-04-20 17:14:25,063 [INFO] modules.helper.get_the_data_from_the_end_point - Fetching products from API: https://nileva.meta-bytes.net/api/products
+2025-04-20 17:14:25,065 [INFO] modules.helper.get_the_data_from_the_end_point - Successfully retrieved 3 products
+2025-04-20 17:14:25,074 [INFO] modules.helper.get_the_data_from_the_end_point - Data successfully saved to Dataset\products.json
+2025-04-20 17:14:25,079 [INFO] modules.helper.get_the_data_from_the_end_point - Fetching products from API: https://custom-api.com/products
+2025-04-20 17:14:25,080 [INFO] modules.helper.get_the_data_from_the_end_point - Successfully retrieved 3 products
+2025-04-20 17:14:25,089 [INFO] modules.helper.get_the_data_from_the_end_point - Data successfully saved to custom_dir\products.json
+2025-04-20 17:15:06,796 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: C:\Users\DELL\AppData\Local\Temp\pytest-of-DELL\pytest-5\test_successful_conversion0\test_products.json
+2025-04-20 17:15:06,798 [INFO] modules.helper.convert_json_to_df - Successfully converted JSON to DataFrame with 2 rows
+2025-04-20 17:15:06,802 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: nonexistent.json
+2025-04-20 17:15:06,802 [ERROR] modules.helper.convert_json_to_df - JSON file not found: nonexistent.json
+2025-04-20 17:15:06,803 [ERROR] modules.helper.convert_json_to_df - Error converting JSON to DataFrame: JSON file not found: nonexistent.json
+2025-04-20 17:15:06,810 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: C:\Users\DELL\AppData\Local\Temp\pytest-of-DELL\pytest-5\test_invalid_json_format0\invalid.json
+2025-04-20 17:15:06,811 [ERROR] modules.helper.convert_json_to_df - Invalid JSON format: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2025-04-20 17:15:06,820 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: C:\Users\DELL\AppData\Local\Temp\pytest-of-DELL\pytest-5\test_empty_json0\empty.json
+2025-04-20 17:15:06,822 [ERROR] modules.helper.convert_json_to_df - Invalid JSON data format
+2025-04-20 17:15:06,822 [ERROR] modules.helper.convert_json_to_df - Error converting JSON to DataFrame: JSON data must be a non-empty dictionary
+2025-04-20 17:15:06,829 [INFO] modules.helper.convert_json_to_df - Converting JSON file to DataFrame: C:\Users\DELL\AppData\Local\Temp\pytest-of-DELL\pytest-5\test_missing_required_keys0\missing_keys.json
+2025-04-20 17:15:06,831 [ERROR] modules.helper.convert_json_to_df - Missing required keys in JSON data
+2025-04-20 17:15:06,832 [ERROR] modules.helper.convert_json_to_df - Error converting JSON to DataFrame: JSON must contain 'data.products' structure
+2025-04-20 17:15:06,840 [INFO] modules.helper.get_the_data_from_the_end_point - Fetching products from API: https://test-api.com/products
+2025-04-20 17:15:06,842 [INFO] modules.helper.get_the_data_from_the_end_point - Successfully retrieved 3 products
+2025-04-20 17:15:06,844 [INFO] modules.helper.get_the_data_from_the_end_point - Data successfully saved to C:\Users\DELL\AppData\Local\Temp\pytest-of-DELL\pytest-5\test_successful_fetch_and_save0\test_dataset\products.json
+2025-04-20 17:15:06,850 [INFO] modules.helper.get_the_data_from_the_end_point - Fetching products from API: https://test-api.com/products
+2025-04-20 17:15:06,851 [ERROR] modules.helper.get_the_data_from_the_end_point - API request failed: API Error
+2025-04-20 17:15:06,855 [INFO] modules.helper.get_the_data_from_the_end_point - Fetching products from API: https://test-api.com/products
+2025-04-20 17:15:06,856 [ERROR] modules.helper.get_the_data_from_the_end_point - Invalid JSON response: Invalid JSON: line 1 column 1 (char 0)
+2025-04-20 17:15:06,864 [INFO] modules.helper.get_the_data_from_the_end_point - Fetching products from API: https://test-api.com/products
+2025-04-20 17:15:06,865 [INFO] modules.helper.get_the_data_from_the_end_point - Successfully retrieved 3 products
+2025-04-20 17:15:06,866 [ERROR] modules.helper.get_the_data_from_the_end_point - Failed to save file: [Errno 13] Permission denied: 'C:\\Users\\DELL\\AppData\\Local\\Temp\\pytest-of-DELL\\pytest-5\\test_file_save_error0\\test_dataset\\products.json'
+2025-04-20 17:15:06,873 [INFO] modules.helper.get_the_data_from_the_end_point - Fetching products from API: https://nileva.meta-bytes.net/api/products
+2025-04-20 17:15:06,874 [INFO] modules.helper.get_the_data_from_the_end_point - Successfully retrieved 3 products
+2025-04-20 17:15:06,881 [INFO] modules.helper.get_the_data_from_the_end_point - Data successfully saved to Dataset\products.json
+2025-04-20 17:15:06,890 [INFO] modules.helper.get_the_data_from_the_end_point - Fetching products from API: https://custom-api.com/products
+2025-04-20 17:15:06,891 [INFO] modules.helper.get_the_data_from_the_end_point - Successfully retrieved 3 products
+2025-04-20 17:15:06,898 [INFO] modules.helper.get_the_data_from_the_end_point - Data successfully saved to custom_dir\products.json
+2025-04-20 19:03:07,840 [INFO] modules.tools.df_tools - Loading product data
+2025-04-20 19:03:07,840 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 19:03:07,841 [INFO] modules.df_manager.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 19:03:07,845 [INFO] modules.df_manager.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-20 19:03:07,875 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-20 19:03:07,876 [INFO] modules.tools.df_tools - Successfully loaded 8 products
+2025-04-20 19:03:10,345 [INFO] tools.df_tools - Loading product data
+2025-04-20 19:03:10,346 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 19:03:10,346 [INFO] modules.df_manager.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 19:03:10,349 [INFO] modules.df_manager.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-20 19:03:10,358 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-20 19:03:10,359 [INFO] tools.df_tools - Successfully loaded 8 products
+2025-04-20 19:03:10,391 [INFO] modules.llm_blocks.sales_agent - Loading environment variables
+2025-04-20 19:03:10,392 [INFO] modules.llm_blocks.sales_agent - Successfully loaded API key
+2025-04-20 19:03:10,392 [INFO] modules.llm_blocks.sales_agent - Initializing Google Gemini LLM
+2025-04-20 19:03:10,463 [INFO] modules.llm_blocks.sales_agent - Successfully initialized LLM
+2025-04-20 19:03:10,485 [INFO] modules.llm_blocks.sales_agent - Successfully bound tools to LLM
+2025-04-20 19:03:10,487 [INFO] modules.graph_blocks.nodes - Initializing tool node
+2025-04-20 19:03:10,490 [INFO] modules.graph_blocks.nodes - Tool node initialized successfully
+2025-04-20 19:03:10,491 [INFO] __main__ - Initializing graph
+2025-04-20 19:03:10,492 [INFO] modules.graph_blocks.graph - Creating new StateGraph
+2025-04-20 19:03:10,501 [INFO] modules.graph_blocks.graph - Successfully created and compiled graph
+2025-04-20 19:03:10,501 [INFO] __main__ - Graph initialized successfully
+2025-04-20 19:03:10,503 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-20 19:03:10,503 [INFO] modules.df_manager.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-20 19:03:10,506 [INFO] modules.df_manager.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-20 19:03:10,524 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-20 19:04:11,428 [INFO] modules.tools.df_tools - Loading product data
+2025-04-20 19:04:11,428 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 19:04:11,429 [INFO] modules.df_manager.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 19:04:11,430 [INFO] modules.df_manager.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-20 19:04:11,445 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-20 19:04:11,445 [INFO] modules.tools.df_tools - Successfully loaded 8 products
+2025-04-20 19:04:12,714 [INFO] tools.df_tools - Loading product data
+2025-04-20 19:04:12,715 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 19:04:12,716 [INFO] modules.df_manager.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 19:04:12,719 [INFO] modules.df_manager.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-20 19:04:12,731 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-20 19:04:12,731 [INFO] tools.df_tools - Successfully loaded 8 products
+2025-04-20 19:04:12,758 [INFO] modules.llm_blocks.sales_agent - Loading environment variables
+2025-04-20 19:04:12,759 [INFO] modules.llm_blocks.sales_agent - Successfully loaded API key
+2025-04-20 19:04:12,760 [INFO] modules.llm_blocks.sales_agent - Initializing Google Gemini LLM
+2025-04-20 19:04:12,803 [INFO] modules.llm_blocks.sales_agent - Successfully initialized LLM
+2025-04-20 19:04:12,837 [INFO] modules.llm_blocks.sales_agent - Successfully bound tools to LLM
+2025-04-20 19:04:12,840 [INFO] modules.graph_blocks.nodes - Initializing tool node
+2025-04-20 19:04:12,841 [INFO] modules.graph_blocks.nodes - Tool node initialized successfully
+2025-04-20 19:04:12,843 [INFO] __main__ - Initializing graph
+2025-04-20 19:04:12,843 [INFO] modules.graph_blocks.graph - Creating new StateGraph
+2025-04-20 19:04:12,852 [INFO] modules.graph_blocks.graph - Successfully created and compiled graph
+2025-04-20 19:04:12,853 [INFO] __main__ - Graph initialized successfully
+2025-04-20 19:04:12,854 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-20 19:04:12,855 [INFO] modules.df_manager.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-20 19:04:12,857 [INFO] modules.df_manager.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-20 19:04:12,874 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-20 19:04:58,112 [INFO] modules.tools.df_tools - Loading product data
+2025-04-20 19:04:58,113 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 19:04:58,113 [INFO] modules.df_manager.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 19:04:58,115 [INFO] modules.df_manager.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-20 19:04:58,126 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-20 19:04:58,126 [INFO] modules.tools.df_tools - Successfully loaded 8 products
+2025-04-20 19:04:59,644 [INFO] tools.df_tools - Loading product data
+2025-04-20 19:04:59,645 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 19:04:59,645 [INFO] modules.df_manager.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 19:04:59,647 [INFO] modules.df_manager.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-20 19:04:59,660 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-20 19:04:59,660 [INFO] tools.df_tools - Successfully loaded 8 products
+2025-04-20 19:04:59,697 [INFO] modules.llm_blocks.sales_agent - Loading environment variables
+2025-04-20 19:04:59,699 [INFO] modules.llm_blocks.sales_agent - Successfully loaded API key
+2025-04-20 19:04:59,699 [INFO] modules.llm_blocks.sales_agent - Initializing Google Gemini LLM
+2025-04-20 19:04:59,741 [INFO] modules.llm_blocks.sales_agent - Successfully initialized LLM
+2025-04-20 19:04:59,769 [INFO] modules.llm_blocks.sales_agent - Successfully bound tools to LLM
+2025-04-20 19:04:59,770 [INFO] modules.graph_blocks.nodes - Initializing tool node
+2025-04-20 19:04:59,772 [INFO] modules.graph_blocks.nodes - Tool node initialized successfully
+2025-04-20 19:04:59,774 [INFO] __main__ - Initializing graph
+2025-04-20 19:04:59,775 [INFO] modules.graph_blocks.graph - Creating new StateGraph
+2025-04-20 19:04:59,782 [INFO] modules.graph_blocks.graph - Successfully created and compiled graph
+2025-04-20 19:04:59,783 [INFO] __main__ - Graph initialized successfully
+2025-04-20 19:04:59,783 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-20 19:04:59,783 [INFO] modules.df_manager.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-20 19:04:59,786 [INFO] modules.df_manager.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-20 19:04:59,804 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-20 19:06:28,274 [INFO] modules.tools.df_tools - Loading product data
+2025-04-20 19:06:28,275 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 19:06:28,275 [INFO] modules.df_manager.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 19:06:28,278 [INFO] modules.df_manager.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-20 19:06:28,287 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-20 19:06:28,288 [INFO] modules.tools.df_tools - Successfully loaded 8 products
+2025-04-20 19:06:29,413 [INFO] tools.df_tools - Loading product data
+2025-04-20 19:06:29,414 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 19:06:29,414 [INFO] modules.df_manager.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 19:06:29,416 [INFO] modules.df_manager.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-20 19:06:29,425 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-20 19:06:29,426 [INFO] tools.df_tools - Successfully loaded 8 products
+2025-04-20 19:06:29,452 [INFO] modules.llm_blocks.sales_agent - Loading environment variables
+2025-04-20 19:06:29,455 [INFO] modules.llm_blocks.sales_agent - Successfully loaded API key
+2025-04-20 19:06:29,455 [INFO] modules.llm_blocks.sales_agent - Initializing Google Gemini LLM
+2025-04-20 19:06:29,478 [INFO] modules.llm_blocks.sales_agent - Successfully initialized LLM
+2025-04-20 19:06:29,497 [INFO] modules.llm_blocks.sales_agent - Successfully bound tools to LLM
+2025-04-20 19:06:29,499 [INFO] modules.graph_blocks.nodes - Initializing tool node
+2025-04-20 19:06:29,499 [INFO] modules.graph_blocks.nodes - Tool node initialized successfully
+2025-04-20 19:06:29,502 [INFO] __main__ - Initializing graph
+2025-04-20 19:06:29,503 [INFO] modules.graph_blocks.graph - Creating new StateGraph
+2025-04-20 19:06:29,507 [INFO] modules.graph_blocks.graph - Successfully created and compiled graph
+2025-04-20 19:06:29,508 [INFO] __main__ - Graph initialized successfully
+2025-04-20 19:06:29,508 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-20 19:06:29,508 [INFO] modules.df_manager.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-20 19:06:29,510 [INFO] modules.df_manager.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-20 19:06:29,522 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-20 19:13:59,320 [INFO] modules.tools.df_tools - Loading product data
+2025-04-20 19:13:59,321 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 19:13:59,321 [INFO] modules.df_manager.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 19:13:59,325 [INFO] modules.df_manager.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-20 19:13:59,348 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-20 19:13:59,349 [INFO] modules.tools.df_tools - Successfully loaded 8 products
+2025-04-20 19:14:00,999 [INFO] tools.df_tools - Loading product data
+2025-04-20 19:14:01,000 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 19:14:01,000 [INFO] modules.df_manager.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-20 19:14:01,002 [INFO] modules.df_manager.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-20 19:14:01,019 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-20 19:14:01,019 [INFO] tools.df_tools - Successfully loaded 8 products
+2025-04-20 19:14:01,029 [INFO] modules.llm_blocks.sales_agent - Loading environment variables
+2025-04-20 19:14:01,031 [INFO] modules.llm_blocks.sales_agent - Successfully loaded API key
+2025-04-20 19:14:01,032 [INFO] modules.llm_blocks.sales_agent - Initializing Google Gemini LLM
+2025-04-20 19:14:01,096 [INFO] modules.llm_blocks.sales_agent - Successfully initialized LLM
+2025-04-20 19:14:01,105 [INFO] modules.llm_blocks.sales_agent - Successfully bound tools to LLM
+2025-04-20 19:14:01,107 [INFO] modules.graph_blocks.nodes - Initializing tool node
+2025-04-20 19:14:01,107 [INFO] modules.graph_blocks.nodes - Tool node initialized successfully
+2025-04-20 19:14:01,109 [INFO] __main__ - Initializing graph
+2025-04-20 19:14:01,110 [INFO] modules.graph_blocks.graph - Creating new StateGraph
+2025-04-20 19:14:01,117 [INFO] modules.graph_blocks.graph - Successfully created and compiled graph
+2025-04-20 19:14:01,118 [INFO] __main__ - Graph initialized successfully
+2025-04-20 19:14:01,118 [INFO] __main__ - Starting main program
+2025-04-20 19:14:01,119 [INFO] __main__ - Test input: عاوز حاجه لتساقط الشعر؟
+2025-04-20 19:14:01,119 [INFO] __main__ - Processing user input: عاوز حاجه لتساقط الشعر؟
+2025-04-20 19:14:01,120 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-20 19:14:01,120 [INFO] modules.df_manager.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-20 19:14:01,121 [INFO] modules.df_manager.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-20 19:14:01,134 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-20 19:14:01,135 [INFO] __main__ - Available concerns: {'Acne& acne spots', 'Strawberry skin treatment', 'Dandruff', 'Hyperpigmentation& dark spots', 'Hair loss', 'Sensitive areas& Bikini area brightening', 'Eczema & Dry skin'}
+2025-04-20 19:14:01,135 [INFO] __main__ - Available categories: {'Whitening cream', 'Eye cream', 'Shampoos', 'Skin Care', 'Personal Care', 'Hair Care', 'Soft peel and Exfoliant', 'Hair spray& lotion', 'Moisturizer', 'Cleansers'}
+2025-04-20 19:14:01,136 [INFO] __main__ - Starting graph stream
+2025-04-20 19:14:01,154 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-20 19:14:01,154 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-20 19:14:01,155 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-20 19:14:02,576 [INFO] __main__ - Successfully generated response
+2025-04-20 19:14:02,576 [INFO] __main__ - Test response received
+2025-04-21 13:44:20,287 [INFO] modules.df_manager.convert_json_to_df - Converting JSON file to DataFrame: C:\Users\DELL\AppData\Local\Temp\pytest-of-DELL\pytest-6\test_successful_conversion0\test_products.json
+2025-04-21 13:44:20,288 [INFO] modules.df_manager.convert_json_to_df - Successfully converted JSON to DataFrame with 2 rows
+2025-04-21 13:44:20,292 [INFO] modules.df_manager.convert_json_to_df - Converting JSON file to DataFrame: nonexistent.json
+2025-04-21 13:44:20,292 [ERROR] modules.df_manager.convert_json_to_df - JSON file not found: nonexistent.json
+2025-04-21 13:44:20,292 [ERROR] modules.df_manager.convert_json_to_df - Error converting JSON to DataFrame: JSON file not found: nonexistent.json
+2025-04-21 13:44:20,297 [INFO] modules.df_manager.convert_json_to_df - Converting JSON file to DataFrame: C:\Users\DELL\AppData\Local\Temp\pytest-of-DELL\pytest-6\test_invalid_json_format0\invalid.json
+2025-04-21 13:44:20,298 [ERROR] modules.df_manager.convert_json_to_df - Invalid JSON format: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2025-04-21 13:44:20,302 [INFO] modules.df_manager.convert_json_to_df - Converting JSON file to DataFrame: C:\Users\DELL\AppData\Local\Temp\pytest-of-DELL\pytest-6\test_empty_json0\empty.json
+2025-04-21 13:44:20,303 [ERROR] modules.df_manager.convert_json_to_df - Invalid JSON data format
+2025-04-21 13:44:20,303 [ERROR] modules.df_manager.convert_json_to_df - Error converting JSON to DataFrame: JSON data must be a non-empty dictionary
+2025-04-21 13:44:20,308 [INFO] modules.df_manager.convert_json_to_df - Converting JSON file to DataFrame: C:\Users\DELL\AppData\Local\Temp\pytest-of-DELL\pytest-6\test_missing_required_keys0\missing_keys.json
+2025-04-21 13:44:20,310 [ERROR] modules.df_manager.convert_json_to_df - Missing required keys in JSON data
+2025-04-21 13:44:20,310 [ERROR] modules.df_manager.convert_json_to_df - Error converting JSON to DataFrame: JSON must contain 'data.products' structure
+2025-04-21 13:44:20,316 [INFO] modules.helper.get_the_data_from_the_end_point - Fetching products from API: https://test-api.com/products
+2025-04-21 13:44:20,317 [INFO] modules.helper.get_the_data_from_the_end_point - Successfully retrieved 3 products
+2025-04-21 13:44:20,318 [INFO] modules.helper.get_the_data_from_the_end_point - Data successfully saved to C:\Users\DELL\AppData\Local\Temp\pytest-of-DELL\pytest-6\test_successful_fetch_and_save0\test_dataset\products.json
+2025-04-21 13:44:20,322 [INFO] modules.helper.get_the_data_from_the_end_point - Fetching products from API: https://test-api.com/products
+2025-04-21 13:44:20,322 [ERROR] modules.helper.get_the_data_from_the_end_point - API request failed: API Error
+2025-04-21 13:44:20,328 [INFO] modules.helper.get_the_data_from_the_end_point - Fetching products from API: https://test-api.com/products
+2025-04-21 13:44:20,329 [ERROR] modules.helper.get_the_data_from_the_end_point - Invalid JSON response: Invalid JSON: line 1 column 1 (char 0)
+2025-04-21 13:44:20,335 [INFO] modules.helper.get_the_data_from_the_end_point - Fetching products from API: https://test-api.com/products
+2025-04-21 13:44:20,337 [INFO] modules.helper.get_the_data_from_the_end_point - Successfully retrieved 3 products
+2025-04-21 13:44:20,337 [ERROR] modules.helper.get_the_data_from_the_end_point - Failed to save file: [Errno 13] Permission denied: 'C:\\Users\\DELL\\AppData\\Local\\Temp\\pytest-of-DELL\\pytest-6\\test_file_save_error0\\test_dataset\\products.json'
+2025-04-21 13:44:20,343 [INFO] modules.helper.get_the_data_from_the_end_point - Fetching products from API: https://nileva.meta-bytes.net/api/products
+2025-04-21 13:44:20,343 [INFO] modules.helper.get_the_data_from_the_end_point - Successfully retrieved 3 products
+2025-04-21 13:44:20,349 [INFO] modules.helper.get_the_data_from_the_end_point - Data successfully saved to Dataset\products.json
+2025-04-21 13:44:20,353 [INFO] modules.helper.get_the_data_from_the_end_point - Fetching products from API: https://custom-api.com/products
+2025-04-21 13:44:20,353 [INFO] modules.helper.get_the_data_from_the_end_point - Successfully retrieved 3 products
+2025-04-21 13:44:20,359 [INFO] modules.helper.get_the_data_from_the_end_point - Data successfully saved to custom_dir\products.json
+2025-04-21 14:04:09,028 [INFO] modules.tools.df_tools - Loading product data
+2025-04-21 14:04:09,028 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-21 14:04:09,028 [INFO] modules.df_manager.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-21 14:04:09,030 [INFO] modules.df_manager.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-21 14:04:09,046 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-21 14:04:09,046 [INFO] modules.tools.df_tools - Successfully loaded 8 products
+2025-04-21 14:04:12,440 [INFO] tools.df_tools - Loading product data
+2025-04-21 14:04:12,441 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-21 14:04:12,441 [INFO] modules.df_manager.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-21 14:04:12,443 [INFO] modules.df_manager.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-21 14:04:12,451 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-21 14:04:12,452 [INFO] tools.df_tools - Successfully loaded 8 products
+2025-04-21 14:04:12,456 [INFO] modules.llm_blocks.sales_agent - Loading environment variables
+2025-04-21 14:04:12,457 [INFO] modules.llm_blocks.sales_agent - Successfully loaded API key
+2025-04-21 14:04:12,457 [INFO] modules.llm_blocks.sales_agent - Initializing Google Gemini LLM
+2025-04-21 14:04:12,575 [INFO] modules.llm_blocks.sales_agent - Successfully initialized LLM
+2025-04-21 14:04:12,584 [INFO] modules.llm_blocks.sales_agent - Successfully bound tools to LLM
+2025-04-21 14:04:12,585 [INFO] modules.graph_blocks.nodes - Initializing tool node
+2025-04-21 14:04:12,586 [INFO] modules.graph_blocks.nodes - Tool node initialized successfully
+2025-04-21 14:04:12,587 [INFO] __main__ - Initializing graph
+2025-04-21 14:04:12,588 [INFO] modules.graph_blocks.graph - Creating new StateGraph
+2025-04-21 14:04:12,599 [INFO] modules.graph_blocks.graph - Successfully created and compiled graph
+2025-04-21 14:04:12,599 [INFO] __main__ - Graph initialized successfully
+2025-04-21 14:04:12,599 [INFO] __main__ - Starting main program
+2025-04-21 14:04:12,600 [INFO] __main__ - Test input: عاوز حاجه لتساقط الشعر؟
+2025-04-21 14:04:12,600 [INFO] __main__ - Processing user input: عاوز حاجه لتساقط الشعر؟
+2025-04-21 14:04:12,600 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-21 14:04:12,601 [INFO] modules.df_manager.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-21 14:04:12,602 [INFO] modules.df_manager.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-21 14:04:12,611 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-21 14:04:12,612 [INFO] __main__ - Available concerns: {'Sensitive areas& Bikini area brightening', 'Strawberry skin treatment', 'Hyperpigmentation& dark spots', 'Dandruff', 'Hair loss', 'Acne& acne spots', 'Eczema & Dry skin'}
+2025-04-21 14:04:12,612 [INFO] __main__ - Available categories: {'Skin Care', 'Shampoos', 'Soft peel and Exfoliant', 'Whitening cream', 'Hair spray& lotion', 'Moisturizer', 'Eye cream', 'Hair Care', 'Personal Care', 'Cleansers'}
+2025-04-21 14:04:12,613 [INFO] __main__ - Starting graph stream
+2025-04-21 14:04:12,650 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-21 14:04:12,651 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-21 14:04:12,651 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-21 14:04:12,670 [ERROR] modules.graph_blocks.nodes - Invalid state format - missing key: 'Input to ChatPromptTemplate is missing variables {\'\\n    "search_term"\'}.  Expected: [\'\\n    "search_term"\', \'available_categories\', \'available_concerns\', \'available_ingredients\', \'messages\'] Received: [\'messages\', \'available_concerns\', \'available_categories\', \'available_ingredients\']\nNote: if you intended {\n    "search_term"} to be part of the string and not a variable, please escape it with double curly braces like: \'{{\n    "search_term"}}\'.\nFor troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/INVALID_PROMPT_INPUT '
+2025-04-21 14:04:12,671 [ERROR] __main__ - Error in get_answer: 'State is missing required key: \'Input to ChatPromptTemplate is missing variables {\\\'\\\\n    "search_term"\\\'}.  Expected: [\\\'\\\\n    "search_term"\\\', \\\'available_categories\\\', \\\'available_concerns\\\', \\\'available_ingredients\\\', \\\'messages\\\'] Received: [\\\'messages\\\', \\\'available_concerns\\\', \\\'available_categories\\\', \\\'available_ingredients\\\']\\nNote: if you intended {\\n    "search_term"} to be part of the string and not a variable, please escape it with double curly braces like: \\\'{{\\n    "search_term"}}\\\'.\\nFor troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/INVALID_PROMPT_INPUT \''
+2025-04-21 14:04:12,672 [ERROR] __main__ - Main program error: 'State is missing required key: \'Input to ChatPromptTemplate is missing variables {\\\'\\\\n    "search_term"\\\'}.  Expected: [\\\'\\\\n    "search_term"\\\', \\\'available_categories\\\', \\\'available_concerns\\\', \\\'available_ingredients\\\', \\\'messages\\\'] Received: [\\\'messages\\\', \\\'available_concerns\\\', \\\'available_categories\\\', \\\'available_ingredients\\\']\\nNote: if you intended {\\n    "search_term"} to be part of the string and not a variable, please escape it with double curly braces like: \\\'{{\\n    "search_term"}}\\\'.\\nFor troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/INVALID_PROMPT_INPUT \''
+2025-04-21 14:04:49,051 [INFO] modules.tools.df_tools - Loading product data
+2025-04-21 14:04:49,051 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-21 14:04:49,052 [INFO] modules.df_manager.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-21 14:04:49,053 [INFO] modules.df_manager.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-21 14:04:49,063 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-21 14:04:49,064 [INFO] modules.tools.df_tools - Successfully loaded 8 products
+2025-04-21 14:04:50,104 [INFO] tools.df_tools - Loading product data
+2025-04-21 14:04:50,104 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-21 14:04:50,105 [INFO] modules.df_manager.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-21 14:04:50,106 [INFO] modules.df_manager.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-21 14:04:50,114 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-21 14:04:50,114 [INFO] tools.df_tools - Successfully loaded 8 products
+2025-04-21 14:04:50,118 [INFO] modules.llm_blocks.sales_agent - Loading environment variables
+2025-04-21 14:04:50,120 [INFO] modules.llm_blocks.sales_agent - Successfully loaded API key
+2025-04-21 14:04:50,120 [INFO] modules.llm_blocks.sales_agent - Initializing Google Gemini LLM
+2025-04-21 14:04:50,142 [INFO] modules.llm_blocks.sales_agent - Successfully initialized LLM
+2025-04-21 14:04:50,149 [INFO] modules.llm_blocks.sales_agent - Successfully bound tools to LLM
+2025-04-21 14:04:50,150 [INFO] modules.graph_blocks.nodes - Initializing tool node
+2025-04-21 14:04:50,151 [INFO] modules.graph_blocks.nodes - Tool node initialized successfully
+2025-04-21 14:04:50,153 [INFO] __main__ - Initializing graph
+2025-04-21 14:04:50,153 [INFO] modules.graph_blocks.graph - Creating new StateGraph
+2025-04-21 14:04:50,159 [INFO] modules.graph_blocks.graph - Successfully created and compiled graph
+2025-04-21 14:04:50,160 [INFO] __main__ - Graph initialized successfully
+2025-04-21 14:04:50,160 [INFO] __main__ - Starting main program
+2025-04-21 14:04:50,160 [INFO] __main__ - Test input: عاوز حاجه لتساقط الشعر؟
+2025-04-21 14:04:50,160 [INFO] __main__ - Processing user input: عاوز حاجه لتساقط الشعر؟
+2025-04-21 14:04:50,162 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-21 14:04:50,162 [INFO] modules.df_manager.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-21 14:04:50,163 [INFO] modules.df_manager.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-21 14:04:50,173 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-21 14:04:50,174 [INFO] __main__ - Available concerns: {'Strawberry skin treatment', 'Acne& acne spots', 'Hyperpigmentation& dark spots', 'Sensitive areas& Bikini area brightening', 'Eczema & Dry skin', 'Hair loss', 'Dandruff'}
+2025-04-21 14:04:50,174 [INFO] __main__ - Available categories: {'Hair spray& lotion', 'Shampoos', 'Personal Care', 'Soft peel and Exfoliant', 'Cleansers', 'Skin Care', 'Hair Care', 'Whitening cream', 'Eye cream', 'Moisturizer'}
+2025-04-21 14:04:50,174 [INFO] __main__ - Starting graph stream
+2025-04-21 14:04:50,182 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-21 14:04:50,183 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-21 14:04:50,184 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-21 14:04:51,472 [INFO] __main__ - Successfully generated response
+2025-04-21 14:04:51,473 [INFO] __main__ - Test response received
+2025-04-21 14:05:35,052 [INFO] modules.tools.df_tools - Loading product data
+2025-04-21 14:05:35,052 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-21 14:05:35,053 [INFO] modules.df_manager.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-21 14:05:35,054 [INFO] modules.df_manager.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-21 14:05:35,068 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-21 14:05:35,068 [INFO] modules.tools.df_tools - Successfully loaded 8 products
+2025-04-21 14:05:36,167 [INFO] tools.df_tools - Loading product data
+2025-04-21 14:05:36,168 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-21 14:05:36,168 [INFO] modules.df_manager.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-21 14:05:36,170 [INFO] modules.df_manager.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-21 14:05:36,179 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-21 14:05:36,179 [INFO] tools.df_tools - Successfully loaded 8 products
+2025-04-21 14:05:36,183 [INFO] modules.llm_blocks.sales_agent - Loading environment variables
+2025-04-21 14:05:36,184 [INFO] modules.llm_blocks.sales_agent - Successfully loaded API key
+2025-04-21 14:05:36,184 [INFO] modules.llm_blocks.sales_agent - Initializing Google Gemini LLM
+2025-04-21 14:05:36,207 [INFO] modules.llm_blocks.sales_agent - Successfully initialized LLM
+2025-04-21 14:05:36,214 [INFO] modules.llm_blocks.sales_agent - Successfully bound tools to LLM
+2025-04-21 14:05:36,215 [INFO] modules.graph_blocks.nodes - Initializing tool node
+2025-04-21 14:05:36,215 [INFO] modules.graph_blocks.nodes - Tool node initialized successfully
+2025-04-21 14:05:36,217 [INFO] main - Initializing graph
+2025-04-21 14:05:36,217 [INFO] modules.graph_blocks.graph - Creating new StateGraph
+2025-04-21 14:05:36,297 [INFO] modules.graph_blocks.graph - Successfully created and compiled graph
+2025-04-21 14:05:36,297 [INFO] main - Graph initialized successfully
+2025-04-21 14:05:36,373 [INFO] __main__ - Initialized new chat session
+2025-04-21 14:05:47,043 [INFO] __main__ - Received user input: ايه الاخبار
+2025-04-21 14:05:47,050 [INFO] main - Processing user input: ايه الاخبار
+2025-04-21 14:05:47,051 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-21 14:05:47,051 [INFO] modules.df_manager.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-21 14:05:47,053 [INFO] modules.df_manager.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-21 14:05:47,073 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-21 14:05:47,075 [INFO] main - Available concerns: {'Sensitive areas& Bikini area brightening', 'Strawberry skin treatment', 'Hyperpigmentation& dark spots', 'Hair loss', 'Acne& acne spots', 'Eczema & Dry skin', 'Dandruff'}
+2025-04-21 14:05:47,076 [INFO] main - Available categories: {'Eye cream', 'Soft peel and Exfoliant', 'Hair spray& lotion', 'Whitening cream', 'Personal Care', 'Cleansers', 'Moisturizer', 'Hair Care', 'Shampoos', 'Skin Care'}
+2025-04-21 14:05:47,076 [INFO] main - Starting graph stream
+2025-04-21 14:05:47,089 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-21 14:05:47,090 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-21 14:05:47,091 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-21 14:05:48,022 [INFO] main - Successfully generated response
+2025-04-21 14:05:48,023 [WARNING] __main__ - Could not parse book recommendations: list index out of range
+2025-04-21 14:05:48,028 [ERROR] __main__ - Error processing AI response: name 'html_book' is not defined
+2025-04-21 14:06:35,233 [INFO] modules.tools.df_tools - Loading product data
+2025-04-21 14:06:35,235 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-21 14:06:35,236 [INFO] modules.df_manager.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-21 14:06:35,239 [INFO] modules.df_manager.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-21 14:06:35,275 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-21 14:06:35,278 [INFO] modules.tools.df_tools - Successfully loaded 8 products
+2025-04-21 14:06:35,288 [INFO] modules.llm_blocks.sales_agent - Loading environment variables
+2025-04-21 14:06:35,289 [INFO] modules.llm_blocks.sales_agent - Successfully loaded API key
+2025-04-21 14:06:35,289 [INFO] modules.llm_blocks.sales_agent - Initializing Google Gemini LLM
+2025-04-21 14:06:35,295 [INFO] modules.llm_blocks.sales_agent - Successfully initialized LLM
+2025-04-21 14:06:35,307 [INFO] modules.llm_blocks.sales_agent - Successfully bound tools to LLM
+2025-04-21 14:06:35,313 [INFO] modules.graph_blocks.nodes - Initializing tool node
+2025-04-21 14:06:35,316 [INFO] modules.graph_blocks.nodes - Tool node initialized successfully
+2025-04-21 14:06:35,318 [INFO] main - Initializing graph
+2025-04-21 14:06:35,318 [INFO] modules.graph_blocks.graph - Creating new StateGraph
+2025-04-21 14:06:35,327 [INFO] modules.graph_blocks.graph - Successfully created and compiled graph
+2025-04-21 14:06:35,330 [INFO] main - Graph initialized successfully
+2025-04-21 14:06:43,428 [INFO] __main__ - Received user input: السلام عليكم
+2025-04-21 14:06:43,432 [INFO] main - Processing user input: السلام عليكم
+2025-04-21 14:06:43,433 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-21 14:06:43,434 [INFO] modules.df_manager.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-21 14:06:43,436 [INFO] modules.df_manager.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-21 14:06:43,454 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-21 14:06:43,455 [INFO] main - Available concerns: {'Sensitive areas& Bikini area brightening', 'Strawberry skin treatment', 'Hyperpigmentation& dark spots', 'Hair loss', 'Acne& acne spots', 'Eczema & Dry skin', 'Dandruff'}
+2025-04-21 14:06:43,455 [INFO] main - Available categories: {'Eye cream', 'Soft peel and Exfoliant', 'Hair spray& lotion', 'Whitening cream', 'Personal Care', 'Cleansers', 'Moisturizer', 'Hair Care', 'Shampoos', 'Skin Care'}
+2025-04-21 14:06:43,456 [INFO] main - Starting graph stream
+2025-04-21 14:06:43,462 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-21 14:06:43,463 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-21 14:06:43,463 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-21 14:06:44,717 [INFO] main - Successfully generated response
+2025-04-21 14:06:44,718 [WARNING] __main__ - Could not parse book recommendations: list index out of range
+2025-04-21 14:06:44,720 [INFO] __main__ - Successfully processed and displayed AI response
+2025-04-21 14:06:58,515 [INFO] __main__ - Received user input: عاوز حاجه لتساقط الشعر
+2025-04-21 14:06:58,520 [INFO] main - Processing user input: عاوز حاجه لتساقط الشعر
+2025-04-21 14:06:58,520 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-21 14:06:58,522 [INFO] modules.df_manager.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-21 14:06:58,524 [INFO] modules.df_manager.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-21 14:06:58,543 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-21 14:06:58,545 [INFO] main - Available concerns: {'Sensitive areas& Bikini area brightening', 'Strawberry skin treatment', 'Hyperpigmentation& dark spots', 'Hair loss', 'Acne& acne spots', 'Eczema & Dry skin', 'Dandruff'}
+2025-04-21 14:06:58,546 [INFO] main - Available categories: {'Eye cream', 'Soft peel and Exfoliant', 'Hair spray& lotion', 'Whitening cream', 'Personal Care', 'Cleansers', 'Moisturizer', 'Hair Care', 'Shampoos', 'Skin Care'}
+2025-04-21 14:06:58,547 [INFO] main - Starting graph stream
+2025-04-21 14:06:58,555 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-21 14:06:58,555 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-21 14:06:58,556 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-21 14:06:59,815 [INFO] main - Successfully generated response
+2025-04-21 14:06:59,817 [WARNING] __main__ - Could not parse book recommendations: invalid syntax (<string>, line 1)
+2025-04-21 14:06:59,824 [INFO] __main__ - Successfully processed and displayed AI response
+2025-04-21 14:07:10,493 [INFO] __main__ - Received user input: شامبو
+2025-04-21 14:07:10,497 [INFO] main - Processing user input: شامبو
+2025-04-21 14:07:10,497 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-21 14:07:10,498 [INFO] modules.df_manager.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-21 14:07:10,503 [INFO] modules.df_manager.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-21 14:07:10,528 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-21 14:07:10,530 [INFO] main - Available concerns: {'Sensitive areas& Bikini area brightening', 'Strawberry skin treatment', 'Hyperpigmentation& dark spots', 'Hair loss', 'Acne& acne spots', 'Eczema & Dry skin', 'Dandruff'}
+2025-04-21 14:07:10,532 [INFO] main - Available categories: {'Eye cream', 'Soft peel and Exfoliant', 'Hair spray& lotion', 'Whitening cream', 'Personal Care', 'Cleansers', 'Moisturizer', 'Hair Care', 'Shampoos', 'Skin Care'}
+2025-04-21 14:07:10,532 [INFO] main - Starting graph stream
+2025-04-21 14:07:10,538 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-21 14:07:10,538 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-21 14:07:10,539 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-21 14:07:11,442 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-21 14:07:11,442 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-21 14:07:11,444 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-21 14:07:12,453 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-21 14:07:12,454 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-21 14:07:12,457 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-21 14:07:13,248 [INFO] main - Successfully generated response
+2025-04-21 14:07:13,248 [WARNING] __main__ - Could not parse book recommendations: eval() arg 1 must be a string, bytes or code object
+2025-04-21 14:07:13,250 [INFO] __main__ - Successfully processed and displayed AI response
+2025-04-21 14:09:44,443 [INFO] modules.tools.df_tools - Loading product data
+2025-04-21 14:09:44,447 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-21 14:09:44,447 [INFO] modules.df_manager.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-21 14:09:44,450 [INFO] modules.df_manager.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-21 14:09:44,465 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-21 14:09:44,466 [INFO] modules.tools.df_tools - Successfully loaded 8 products
+2025-04-21 14:09:44,474 [INFO] modules.llm_blocks.sales_agent - Loading environment variables
+2025-04-21 14:09:44,476 [INFO] modules.llm_blocks.sales_agent - Successfully loaded API key
+2025-04-21 14:09:44,476 [INFO] modules.llm_blocks.sales_agent - Initializing Google Gemini LLM
+2025-04-21 14:09:44,479 [INFO] modules.llm_blocks.sales_agent - Successfully initialized LLM
+2025-04-21 14:09:44,489 [INFO] modules.llm_blocks.sales_agent - Successfully bound tools to LLM
+2025-04-21 14:09:44,490 [INFO] modules.graph_blocks.nodes - Initializing tool node
+2025-04-21 14:09:44,492 [INFO] modules.graph_blocks.nodes - Tool node initialized successfully
+2025-04-21 14:09:44,493 [INFO] main - Initializing graph
+2025-04-21 14:09:44,493 [INFO] modules.graph_blocks.graph - Creating new StateGraph
+2025-04-21 14:09:44,502 [INFO] modules.graph_blocks.graph - Successfully created and compiled graph
+2025-04-21 14:09:44,503 [INFO] main - Graph initialized successfully
+2025-04-21 14:09:56,444 [INFO] __main__ - Initialized new chat session
+2025-04-21 14:10:15,393 [INFO] __main__ - Received user input: عاوز حاجه لتساقط الشعر
+2025-04-21 14:10:15,397 [INFO] main - Processing user input: عاوز حاجه لتساقط الشعر
+2025-04-21 14:10:15,398 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-21 14:10:15,399 [INFO] modules.df_manager.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-21 14:10:15,402 [INFO] modules.df_manager.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-21 14:10:15,431 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-21 14:10:15,432 [INFO] main - Available concerns: {'Sensitive areas& Bikini area brightening', 'Strawberry skin treatment', 'Hyperpigmentation& dark spots', 'Hair loss', 'Acne& acne spots', 'Eczema & Dry skin', 'Dandruff'}
+2025-04-21 14:10:15,432 [INFO] main - Available categories: {'Eye cream', 'Soft peel and Exfoliant', 'Hair spray& lotion', 'Whitening cream', 'Personal Care', 'Cleansers', 'Moisturizer', 'Hair Care', 'Shampoos', 'Skin Care'}
+2025-04-21 14:10:15,433 [INFO] main - Starting graph stream
+2025-04-21 14:10:15,438 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-21 14:10:15,439 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-21 14:10:15,440 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-21 14:10:17,148 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-21 14:10:17,148 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-21 14:10:17,149 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-21 14:10:19,164 [INFO] main - Successfully generated response
+2025-04-21 14:10:19,164 [WARNING] __main__ - Could not parse book recommendations: name 'true' is not defined
+2025-04-21 14:10:19,166 [INFO] __main__ - Successfully processed and displayed AI response
+2025-04-21 14:11:05,807 [INFO] __main__ - Received user input: اه حلو جدا بكام ده؟
+2025-04-21 14:11:05,810 [INFO] main - Processing user input: اه حلو جدا بكام ده؟
+2025-04-21 14:11:05,811 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-21 14:11:05,813 [INFO] modules.df_manager.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-21 14:11:05,827 [INFO] modules.df_manager.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-21 14:11:05,850 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-21 14:11:05,851 [INFO] main - Available concerns: {'Sensitive areas& Bikini area brightening', 'Strawberry skin treatment', 'Hyperpigmentation& dark spots', 'Hair loss', 'Acne& acne spots', 'Eczema & Dry skin', 'Dandruff'}
+2025-04-21 14:11:05,851 [INFO] main - Available categories: {'Eye cream', 'Soft peel and Exfoliant', 'Hair spray& lotion', 'Whitening cream', 'Personal Care', 'Cleansers', 'Moisturizer', 'Hair Care', 'Shampoos', 'Skin Care'}
+2025-04-21 14:11:05,853 [INFO] main - Starting graph stream
+2025-04-21 14:11:05,878 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-21 14:11:05,879 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-21 14:11:05,879 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-21 14:11:06,565 [INFO] main - Successfully generated response
+2025-04-21 14:11:06,566 [WARNING] __main__ - Could not parse book recommendations: invalid character '؟' (U+061F) (<string>, line 1)
+2025-04-21 14:11:06,568 [INFO] __main__ - Successfully processed and displayed AI response
+2025-04-21 14:11:29,955 [INFO] __main__ - Received user input: عاوز حاجه لترطيب البشره
+2025-04-21 14:11:29,960 [INFO] main - Processing user input: عاوز حاجه لترطيب البشره
+2025-04-21 14:11:29,961 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-21 14:11:29,964 [INFO] modules.df_manager.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-21 14:11:29,969 [INFO] modules.df_manager.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-21 14:11:29,986 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-21 14:11:29,987 [INFO] main - Available concerns: {'Sensitive areas& Bikini area brightening', 'Strawberry skin treatment', 'Hyperpigmentation& dark spots', 'Hair loss', 'Acne& acne spots', 'Eczema & Dry skin', 'Dandruff'}
+2025-04-21 14:11:29,987 [INFO] main - Available categories: {'Eye cream', 'Soft peel and Exfoliant', 'Hair spray& lotion', 'Whitening cream', 'Personal Care', 'Cleansers', 'Moisturizer', 'Hair Care', 'Shampoos', 'Skin Care'}
+2025-04-21 14:11:29,987 [INFO] main - Starting graph stream
+2025-04-21 14:11:29,995 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-21 14:11:29,995 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-21 14:11:29,996 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-21 14:11:30,963 [INFO] main - Successfully generated response
+2025-04-21 14:11:30,964 [WARNING] __main__ - Could not parse book recommendations: invalid syntax (<string>, line 1)
+2025-04-21 14:11:30,965 [INFO] __main__ - Successfully processed and displayed AI response
+2025-04-21 14:11:43,674 [INFO] __main__ - Received user input: خليها لوشن
+2025-04-21 14:11:43,676 [INFO] main - Processing user input: خليها لوشن
+2025-04-21 14:11:43,678 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-21 14:11:43,678 [INFO] modules.df_manager.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-21 14:11:43,682 [INFO] modules.df_manager.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-21 14:11:43,701 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-21 14:11:43,701 [INFO] main - Available concerns: {'Sensitive areas& Bikini area brightening', 'Strawberry skin treatment', 'Hyperpigmentation& dark spots', 'Hair loss', 'Acne& acne spots', 'Eczema & Dry skin', 'Dandruff'}
+2025-04-21 14:11:43,703 [INFO] main - Available categories: {'Eye cream', 'Soft peel and Exfoliant', 'Hair spray& lotion', 'Whitening cream', 'Personal Care', 'Cleansers', 'Moisturizer', 'Hair Care', 'Shampoos', 'Skin Care'}
+2025-04-21 14:11:43,703 [INFO] main - Starting graph stream
+2025-04-21 14:11:43,711 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-21 14:11:43,711 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-21 14:11:43,713 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-21 14:11:45,244 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-21 14:11:45,244 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-21 14:11:45,246 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-21 14:11:45,996 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-21 14:11:45,996 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-21 14:11:45,999 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-21 14:11:46,945 [INFO] main - Successfully generated response
+2025-04-21 14:11:46,946 [WARNING] __main__ - Could not parse book recommendations: eval() arg 1 must be a string, bytes or code object
+2025-04-21 14:11:46,949 [INFO] __main__ - Successfully processed and displayed AI response
+2025-04-21 14:20:29,260 [INFO] __main__ - Received user input: طيب ايه اكتر المنتجات مبيعا عندكو
+2025-04-21 14:20:29,264 [INFO] main - Processing user input: طيب ايه اكتر المنتجات مبيعا عندكو
+2025-04-21 14:20:29,265 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-21 14:20:29,265 [INFO] modules.df_manager.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-21 14:20:29,271 [INFO] modules.df_manager.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-21 14:20:29,286 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-21 14:20:29,287 [INFO] main - Available concerns: {'Sensitive areas& Bikini area brightening', 'Strawberry skin treatment', 'Hyperpigmentation& dark spots', 'Hair loss', 'Acne& acne spots', 'Eczema & Dry skin', 'Dandruff'}
+2025-04-21 14:20:29,289 [INFO] main - Available categories: {'Eye cream', 'Soft peel and Exfoliant', 'Hair spray& lotion', 'Whitening cream', 'Personal Care', 'Cleansers', 'Moisturizer', 'Hair Care', 'Shampoos', 'Skin Care'}
+2025-04-21 14:20:29,290 [INFO] main - Starting graph stream
+2025-04-21 14:20:29,298 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-21 14:20:29,299 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-21 14:20:29,300 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-21 14:20:30,763 [INFO] main - Successfully generated response
+2025-04-21 14:20:30,765 [WARNING] __main__ - Could not parse book recommendations: invalid syntax (<string>, line 1)
+2025-04-21 14:20:30,768 [INFO] __main__ - Successfully processed and displayed AI response
+2025-04-21 14:20:38,839 [INFO] __main__ - Received user input: تمام
+2025-04-21 14:20:38,843 [INFO] main - Processing user input: تمام
+2025-04-21 14:20:38,843 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-21 14:20:38,844 [INFO] modules.df_manager.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-21 14:20:38,849 [INFO] modules.df_manager.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-21 14:20:38,865 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-21 14:20:38,866 [INFO] main - Available concerns: {'Sensitive areas& Bikini area brightening', 'Strawberry skin treatment', 'Hyperpigmentation& dark spots', 'Hair loss', 'Acne& acne spots', 'Eczema & Dry skin', 'Dandruff'}
+2025-04-21 14:20:38,866 [INFO] main - Available categories: {'Eye cream', 'Soft peel and Exfoliant', 'Hair spray& lotion', 'Whitening cream', 'Personal Care', 'Cleansers', 'Moisturizer', 'Hair Care', 'Shampoos', 'Skin Care'}
+2025-04-21 14:20:38,867 [INFO] main - Starting graph stream
+2025-04-21 14:20:38,874 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-21 14:20:38,875 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-21 14:20:38,877 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-21 14:20:39,971 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-21 14:20:39,971 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-21 14:20:39,972 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-21 14:20:42,858 [INFO] main - Successfully generated response
+2025-04-21 14:20:42,858 [WARNING] __main__ - Could not parse book recommendations: name 'true' is not defined
+2025-04-21 14:20:42,859 [INFO] __main__ - Successfully processed and displayed AI response
+2025-04-21 14:21:58,508 [INFO] __main__ - Received user input: عاوز احسن اكتر منتج مبيعا للعنايه بالبشره
+2025-04-21 14:21:58,528 [INFO] main - Processing user input: عاوز احسن اكتر منتج مبيعا للعنايه بالبشره
+2025-04-21 14:21:58,529 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-21 14:21:58,529 [INFO] modules.df_manager.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-21 14:21:58,532 [INFO] modules.df_manager.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-21 14:21:58,561 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-21 14:21:58,562 [INFO] main - Available concerns: {'Sensitive areas& Bikini area brightening', 'Strawberry skin treatment', 'Hyperpigmentation& dark spots', 'Hair loss', 'Acne& acne spots', 'Eczema & Dry skin', 'Dandruff'}
+2025-04-21 14:21:58,562 [INFO] main - Available categories: {'Eye cream', 'Soft peel and Exfoliant', 'Hair spray& lotion', 'Whitening cream', 'Personal Care', 'Cleansers', 'Moisturizer', 'Hair Care', 'Shampoos', 'Skin Care'}
+2025-04-21 14:21:58,563 [INFO] main - Starting graph stream
+2025-04-21 14:21:58,575 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-21 14:21:58,575 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-21 14:21:58,576 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-21 14:21:59,928 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-21 14:21:59,928 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-21 14:21:59,930 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-21 14:22:01,862 [INFO] main - Successfully generated response
+2025-04-21 14:22:01,864 [WARNING] __main__ - Could not parse book recommendations: name 'true' is not defined
+2025-04-21 14:22:01,866 [INFO] __main__ - Successfully processed and displayed AI response
+2025-04-21 14:25:28,762 [INFO] modules.tools.df_tools - Loading product data
+2025-04-21 14:25:28,763 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-21 14:25:28,763 [INFO] modules.df_manager.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-21 14:25:28,765 [INFO] modules.df_manager.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-21 14:25:28,774 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-21 14:25:28,774 [INFO] modules.tools.df_tools - Successfully loaded 8 products
+2025-04-21 14:25:29,928 [INFO] tools.df_tools - Loading product data
+2025-04-21 14:25:29,928 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-21 14:25:29,929 [INFO] modules.df_manager.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-21 14:25:29,930 [INFO] modules.df_manager.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-21 14:25:29,940 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-21 14:25:29,940 [INFO] tools.df_tools - Successfully loaded 8 products
+2025-04-21 14:25:29,944 [INFO] modules.llm_blocks.sales_agent - Loading environment variables
+2025-04-21 14:25:29,947 [INFO] modules.llm_blocks.sales_agent - Successfully loaded API key
+2025-04-21 14:25:29,947 [INFO] modules.llm_blocks.sales_agent - Initializing Google Gemini LLM
+2025-04-21 14:25:29,981 [INFO] modules.llm_blocks.sales_agent - Successfully initialized LLM
+2025-04-21 14:25:29,990 [INFO] modules.llm_blocks.sales_agent - Successfully bound tools to LLM
+2025-04-21 14:25:29,991 [INFO] modules.graph_blocks.nodes - Initializing tool node
+2025-04-21 14:25:29,992 [INFO] modules.graph_blocks.nodes - Tool node initialized successfully
+2025-04-21 14:25:29,993 [INFO] main - Initializing graph
+2025-04-21 14:25:29,993 [INFO] modules.graph_blocks.graph - Creating new StateGraph
+2025-04-21 14:25:30,081 [INFO] modules.graph_blocks.graph - Successfully created and compiled graph
+2025-04-21 14:25:30,081 [INFO] main - Graph initialized successfully
+2025-04-21 14:25:30,155 [INFO] __main__ - Initialized new chat session
+2025-04-21 14:25:51,282 [INFO] __main__ - Received user input: عاوز حاجه لتساقط الشعر
+2025-04-21 14:25:51,286 [INFO] main - Processing user input: عاوز حاجه لتساقط الشعر
+2025-04-21 14:25:51,288 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-21 14:25:51,288 [INFO] modules.df_manager.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-21 14:25:51,292 [INFO] modules.df_manager.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-21 14:25:51,313 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-21 14:25:51,313 [INFO] main - Available concerns: {'Strawberry skin treatment', 'Dandruff', 'Sensitive areas& Bikini area brightening', 'Hair loss', 'Eczema & Dry skin', 'Hyperpigmentation& dark spots', 'Acne& acne spots'}
+2025-04-21 14:25:51,315 [INFO] main - Available categories: {'Whitening cream', 'Eye cream', 'Skin Care', 'Cleansers', 'Soft peel and Exfoliant', 'Hair Care', 'Moisturizer', 'Hair spray& lotion', 'Personal Care', 'Shampoos'}
+2025-04-21 14:25:51,316 [INFO] main - Starting graph stream
+2025-04-21 14:25:51,328 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-21 14:25:51,329 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-21 14:25:51,330 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-21 14:25:52,678 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-21 14:25:52,678 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-21 14:25:52,679 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-21 14:25:54,172 [INFO] main - Successfully generated response
+2025-04-21 14:25:54,173 [WARNING] __main__ - Could not parse book recommendations: name 'true' is not defined
+2025-04-21 14:25:54,176 [INFO] __main__ - Successfully processed and displayed AI response
+2025-04-21 14:29:14,275 [INFO] modules.tools.df_tools - Loading product data
+2025-04-21 14:29:14,275 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-21 14:29:14,276 [INFO] modules.df_manager.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-21 14:29:14,279 [INFO] modules.df_manager.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-21 14:29:14,290 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-21 14:29:14,291 [INFO] modules.tools.df_tools - Successfully loaded 8 products
+2025-04-21 14:29:15,398 [INFO] tools.df_tools - Loading product data
+2025-04-21 14:29:15,398 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-21 14:29:15,398 [INFO] modules.df_manager.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-21 14:29:15,400 [INFO] modules.df_manager.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-21 14:29:15,408 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-21 14:29:15,409 [INFO] tools.df_tools - Successfully loaded 8 products
+2025-04-21 14:29:15,413 [INFO] modules.llm_blocks.sales_agent - Loading environment variables
+2025-04-21 14:29:15,415 [INFO] modules.llm_blocks.sales_agent - Successfully loaded API key
+2025-04-21 14:29:15,415 [INFO] modules.llm_blocks.sales_agent - Initializing Google Gemini LLM
+2025-04-21 14:29:15,439 [INFO] modules.llm_blocks.sales_agent - Successfully initialized LLM
+2025-04-21 14:29:15,451 [INFO] modules.llm_blocks.sales_agent - Successfully bound tools to LLM
+2025-04-21 14:29:15,452 [INFO] modules.graph_blocks.nodes - Initializing tool node
+2025-04-21 14:29:15,453 [INFO] modules.graph_blocks.nodes - Tool node initialized successfully
+2025-04-21 14:29:15,454 [INFO] main - Initializing graph
+2025-04-21 14:29:15,454 [INFO] modules.graph_blocks.graph - Creating new StateGraph
+2025-04-21 14:29:15,558 [INFO] modules.graph_blocks.graph - Successfully created and compiled graph
+2025-04-21 14:29:15,558 [INFO] main - Graph initialized successfully
+2025-04-21 14:29:15,633 [INFO] __main__ - Initialized new chat session
+2025-04-21 14:29:24,108 [INFO] __main__ - Received user input: hi
+2025-04-21 14:29:24,112 [INFO] main - Processing user input: hi
+2025-04-21 14:29:24,113 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-21 14:29:24,113 [INFO] modules.df_manager.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-21 14:29:24,116 [INFO] modules.df_manager.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-21 14:29:24,134 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-21 14:29:24,135 [INFO] main - Available concerns: {'Hyperpigmentation& dark spots', 'Eczema & Dry skin', 'Strawberry skin treatment', 'Acne& acne spots', 'Hair loss', 'Sensitive areas& Bikini area brightening', 'Dandruff'}
+2025-04-21 14:29:24,135 [INFO] main - Available categories: {'Skin Care', 'Soft peel and Exfoliant', 'Eye cream', 'Hair Care', 'Cleansers', 'Hair spray& lotion', 'Moisturizer', 'Shampoos', 'Whitening cream', 'Personal Care'}
+2025-04-21 14:29:24,135 [INFO] main - Starting graph stream
+2025-04-21 14:29:24,150 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-21 14:29:24,151 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-21 14:29:24,151 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-21 14:29:25,306 [INFO] main - Successfully generated response
+2025-04-21 14:29:25,307 [WARNING] __main__ - Could not parse book recommendations: list index out of range
+2025-04-21 14:29:25,308 [INFO] __main__ - Successfully processed and displayed AI response
+2025-04-21 14:29:49,533 [INFO] __main__ - Received user input: how can you help me?
+2025-04-21 14:29:49,539 [INFO] main - Processing user input: how can you help me?
+2025-04-21 14:29:49,540 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-21 14:29:49,543 [INFO] modules.df_manager.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-21 14:29:49,553 [INFO] modules.df_manager.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-21 14:29:49,582 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-21 14:29:49,583 [INFO] main - Available concerns: {'Hyperpigmentation& dark spots', 'Eczema & Dry skin', 'Strawberry skin treatment', 'Acne& acne spots', 'Hair loss', 'Sensitive areas& Bikini area brightening', 'Dandruff'}
+2025-04-21 14:29:49,585 [INFO] main - Available categories: {'Skin Care', 'Soft peel and Exfoliant', 'Eye cream', 'Hair Care', 'Cleansers', 'Hair spray& lotion', 'Moisturizer', 'Shampoos', 'Whitening cream', 'Personal Care'}
+2025-04-21 14:29:49,585 [INFO] main - Starting graph stream
+2025-04-21 14:29:49,591 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-21 14:29:49,592 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-21 14:29:49,593 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-21 14:29:50,452 [INFO] main - Successfully generated response
+2025-04-21 14:29:50,453 [WARNING] __main__ - Could not parse book recommendations: invalid syntax (<string>, line 1)
+2025-04-21 14:29:50,454 [INFO] __main__ - Successfully processed and displayed AI response
+2025-04-21 14:30:14,333 [INFO] __main__ - Received user input: عاوز منتج بيعالج تساقط الشعر
+2025-04-21 14:30:14,335 [INFO] main - Processing user input: عاوز منتج بيعالج تساقط الشعر
+2025-04-21 14:30:14,337 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-21 14:30:14,338 [INFO] modules.df_manager.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-21 14:30:14,340 [INFO] modules.df_manager.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-21 14:30:14,357 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-21 14:30:14,358 [INFO] main - Available concerns: {'Hyperpigmentation& dark spots', 'Eczema & Dry skin', 'Strawberry skin treatment', 'Acne& acne spots', 'Hair loss', 'Sensitive areas& Bikini area brightening', 'Dandruff'}
+2025-04-21 14:30:14,358 [INFO] main - Available categories: {'Skin Care', 'Soft peel and Exfoliant', 'Eye cream', 'Hair Care', 'Cleansers', 'Hair spray& lotion', 'Moisturizer', 'Shampoos', 'Whitening cream', 'Personal Care'}
+2025-04-21 14:30:14,359 [INFO] main - Starting graph stream
+2025-04-21 14:30:14,364 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-21 14:30:14,364 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-21 14:30:14,365 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-21 14:30:15,432 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-21 14:30:15,433 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-21 14:30:15,433 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-21 14:30:17,837 [INFO] main - Successfully generated response
+2025-04-21 14:30:17,838 [WARNING] __main__ - Could not parse book recommendations: name 'true' is not defined
+2025-04-21 14:30:17,840 [INFO] __main__ - Successfully processed and displayed AI response
+2025-04-21 14:31:52,585 [INFO] __main__ - Received user input: عاوز حاجه لحب الشباب ويكون فيها زيت شجره الشاي
+2025-04-21 14:31:52,588 [INFO] main - Processing user input: عاوز حاجه لحب الشباب ويكون فيها زيت شجره الشاي
+2025-04-21 14:31:52,589 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-21 14:31:52,590 [INFO] modules.df_manager.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-21 14:31:52,594 [INFO] modules.df_manager.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-21 14:31:52,628 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-21 14:31:52,630 [INFO] main - Available concerns: {'Hyperpigmentation& dark spots', 'Eczema & Dry skin', 'Strawberry skin treatment', 'Acne& acne spots', 'Hair loss', 'Sensitive areas& Bikini area brightening', 'Dandruff'}
+2025-04-21 14:31:52,631 [INFO] main - Available categories: {'Skin Care', 'Soft peel and Exfoliant', 'Eye cream', 'Hair Care', 'Cleansers', 'Hair spray& lotion', 'Moisturizer', 'Shampoos', 'Whitening cream', 'Personal Care'}
+2025-04-21 14:31:52,631 [INFO] main - Starting graph stream
+2025-04-21 14:31:52,641 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-21 14:31:52,641 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-21 14:31:52,642 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-21 14:31:53,484 [INFO] main - Successfully generated response
+2025-04-21 14:31:53,485 [WARNING] __main__ - Could not parse book recommendations: invalid syntax (<string>, line 1)
+2025-04-21 14:31:53,486 [INFO] __main__ - Successfully processed and displayed AI response
+2025-04-21 14:32:01,597 [INFO] __main__ - Received user input: اتفضل
+2025-04-21 14:32:01,600 [INFO] main - Processing user input: اتفضل
+2025-04-21 14:32:01,601 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-21 14:32:01,602 [INFO] modules.df_manager.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-21 14:32:01,604 [INFO] modules.df_manager.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-21 14:32:01,623 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-21 14:32:01,624 [INFO] main - Available concerns: {'Hyperpigmentation& dark spots', 'Eczema & Dry skin', 'Strawberry skin treatment', 'Acne& acne spots', 'Hair loss', 'Sensitive areas& Bikini area brightening', 'Dandruff'}
+2025-04-21 14:32:01,625 [INFO] main - Available categories: {'Skin Care', 'Soft peel and Exfoliant', 'Eye cream', 'Hair Care', 'Cleansers', 'Hair spray& lotion', 'Moisturizer', 'Shampoos', 'Whitening cream', 'Personal Care'}
+2025-04-21 14:32:01,626 [INFO] main - Starting graph stream
+2025-04-21 14:32:01,632 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-21 14:32:01,632 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-21 14:32:01,634 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-21 14:32:02,845 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-21 14:32:02,846 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-21 14:32:02,847 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-21 14:32:04,326 [INFO] main - Successfully generated response
+2025-04-21 14:32:04,327 [WARNING] __main__ - Could not parse book recommendations: name 'true' is not defined
+2025-04-21 14:32:04,328 [INFO] __main__ - Successfully processed and displayed AI response
+2025-04-21 14:33:43,417 [INFO] __main__ - Received user input: طيب  عاوزه كريم تفتيح يكون فيه زنك وبيعالج حب الشباب كما
+2025-04-21 14:33:43,422 [INFO] main - Processing user input: طيب  عاوزه كريم تفتيح يكون فيه زنك وبيعالج حب الشباب كما
+2025-04-21 14:33:43,438 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-21 14:33:43,439 [INFO] modules.df_manager.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-21 14:33:43,442 [INFO] modules.df_manager.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-21 14:33:43,483 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-21 14:33:43,485 [INFO] main - Available concerns: {'Hyperpigmentation& dark spots', 'Eczema & Dry skin', 'Strawberry skin treatment', 'Acne& acne spots', 'Hair loss', 'Sensitive areas& Bikini area brightening', 'Dandruff'}
+2025-04-21 14:33:43,487 [INFO] main - Available categories: {'Skin Care', 'Soft peel and Exfoliant', 'Eye cream', 'Hair Care', 'Cleansers', 'Hair spray& lotion', 'Moisturizer', 'Shampoos', 'Whitening cream', 'Personal Care'}
+2025-04-21 14:33:43,487 [INFO] main - Starting graph stream
+2025-04-21 14:33:43,495 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-21 14:33:43,496 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-21 14:33:43,498 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-21 14:33:45,101 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-21 14:33:45,102 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-21 14:33:45,103 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-21 14:33:46,632 [INFO] main - Successfully generated response
+2025-04-21 14:33:46,632 [WARNING] __main__ - Could not parse book recommendations: name 'true' is not defined
+2025-04-21 14:33:46,633 [INFO] __main__ - Successfully processed and displayed AI response
+2025-04-21 14:34:38,282 [INFO] __main__ - Received user input: طيب ايه المنتجات الجديده عندكو؟
+2025-04-21 14:34:38,292 [INFO] main - Processing user input: طيب ايه المنتجات الجديده عندكو؟
+2025-04-21 14:34:38,292 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-21 14:34:38,293 [INFO] modules.df_manager.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-21 14:34:38,297 [INFO] modules.df_manager.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-21 14:34:38,322 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-21 14:34:38,324 [INFO] main - Available concerns: {'Hyperpigmentation& dark spots', 'Eczema & Dry skin', 'Strawberry skin treatment', 'Acne& acne spots', 'Hair loss', 'Sensitive areas& Bikini area brightening', 'Dandruff'}
+2025-04-21 14:34:38,324 [INFO] main - Available categories: {'Skin Care', 'Soft peel and Exfoliant', 'Eye cream', 'Hair Care', 'Cleansers', 'Hair spray& lotion', 'Moisturizer', 'Shampoos', 'Whitening cream', 'Personal Care'}
+2025-04-21 14:34:38,325 [INFO] main - Starting graph stream
+2025-04-21 14:34:38,335 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-21 14:34:38,336 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-21 14:34:38,337 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-21 14:34:39,506 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-21 14:34:39,507 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-21 14:34:39,507 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-21 14:34:40,366 [INFO] main - Successfully generated response
+2025-04-21 14:34:40,366 [WARNING] __main__ - Could not parse book recommendations: eval() arg 1 must be a string, bytes or code object
+2025-04-21 14:34:40,367 [INFO] __main__ - Successfully processed and displayed AI response
+2025-04-21 14:35:24,595 [INFO] __main__ - Received user input: ممكن تدور تاني؟
+2025-04-21 14:35:24,614 [INFO] main - Processing user input: ممكن تدور تاني؟
+2025-04-21 14:35:24,615 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-21 14:35:24,616 [INFO] modules.df_manager.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-21 14:35:24,618 [INFO] modules.df_manager.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-21 14:35:24,663 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-21 14:35:24,668 [INFO] main - Available concerns: {'Hyperpigmentation& dark spots', 'Eczema & Dry skin', 'Strawberry skin treatment', 'Acne& acne spots', 'Hair loss', 'Sensitive areas& Bikini area brightening', 'Dandruff'}
+2025-04-21 14:35:24,668 [INFO] main - Available categories: {'Skin Care', 'Soft peel and Exfoliant', 'Eye cream', 'Hair Care', 'Cleansers', 'Hair spray& lotion', 'Moisturizer', 'Shampoos', 'Whitening cream', 'Personal Care'}
+2025-04-21 14:35:24,668 [INFO] main - Starting graph stream
+2025-04-21 14:35:24,696 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-21 14:35:24,696 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-21 14:35:24,698 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-21 14:35:25,962 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-21 14:35:25,962 [INFO] modules.llm_blocks.sales_agent - Creating sales agent chain
+2025-04-21 14:35:25,963 [INFO] modules.llm_blocks.sales_agent - Successfully created sales agent chain
+2025-04-21 14:35:26,661 [INFO] main - Successfully generated response
+2025-04-21 14:35:26,661 [WARNING] __main__ - Could not parse book recommendations: eval() arg 1 must be a string, bytes or code object
+2025-04-21 14:35:26,663 [INFO] __main__ - Successfully processed and displayed AI response

@@ -1,83 +1,61 @@
 import streamlit as st
 import os
-
-#local Imports
+import speech_recognition as sr
+import functools
+from modules.log_manager.log_manager import get_logger
 from main import get_answer
 
-import speech_recognition as sr
-
-import os
-import functools
-
-@functools.lru_cache(maxsize=3)
-def load_template(template_name):
-    with open(os.path.join('template', template_name), 'r', encoding='utf-8') as f:
-        return f.read()
+# Initialize logger
+logger = get_logger(__name__)
 
 
-def books_to_html(books):
-    offer_card_template = load_template('offer_card_template.txt')
-    norm_card_template = load_template('norm_card_template.txt')
-    all_card_template = load_template('cards_template.txt')
-    
-    all_cards = ''
-    for book in books:
-        print(f"DEBUG: book = {book}, type = {type(book)}")  
-        if book['discount_percentage'] > 0 or book['discount_percentage'] == "0" :
-            new_card_template = offer_card_template.replace("img_url" , book['Image-URL-L'])
-            new_card_template = new_card_template.replace("book_title" , book['Book-Title'])
-            new_card_template = new_card_template.replace("book_author" , book['Book-Author'])
-            new_card_template = new_card_template.replace("discount_percentage" , str(book['discount_percentage']))
-            new_card_template = new_card_template.replace("price_befor_diccount" , str(book['price']))
-            new_card_template = new_card_template.replace("price_after_discount" , str(book['price_after_discount']))
-        else:
-            new_card_template = norm_card_template.replace("img_url" , book['Image-URL-L'])
-            new_card_template = new_card_template.replace("book_title" , book['Book-Title'])
-            new_card_template = new_card_template.replace("book_author" , book['Book-Author'])
-            new_card_template = new_card_template.replace("price_after_discount" , str(book['price_after_discount']))
-    
-        all_cards += new_card_template + '\n'
-    
-    new_template = all_card_template.replace('put_your_cards_here', all_cards)
-    
-    return new_template
 
 def recognize_speech():
+    logger.info("Starting speech recognition")
     recognizer = sr.Recognizer()
-    with sr.Microphone() as source:
-        audio = recognizer.listen(source)
-        try:
-            text = recognizer.recognize_google(audio, language="ar-EG")
-            return text
-        except sr.UnknownValueError as e:
-            return e
-        except sr.RequestError as e:
-            return e
-
+    try:
+        with sr.Microphone() as source:
+            logger.debug("Listening for audio input")
+            audio = recognizer.listen(source)
+            try:
+                text = recognizer.recognize_google(audio, language="ar-EG")
+                logger.info("Successfully recognized speech")
+                return text
+            except sr.UnknownValueError as e:
+                logger.warning("Could not understand audio")
+                return "Could not understand audio"
+            except sr.RequestError as e:
+                logger.error(f"Could not request results from speech recognition service: {str(e)}")
+                return "Speech recognition service error"
+    except Exception as e:
+        logger.error(f"Error in speech recognition: {str(e)}")
+        return f"Error: {str(e)}"
 
 # Configure page
 st.set_page_config(page_title="Sales Chatbot", page_icon="🏷")
 
 if 'messages' not in st.session_state:
     st.session_state.messages = []
+    logger.info("Initialized new chat session")
 
 chat_container = st.container(height=1050, border=True)
 
 # Display chat history
 for message in st.session_state.messages:
-    print(message)
+    logger.debug(f"Displaying message from {message['role']}")
     with chat_container:
         with st.chat_message(message["role"]):
-            if message["role"] == "assistant":
-                respond = message["content"]
-                personalized_sales_assistance = respond.get('assistance_respond', None)
-                html_book = respond.get('html_book', None)
-                st.markdown(personalized_sales_assistance)
-                if html_book is not None:
-                    st.html(html_book)
-            else:
-                st.markdown(message["content"])
-
+            try:
+                if message["role"] == "assistant":
+                    respond = message["content"]
+                    personalized_sales_assistance = respond.get('assistance_respond', None)
+                    st.markdown(personalized_sales_assistance)
+                    
+                else:
+                    st.markdown(message["content"])
+            except Exception as e:
+                logger.error(f"Error displaying message: {str(e)}")
+                st.error("Error displaying message")
 
 # Get user input
 col1, col2 = st.columns([9, 1], vertical_alignment="top")
@@ -87,8 +65,8 @@ with col2:
     if st.button("🎙"):
         user_input = recognize_speech()
 
-
 if user_input:
+    logger.info(f"Received user input: {user_input}")
     # Add user message to chat history
     st.session_state.messages.append({"role": "user", "content": user_input})
     
@@ -99,23 +77,35 @@ if user_input:
     
         # Get AI response
         with st.chat_message("assistant"):
-            with st.spinner("Thinking..."):
-                respond =  get_answer(user_input)
-                filterd_list  =respond['messages'][-4:]
-                print( "this is response length:"  , len(respond['messages']))
-                personalized_sales_assistance = filterd_list[-1].content
-                try:
-                    book_recommendations = eval(filterd_list[2].content)
+            try:
+                with st.spinner("Thinking..."):
+                    respond = get_answer(user_input)
+                    logger.debug("Received response from AI")
                     
-                    print('this is the book recommendations results:' , book_recommendations )
-                except:
-                    book_recommendations = None
+                    filterd_list = respond['messages'][-4:]
+                    logger.debug(f"Response length: {len(respond['messages'])}")
                     
-                st.markdown(personalized_sales_assistance)
-                if book_recommendations is not None:
-                    html_book = books_to_html(book_recommendations)
-                    st.html(html_book)
-                else:
-                    html_book = None
-    # Add assistant response to chat history
-    st.session_state.messages.append({"role": "assistant", "content": {"assistance_respond": personalized_sales_assistance, "html_book": html_book}})
+                    personalized_sales_assistance = filterd_list[-1].content
+                    
+                    try:
+                        book_recommendations = eval(filterd_list[2].content)
+                        logger.debug("Successfully parsed book recommendations")
+                    except Exception as e:
+                        logger.warning(f"Could not parse book recommendations: {str(e)}")
+                        book_recommendations = None
+                    
+                    st.markdown(personalized_sales_assistance)
+                    
+                        
+                # Add assistant response to chat history
+                st.session_state.messages.append({
+                    "role": "assistant", 
+                    "content": {
+                        "assistance_respond": personalized_sales_assistance, 
+                    }
+                })
+                logger.info("Successfully processed and displayed AI response")
+                
+            except Exception as e:
+                logger.error(f"Error processing AI response: {str(e)}")
+                st.error("An error occurred while processing your request. Please try again.")
