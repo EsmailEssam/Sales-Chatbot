@@ -15,19 +15,6 @@ except Exception as e:
     raise
 
 def get_answer(user_input):
-    """
-    Get an answer from the graph based on user input.
-    
-    Args:
-        user_input (str): The user's question or input text
-        
-    Returns:
-        dict: The response event containing messages and other data
-        
-    Raises:
-        ValueError: If user_input is empty or invalid
-        Exception: For any other errors during processing
-    """
     try:
         if not user_input or not isinstance(user_input, str):
             logger.error(f"Invalid user input: {user_input}")

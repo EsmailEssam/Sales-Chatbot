@@ -1,71 +1,107 @@
 import requests
 import json
 import os
+from typing import Dict, Optional
 from ..log_manager.log_manager import get_logger
 
-# Initialize logger
-logger = get_logger(__name__)
-
-def fetch_and_save_products(api_url: str = "https://nileva.meta-bytes.net/api/products", 
-                          save_dir: str = "Dataset") -> dict:
+class ProductDataFetcher:
     """
-    Fetch product data from API and save to JSON file.
+    A class responsible for fetching product data from an API and saving it to a JSON file.
     
-    Args:
-        api_url (str): URL of the products API endpoint
-        save_dir (str): Directory to save the JSON file
-        
-    Returns:
-        dict: The fetched product data
-        
-    Raises:
-        requests.RequestException: If API request fails
-        OSError: If file cannot be saved
-        Exception: For any other errors
+    Attributes:
+        logger: Logger instance for recording operations
+        default_api_url (str): Default URL for the products API endpoint
+        default_save_dir (str): Default directory for saving the JSON file
     """
-    try:
-        logger.info(f"Fetching products from API: {api_url}")
+    
+    def __init__(self, 
+                 api_url: str = "https://nileva.meta-bytes.net/api/products",
+                 save_dir: str = "Dataset"):
+        """
+        Initialize the ProductDataFetcher with optional API URL and save directory.
         
-        # Make GET request to the endpoint
-        response = requests.get(api_url)
-        response.raise_for_status()  # Raise exception for bad status codes
+        Args:
+            api_url (str): URL of the products API endpoint
+            save_dir (str): Directory to save the JSON file
+        """
+        self.logger = get_logger(__name__)
+        self.api_url = api_url
+        self.save_dir = save_dir
+
+    def fetch_data(self) -> Dict:
+        """
+        Fetch product data from the API.
         
-        # Parse JSON response
+        Returns:
+            dict: The fetched product data
+            
+        Raises:
+            requests.RequestException: If API request fails
+            json.JSONDecodeError: If response contains invalid JSON
+        """
+        self.logger.info(f"Fetching products from API: {self.api_url}")
+        response = requests.get(self.api_url)
+        response.raise_for_status()
         products_data = response.json()
-        logger.info(f"Successfully retrieved {len(products_data)} products")
+        self.logger.info(f"Successfully retrieved {len(products_data)} products")
+        return products_data
+
+    def save_data(self, data: Dict) -> str:
+        """
+        Save the product data to a JSON file.
         
-        # Create save directory if it doesn't exist
-        os.makedirs(save_dir, exist_ok=True)
-        
-        # Save data to file
-        file_save_path = os.path.join(save_dir, 'products.json')
-        logger.debug(f"Saving data to: {file_save_path}")
+        Args:
+            data (dict): The product data to save
+            
+        Returns:
+            str: Path where the file was saved
+            
+        Raises:
+            OSError: If file cannot be saved
+        """
+        os.makedirs(self.save_dir, exist_ok=True)
+        file_save_path = os.path.join(self.save_dir, 'products2.json')
+        self.logger.debug(f"Saving data to: {file_save_path}")
         
         with open(file_save_path, 'w', encoding='utf-8') as f:
-            json.dump(products_data, f, indent=4)
-            
-        logger.info(f"Data successfully saved to {file_save_path}")
-        return products_data
+            json.dump(data, f, indent=4)
         
-    except requests.RequestException as e:
-        logger.error(f"API request failed: {str(e)}")
-        raise
-    except json.JSONDecodeError as e:
-        logger.error(f"Invalid JSON response: {str(e)}")
-        raise
-    except OSError as e:
-        logger.error(f"Failed to save file: {str(e)}")
-        raise
-    except Exception as e:
-        logger.error(f"Unexpected error: {str(e)}")
-        raise
+        self.logger.info(f"Data successfully saved to {file_save_path}")
+        return file_save_path
+
+    def run(self) -> Dict:
+        """
+        Execute the complete process of fetching and saving product data.
+        
+        Returns:
+            dict: The fetched and saved product data
+            
+        Raises:
+            requests.RequestException: If API request fails
+            json.JSONDecodeError: If response contains invalid JSON
+            OSError: If file cannot be saved
+            Exception: For any other errors
+        """
+        try:
+            data = self.fetch_data()
+            self.save_data(data)
+            return data
+        except (requests.RequestException, json.JSONDecodeError, OSError) as e:
+            self.logger.error(f"Operation failed: {str(e)}")
+            raise
+        except Exception as e:
+            self.logger.error(f"Unexpected error: {str(e)}")
+            raise
+
+
 
 if __name__ == "__main__":
     try:
+        logger = get_logger(__name__)
         logger.info("Starting product data fetch")
-        products = fetch_and_save_products()
+        fetcher = ProductDataFetcher()
+        products = fetcher.run()
         logger.info("Product data fetch completed successfully")
-        
     except Exception as e:
         logger.error(f"Product data fetch failed: {str(e)}")
         raise

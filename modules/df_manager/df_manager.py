@@ -1,12 +1,14 @@
 import pandas as pd
-from .convert_json_to_df import convert_json_to_df
+from .df_manager_helpers.convert_json_to_df import ConvertJsonToDf
 from ..log_manager.log_manager import get_logger
 import os
-from .preprocess_df import PreprocessDf
+from .df_manager_helpers.preprocess_df import PreprocessDf
 
 # Initialize logger
 logger = get_logger(__name__)
 
+
+# TODO: edit the all get methods to use the cleaned df instead of the normal df
 class DfManager:
     """
     Manages DataFrame operations for product data.
@@ -34,13 +36,12 @@ class DfManager:
                 logger.error(f"JSON file not found: {json_file_path}")
                 raise FileNotFoundError(f"JSON file not found: {json_file_path}")
             
-            self.df = convert_json_to_df(json_file_path)
+            self.df = ConvertJsonToDf(json_file_path).run()
             if self.df is None or self.df.empty:
                 logger.error("Converted DataFrame is empty or None")
                 raise ValueError("Failed to load product data - empty DataFrame")
             
-            preprocess_df = PreprocessDf(self.df)
-            self.cleaned_df = preprocess_df.run()
+            
             logger.info("Successfully initialized DfManager")
             
         except Exception as e:
@@ -48,9 +49,15 @@ class DfManager:
             raise
         
         
-    def get_df(self) -> pd.DataFrame:
+    def get_cleaned_df(self) -> pd.DataFrame:
         """Get the cleaned DataFrame."""
-        return self.cleaned_df
+        try:
+            preprocess_df = PreprocessDf(self.df)
+            self.cleaned_df = preprocess_df.run()
+            return self.cleaned_df
+        except Exception as e:
+            logger.error(f"Error getting cleaned DataFrame: {str(e)}")
+            raise
 
     def get_category_set(self) -> set:
         """
