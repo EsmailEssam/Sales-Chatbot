@@ -18,6 +18,7 @@ class AgentState(TypedDict):
     available_concerns: set
     available_categories: set
     available_ingredients: set
+    
 
 logger.debug("AgentState class defined with messages field")
 

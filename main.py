@@ -1,5 +1,5 @@
 # local imports
-from modules.graph_blocks.graph import get_graph
+from modules.graph import get_graph
 from modules.log_manager.log_manager import get_logger
 from modules.df_manager.df_manager import DfManager
 import os

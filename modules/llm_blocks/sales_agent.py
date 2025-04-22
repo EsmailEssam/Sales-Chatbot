@@ -8,86 +8,82 @@ from ..log_manager.log_manager import get_logger
 logger = get_logger(__name__)
 
 # Local importing
-from tools.df_tools import tools
+from ..graph_blocks.tools.df_tools import tools
 
-try:
-    # Load environment variables
-    logger.info("Loading environment variables")
-    load_dotenv()
+from .base import BaseLLMBlock
 
-    # Get API key from environment variables
-    api_key = os.getenv('GEMINI_API_KEY')
-    if not api_key:
-        logger.error("GEMINI_API_KEY not found in environment variables")
-        raise ValueError("GEMINI_API_KEY not found in environment variables")
-    logger.info("Successfully loaded API key")
-
-    # Initialize LLM (Google Gemini)
-    logger.info("Initializing Google Gemini LLM")
-    llm = ChatGoogleGenerativeAI(
-        model="gemini-2.0-flash",
-        temperature=0.0,
-        api_key=api_key
-    )
-    logger.info("Successfully initialized LLM")
-
-    logger.debug("Binding tools to LLM")
-    llm_with_tools = llm.bind_tools(tools=tools)
-    logger.info("Successfully bound tools to LLM")
-
-except Exception as e:
-    logger.error(f"Error during initialization: {str(e)}")
-    raise
-
-def Sales_agent():
+class SalesAgent(BaseLLMBlock):
     """
-    Sales expert node that processes customer queries and suggests beauty and cosmetic products.
+    Sales expert LLM block that processes customer queries and suggests beauty and cosmetic products.
     Has superior ability to convince customers to buy.
     
-    Returns:
-        Chain: A langchain chain that processes customer queries
-        
-    Raises:
-        Exception: If there's an error creating the chain
+    Inherits from BaseLLMBlock to maintain consistent structure with other LLM blocks.
     """
-    try:
-        logger.info("Creating sales agent chain")
+    
+    def __init__(self, model_name: str = "gemini-2.0-flash", temperature: float = 0.0):
+        """
+        Initialize the sales agent.
         
-        prompt_template_path = os.path.join(  "prompts", 'sales_agent_prompt.txt')
-        
-        with open(prompt_template_path, 'r', encoding='utf-8') as f:
-            prompt_template = f.read()
-        
-        logger.debug("Creating chat prompt template")
-        prompt = ChatPromptTemplate.from_template(
-            prompt_template
-        )
-        
-        logger.debug("Creating chain with prompt and LLM")
-        chain = prompt | llm_with_tools
-        
-        logger.info("Successfully created sales agent chain")
-        return chain
-        
-    except Exception as e:
-        logger.error(f"Error creating sales agent chain: {str(e)}")
-        raise Exception(f"Failed to create sales agent chain: {str(e)}") from e
+        Args:
+            model_name (str, optional): Name of the model to use. Defaults to "gemini-2.0-flash".
+            temperature (float, optional): Temperature setting for generation. Defaults to 0.0.
+        """
+        super().__init__(model_name=model_name, temperature=temperature)
+    
+    def _validate_environment(self) -> None:
+        """Validate that the GEMINI_API_KEY environment variable is present."""
+        self.api_key = os.getenv('GEMINI_API_KEY')
+        if not self.api_key:
+            self.logger.error("GEMINI_API_KEY not found in environment variables")
+            raise ValueError("GEMINI_API_KEY not found in environment variables")
+        self.logger.info("Successfully loaded API key")
+    
+    def _setup_llm(self) -> None:
+        """Set up the Google Gemini LLM with tools."""
+        try:
+            self.logger.info("Initializing Google Gemini LLM")
+            self.llm = ChatGoogleGenerativeAI(
+                model=self.model_name,
+                temperature=self.temperature,
+                api_key=self.api_key
+            )
+            self.logger.debug("Binding tools to LLM")
+            self.llm = self.llm.bind_tools(tools=tools)
+            self.logger.info("Successfully initialized LLM with tools")
+        except Exception as e:
+            self.logger.error(f"Failed to setup LLM: {str(e)}")
+            raise
+    
+    def _setup_chain(self) -> None:
+        """Set up the processing chain with the prompt template."""
+        try:
+            self.logger.info("Creating sales agent chain")
+            prompt_template = self._load_prompt_template('sales_agent_prompt.txt')
+            
+            self.logger.debug("Creating chat prompt template")
+            prompt = ChatPromptTemplate.from_template(prompt_template)
+            
+            self.logger.debug("Creating chain with prompt and LLM")
+            self.chain = prompt | self.llm
+            
+            self.logger.info("Successfully created sales agent chain")
+        except Exception as e:
+            self.logger.error(f"Failed to setup chain: {str(e)}")
+            raise
 
 if __name__ == "__main__":
     try:
-        logger.info("Starting sales agent test")
+        # Example usage
+        agent = SalesAgent()
+        
         # Example input query
         user_query = "ايه ارخص منتج عندك؟"
-        logger.info(f"Test query: {user_query}")
-        
-        agent = Sales_agent()
         response = agent.invoke({"messages": [("user", user_query)]})
         
-        logger.info("Test completed successfully")
-        logger.debug(f"Test response: {response}")
+        print(f"Response: {response}")
         
     except Exception as e:
-        logger.error(f"Test failed: {str(e)}")
+        print(f"Error: {str(e)}")
         raise
 
     

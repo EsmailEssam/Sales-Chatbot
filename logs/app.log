@@ -3086,3 +3086,149 @@ timestamp
 2025-04-22 12:53:08,518 [INFO] modules.helper.get_the_data_from_the_end_point - Fetching products from API: https://nileva.meta-bytes.net/api/products
 2025-04-22 12:53:08,524 [INFO] modules.helper.get_the_data_from_the_end_point - Data successfully saved to C:\Users\DELL\AppData\Local\Temp\pytest-of-DELL\pytest-28\test_save_data_creates_file0\products2.json
 2025-04-22 12:53:08,528 [ERROR] modules.helper.get_the_data_from_the_end_point - Unexpected error: Fetch failed
+2025-04-22 14:10:04,321 [INFO] modules.tools.df_tools - Loading product data
+2025-04-22 14:10:04,324 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-22 14:10:04,324 [INFO] modules.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-22 14:10:04,324 [INFO] modules.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-22 14:10:04,327 [INFO] modules.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-22 14:10:04,331 [INFO] modules.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-22 14:10:04,331 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-22 14:10:04,346 [INFO] modules.tools.df_tools - Successfully loaded 8 products
+2025-04-22 14:10:09,280 [INFO] tools.df_tools - Loading product data
+2025-04-22 14:10:09,280 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-22 14:10:09,281 [INFO] modules.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-22 14:10:09,282 [INFO] modules.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-22 14:10:09,282 [INFO] modules.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-22 14:10:09,284 [INFO] modules.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-22 14:10:09,284 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-22 14:10:09,294 [INFO] tools.df_tools - Successfully loaded 8 products
+2025-04-22 14:10:09,310 [INFO] modules.graph_blocks.nodes - Initializing tool node
+2025-04-22 14:10:09,311 [INFO] modules.graph_blocks.nodes - Tool node initialized successfully
+2025-04-22 14:10:09,313 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-22 14:10:09,313 [INFO] modules.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-22 14:10:09,313 [INFO] modules.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-22 14:10:09,314 [INFO] modules.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-22 14:10:09,317 [INFO] modules.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-22 14:10:09,317 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-22 14:11:44,846 [INFO] modules.tools.df_tools - Loading product data
+2025-04-22 14:11:44,847 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-22 14:11:44,847 [INFO] modules.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-22 14:11:44,847 [INFO] modules.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-22 14:11:44,850 [INFO] modules.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-22 14:11:44,852 [INFO] modules.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-22 14:11:44,852 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-22 14:11:44,868 [INFO] modules.tools.df_tools - Successfully loaded 8 products
+2025-04-22 14:11:45,943 [INFO] tools.df_tools - Loading product data
+2025-04-22 14:11:45,944 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-22 14:11:45,944 [INFO] modules.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-22 14:11:45,945 [INFO] modules.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-22 14:11:45,946 [INFO] modules.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-22 14:11:45,947 [INFO] modules.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-22 14:11:45,948 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-22 14:11:45,955 [INFO] tools.df_tools - Successfully loaded 8 products
+2025-04-22 14:11:45,967 [INFO] modules.graph_blocks.nodes - Initializing tool node
+2025-04-22 14:11:45,968 [INFO] modules.graph_blocks.nodes - Tool node initialized successfully
+2025-04-22 14:11:45,969 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-22 14:11:45,970 [INFO] modules.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-22 14:11:45,970 [INFO] modules.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-22 14:11:45,972 [INFO] modules.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-22 14:11:45,972 [INFO] modules.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-22 14:11:45,972 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-22 14:11:45,999 [INFO] modules.graph_blocks.graph - Creating new StateGraph
+2025-04-22 14:11:46,012 [INFO] modules.graph_blocks.graph - Successfully created and compiled graph
+2025-04-22 14:11:46,071 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-22 14:11:46,071 [INFO] SalesAgent - Loading environment variables
+2025-04-22 14:11:46,072 [INFO] SalesAgent - Successfully loaded API key
+2025-04-22 14:11:46,072 [INFO] SalesAgent - Initializing Google Gemini LLM
+2025-04-22 14:11:46,153 [INFO] SalesAgent - Successfully initialized LLM with tools
+2025-04-22 14:11:46,154 [INFO] SalesAgent - Creating sales agent chain
+2025-04-22 14:11:46,155 [INFO] SalesAgent - Successfully created sales agent chain
+2025-04-22 14:11:46,155 [INFO] SalesAgent - Processing input through chain
+2025-04-22 14:23:44,549 [INFO] modules.graph_blocks.tools.df_tools - Loading product data
+2025-04-22 14:23:44,550 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-22 14:23:44,550 [INFO] modules.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-22 14:23:44,550 [INFO] modules.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-22 14:23:44,551 [INFO] modules.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-22 14:23:44,553 [INFO] modules.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-22 14:23:44,553 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-22 14:23:44,562 [INFO] modules.graph_blocks.tools.df_tools - Successfully loaded 8 products
+2025-04-22 14:23:45,649 [INFO] tools.df_tools - Loading product data
+2025-04-22 14:23:45,649 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-22 14:23:45,649 [INFO] modules.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-22 14:23:45,649 [INFO] modules.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-22 14:23:45,650 [INFO] modules.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-22 14:23:45,652 [INFO] modules.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-22 14:23:45,653 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-22 14:23:45,663 [INFO] tools.df_tools - Successfully loaded 8 products
+2025-04-22 14:23:45,671 [INFO] modules.graph_blocks.nodes - Initializing tool node
+2025-04-22 14:23:45,672 [INFO] modules.graph_blocks.nodes - Tool node initialized successfully
+2025-04-22 14:23:45,673 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-22 14:23:45,673 [INFO] modules.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-22 14:23:45,674 [INFO] modules.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-22 14:23:45,674 [INFO] modules.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-22 14:23:45,675 [INFO] modules.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-22 14:23:45,675 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-22 14:23:45,699 [INFO] modules.graph - Creating new StateGraph
+2025-04-22 14:23:45,706 [INFO] modules.graph - Successfully created and compiled graph
+2025-04-22 14:23:45,722 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-22 14:23:45,723 [INFO] SalesAgent - Loading environment variables
+2025-04-22 14:23:45,724 [INFO] SalesAgent - Successfully loaded API key
+2025-04-22 14:23:45,725 [INFO] SalesAgent - Initializing Google Gemini LLM
+2025-04-22 14:23:45,751 [INFO] SalesAgent - Successfully initialized LLM with tools
+2025-04-22 14:23:45,751 [INFO] SalesAgent - Creating sales agent chain
+2025-04-22 14:23:45,752 [INFO] SalesAgent - Successfully created sales agent chain
+2025-04-22 14:23:45,753 [INFO] SalesAgent - Processing input through chain
+2025-04-22 14:23:47,693 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-22 14:23:47,693 [INFO] SalesAgent - Loading environment variables
+2025-04-22 14:23:47,694 [INFO] SalesAgent - Successfully loaded API key
+2025-04-22 14:23:47,695 [INFO] SalesAgent - Initializing Google Gemini LLM
+2025-04-22 14:23:47,705 [INFO] SalesAgent - Successfully initialized LLM with tools
+2025-04-22 14:23:47,705 [INFO] SalesAgent - Creating sales agent chain
+2025-04-22 14:23:47,707 [INFO] SalesAgent - Successfully created sales agent chain
+2025-04-22 14:23:47,707 [INFO] SalesAgent - Processing input through chain
+2025-04-22 14:30:32,601 [INFO] modules.graph_blocks.nodes - Initializing tool node
+2025-04-22 14:30:32,602 [INFO] modules.graph_blocks.nodes - Tool node initialized successfully
+2025-04-22 14:30:32,603 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-22 14:30:32,604 [INFO] modules.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-22 14:30:32,604 [INFO] modules.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-22 14:30:32,604 [INFO] modules.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-22 14:30:32,607 [INFO] modules.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-22 14:30:32,607 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-22 14:30:32,621 [INFO] modules.graph - Creating new StateGraph
+2025-04-22 14:30:32,629 [INFO] modules.graph - Successfully created and compiled graph
+2025-04-22 14:30:32,648 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-22 14:30:32,648 [INFO] SalesAgent - Loading environment variables
+2025-04-22 14:30:32,649 [INFO] SalesAgent - Successfully loaded API key
+2025-04-22 14:30:32,649 [INFO] SalesAgent - Initializing Google Gemini LLM
+2025-04-22 14:30:32,675 [ERROR] SalesAgent - Failed to setup LLM: Cannot generate a JsonSchema for core_schema.IsInstanceSchema (<class 'pandas.core.frame.DataFrame'>)
+
+For further information visit https://errors.pydantic.dev/2.11/u/invalid-for-json-schema
+2025-04-22 14:30:32,675 [ERROR] modules.graph_blocks.nodes - Error running sales agent: Cannot generate a JsonSchema for core_schema.IsInstanceSchema (<class 'pandas.core.frame.DataFrame'>)
+
+For further information visit https://errors.pydantic.dev/2.11/u/invalid-for-json-schema
+2025-04-22 14:37:09,906 [INFO] modules.graph_blocks.tools.df_tools - Loading product data
+2025-04-22 14:37:09,906 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-22 14:37:09,907 [INFO] modules.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-22 14:37:09,907 [INFO] modules.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-22 14:37:09,908 [INFO] modules.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-22 14:37:09,909 [INFO] modules.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-22 14:37:09,910 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-22 14:37:09,919 [INFO] modules.graph_blocks.tools.df_tools - Successfully loaded 8 products
+2025-04-22 14:37:11,099 [INFO] modules.graph_blocks.nodes - Initializing tool node
+2025-04-22 14:37:11,099 [INFO] modules.graph_blocks.nodes - Tool node initialized successfully
+2025-04-22 14:37:11,101 [INFO] modules.df_manager.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-22 14:37:11,101 [INFO] modules.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-22 14:37:11,101 [INFO] modules.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-22 14:37:11,102 [INFO] modules.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-22 14:37:11,104 [INFO] modules.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-22 14:37:11,105 [INFO] modules.df_manager.df_manager - Successfully initialized DfManager
+2025-04-22 14:37:11,116 [INFO] modules.graph - Creating new StateGraph
+2025-04-22 14:37:11,125 [INFO] modules.graph - Successfully created and compiled graph
+2025-04-22 14:37:11,141 [INFO] modules.graph_blocks.nodes - Running sales agent
+2025-04-22 14:37:11,143 [INFO] SalesAgent - Loading environment variables
+2025-04-22 14:37:11,144 [INFO] SalesAgent - Successfully loaded API key
+2025-04-22 14:37:11,145 [INFO] SalesAgent - Initializing Google Gemini LLM
+2025-04-22 14:37:11,170 [INFO] SalesAgent - Successfully initialized LLM with tools
+2025-04-22 14:37:11,171 [INFO] SalesAgent - Creating sales agent chain
+2025-04-22 14:37:11,172 [INFO] SalesAgent - Successfully created sales agent chain
+2025-04-22 14:37:11,172 [INFO] SalesAgent - Processing input through chain

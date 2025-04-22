@@ -2,8 +2,8 @@ from langgraph.prebuilt import ToolNode
 
 # local imports
 from .state import AgentState
-from ..tools.df_tools import tools
-from ..llm_blocks.sales_agent import Sales_agent
+from .tools.df_tools import tools
+from ..llm_blocks.sales_agent import SalesAgent
 from ..log_manager.log_manager import get_logger
 from ..df_manager.df_manager import DfManager
 
@@ -27,9 +27,9 @@ def run_sales_agent(state: AgentState):
         logger.info("Running sales agent")
         logger.debug(f"Input state messages count: {len(state['messages'])}")
         
+        sales_agent = SalesAgent()
         
-        
-        response = Sales_agent().invoke({"messages": state["messages"] , "available_concerns": state["available_concerns"], "available_categories": state["available_categories"] , "available_ingredients": state["available_ingredients"]})
+        response = sales_agent.invoke({"messages": state["messages"] , "available_concerns": state["available_concerns"], "available_categories": state["available_categories"] , "available_ingredients": state["available_ingredients"]})
         
         logger.debug(f"Sales agent response received")
         return {"messages": response}
