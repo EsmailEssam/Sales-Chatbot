@@ -71,6 +71,17 @@ To contribute to the project:
 4. Run tests: `pytest`
 5. Submit a pull request
 
+## Run fast api server :
+
+```bash
+uvicorn main_api:app --reload --host 0.0.0.0 --port 5000
+```
+
+## POSTMAN Collection:
+
+Download the psotman collection from [assets\salles_chat_bot.postman_collection.json](assets\salles_chat_bot.postman_collection.json)
+
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
