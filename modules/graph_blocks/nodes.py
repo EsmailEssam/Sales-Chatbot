@@ -4,6 +4,7 @@ from langgraph.prebuilt import ToolNode
 from .state import AgentState
 from .tools.df_tools import tools
 from ..llm_blocks.sales_agent import SalesAgent
+from ..llm_blocks.output_formatter import OutputFormatter
 from ..log_manager.log_manager import get_logger
 from ..df_manager.df_manager import DfManager
 
@@ -29,10 +30,10 @@ def run_sales_agent(state: AgentState):
         
         sales_agent = SalesAgent()
         
-        response = sales_agent.invoke({"messages": state["messages"] , "available_concerns": state["available_concerns"], "available_categories": state["available_categories"] , "available_ingredients": state["available_ingredients"]})
+        response = sales_agent.run({"messages": state["messages"] , "available_concerns": state["available_concerns"], "available_categories": state["available_categories"] , "available_ingredients": state["available_ingredients"]})
         
         logger.debug(f"Sales agent response received")
-        return {"messages": response}
+        return {"messages": response , "doctor_suggesions": response}
         
     except KeyError as e:
         logger.error(f"Invalid state format - missing key: {str(e)}")
@@ -40,6 +41,39 @@ def run_sales_agent(state: AgentState):
     except Exception as e:
         logger.error(f"Error running sales agent: {str(e)}")
         raise Exception(f"Failed to run sales agent: {str(e)}") from e
+    
+def run_output_formatter(state: AgentState):
+    """
+    Run the output formatter with the given state.
+    
+    Args:
+        state (AgentState): The current state containing messages
+        
+    Returns:
+        dict: Response containing updated messages
+        
+    Raises:
+        Exception: If there's an error during output formatter execution
+    """
+    try:
+        logger.info("Running output formatter")
+        logger.debug(f"Input state messages count: {len(state['messages'])}")
+        
+        output_formatter = OutputFormatter()
+        
+        response = output_formatter.run({"doctor_suggesions": state["messages"][-2:] , "session_id": state["session_id"]})
+        
+        logger.debug(f"Output formatter response received")
+        return {"output_formatter_response": response}
+        
+    except KeyError as e:
+        logger.error(f"Invalid state format - missing key: {str(e)}")
+        raise KeyError(f"State is missing required key: {str(e)}") from e
+    except Exception as e:
+        logger.error(f"Error running output formatter: {str(e)}")
+        raise Exception(f"Failed to run output formatter: {str(e)}") from e
+    
+
 
 try:
     logger.info("Initializing tool node")

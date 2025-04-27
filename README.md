@@ -79,3 +79,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - Built with [LangGraph](https://github.com/langchain-ai/langgraph)
 - Uses LangChain for LLM integration 
+
+
+في الفيرجن ده انا ضفت نود جديده عشان تخرح الاوتبت في جسون زي ما احنا عاوزين واشتغلت بالفعل وظبط شويه حاجات في الاستركشر بتاع لمشروع وال وان تيست دلوقتي هو الي شغال 

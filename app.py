@@ -5,6 +5,7 @@ import functools
 from modules.log_manager.log_manager import get_logger
 from main import get_answer
 
+
 # Initialize logger
 logger = get_logger(__name__)
 
@@ -50,7 +51,6 @@ for message in st.session_state.messages:
                     respond = message["content"]
                     personalized_sales_assistance = respond.get('assistance_respond', None)
                     st.markdown(personalized_sales_assistance)
-                    
                 else:
                     st.markdown(message["content"])
             except Exception as e:

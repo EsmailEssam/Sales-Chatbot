@@ -3,7 +3,7 @@ from langgraph.checkpoint.memory import MemorySaver
 from langgraph.prebuilt import tools_condition
 
 # local imports
-from .graph_blocks.nodes import run_sales_agent, tool_node
+from .graph_blocks.nodes import run_sales_agent, tool_node, run_output_formatter
 from .graph_blocks.state import AgentState
 from .log_manager.log_manager import get_logger
 
@@ -11,6 +11,7 @@ from .log_manager.log_manager import get_logger
 logger = get_logger(__name__)
 
 SALES_AGENT = "Sales_agent"
+OUTPUT_FORMATTER = "Output_formatter"
 ACT = "tools"
 
 def get_graph():
@@ -30,6 +31,7 @@ def get_graph():
         # Add nodes
         logger.debug("Adding nodes to graph")
         graph_builder.add_node(SALES_AGENT, run_sales_agent)
+        graph_builder.add_node(OUTPUT_FORMATTER, run_output_formatter)
         graph_builder.add_node(ACT, tool_node)
         
         # Set entry point
@@ -40,12 +42,18 @@ def get_graph():
         logger.debug("Adding conditional edges")
         graph_builder.add_conditional_edges(
             SALES_AGENT,
-            tools_condition
+            tools_condition,
+            {
+                ACT: ACT,
+                OUTPUT_FORMATTER: OUTPUT_FORMATTER,
+                # Add explicit mapping for END
+                END: OUTPUT_FORMATTER
+            }
         )
         
         logger.debug("Adding standard edges")
         graph_builder.add_edge(ACT, SALES_AGENT)
-        graph_builder.add_edge(SALES_AGENT, END)
+        graph_builder.add_edge(OUTPUT_FORMATTER, END)
         
         # Create checkpointer and compile
         logger.debug("Creating memory saver and compiling graph")
@@ -58,6 +66,3 @@ def get_graph():
     except Exception as e:
         logger.error(f"Error creating graph: {str(e)}")
         raise Exception(f"Failed to create graph: {str(e)}") from e
-
-
-

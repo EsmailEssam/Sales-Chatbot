@@ -12,35 +12,39 @@ from modules.graph import get_graph
 
 # print(df.head()) 
 
-df_manager = DfManager(r"D:\Electro Pi\Sales-Chatbot\Dataset\products.json")
-cleaned_df = df_manager.get_cleaned_df()
-# print(cleaned_df.head())
+def main(messages, session_id):
+    df_manager = DfManager(r"D:\Electro Pi\Sales-Chatbot\Dataset\products.json")
+    cleaned_df = df_manager.get_cleaned_df()
+    available_concerns = df_manager.get_concerns_set()
+    available_categories = df_manager.get_category_set()
+    available_ingredients = df_manager.get_ingredients_set()
 
-# print(df_manager.get_category_set())
-# print(df_manager.get_concerns_set())
-# print(df_manager.get_ingredients_set())
+    config = {"configurable": {"thread_id": session_id}}
+    events = get_graph().stream(
+        {
+            'messages': messages,  # Now expects a list of (role, content) tuples
+            'available_concerns': available_concerns,
+            'available_categories': available_categories,
+            'available_ingredients': available_ingredients,
+            'session_id': session_id
+        },
+        config,
+        stream_mode='values',
+    )
 
-available_concerns = df_manager.get_concerns_set()
-available_categories = df_manager.get_category_set()
-available_ingredients = df_manager.get_ingredients_set()
+    for event in events:
+        currant_event = event
 
-user_input = "ايه ارخص منتج عندك؟"
+    return currant_event
 
-config = {"configurable": {"thread_id": "1"}}
-events = get_graph().stream(
-            {
-                'messages': [('user', user_input)],
-                'available_concerns': available_concerns, 
-                'available_categories': available_categories,
-                'available_ingredients': available_ingredients,
-             },
-            config,
-            stream_mode='values',
-        )
 
-for event in events:
-    print(event)
+if __name__ == "__main__":
+
+    res = main(user_input= "hi" , session_id= 1)
+
+
+    print(res['messages'][-2 :])
     print("--------------------------------")
-    event['messages'][-1].pretty_print()
-    print("--------------------------------")
+    print(res['output_formatter_response'])
 
+# print(events.get_graph().draw_mermaid())

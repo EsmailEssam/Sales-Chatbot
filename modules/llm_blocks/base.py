@@ -49,22 +49,6 @@ class BaseLLMBlock(ABC):
         """
         pass
     
-    @abstractmethod
-    def _setup_llm(self) -> None:
-        """
-        Set up the specific LLM implementation.
-        Must be implemented by child classes.
-        """
-        pass
-    
-    @abstractmethod
-    def _setup_chain(self) -> None:
-        """
-        Set up the processing chain for the LLM block.
-        Must be implemented by child classes.
-        """
-        pass
-    
     def _load_prompt_template(self, prompt_file_name: str) -> str:
         """
         Load prompt template from file.
@@ -83,7 +67,24 @@ class BaseLLMBlock(ABC):
             self.logger.error(f"Failed to load prompt template: {str(e)}")
             raise
     
-    def invoke(self, input_data: Dict[str, Any]) -> Any:
+    @abstractmethod
+    def _setup_llm(self) -> None:
+        """
+        Set up the specific LLM implementation.
+        Must be implemented by child classes.
+        """
+        pass
+    
+    @abstractmethod
+    def _setup_chain(self) -> None:
+        """
+        Set up the processing chain for the LLM block.
+        Must be implemented by child classes.
+        """
+        pass
+    
+    
+    def run(self, input_data: Dict[str, Any]) -> Any:
         """
         Process input data through the LLM chain.
         

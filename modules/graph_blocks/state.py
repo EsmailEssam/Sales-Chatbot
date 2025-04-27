@@ -18,7 +18,8 @@ class AgentState(TypedDict):
     available_concerns: set
     available_categories: set
     available_ingredients: set
-    
+    output_formatter_response: str
+    session_id: str
 
 logger.debug("AgentState class defined with messages field")
 
