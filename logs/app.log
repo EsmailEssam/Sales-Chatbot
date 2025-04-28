@@ -7941,3 +7941,547 @@ timestamp
 2025-04-28 17:46:59,591 [INFO] OutputFormatter - Creating sales agent chain
 2025-04-28 17:46:59,599 [INFO] OutputFormatter - Successfully created sales agent chain
 2025-04-28 17:46:59,600 [INFO] OutputFormatter - Processing input through chain
+2025-04-28 17:50:51,976 [INFO] src.graph_blocks.tools.df_tools - Loading product data
+2025-04-28 17:50:51,977 [INFO] src.df_manager.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-28 17:50:51,978 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-28 17:50:51,979 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-28 17:50:51,983 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-28 17:50:51,987 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-28 17:50:52,019 [INFO] src.df_manager.df_manager - Successfully initialized DfManager
+2025-04-28 17:50:52,021 [INFO] src.graph_blocks.tools.df_tools - Successfully loaded 8 products
+2025-04-28 17:50:55,281 [INFO] src.graph_blocks.nodes - Initializing tool node
+2025-04-28 17:50:55,282 [INFO] src.graph_blocks.nodes - Tool node initialized successfully
+2025-04-28 18:33:57,993 [INFO] src.graph_blocks.tools.df_tools - Loading product data
+2025-04-28 18:33:57,993 [INFO] src.df_manager.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-28 18:33:57,994 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-28 18:33:57,994 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-28 18:33:57,996 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-28 18:33:58,004 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-28 18:33:58,037 [INFO] src.df_manager.df_manager - Successfully initialized DfManager
+2025-04-28 18:33:58,037 [INFO] src.graph_blocks.tools.df_tools - Successfully loaded 8 products
+2025-04-28 18:34:02,107 [INFO] src.graph_blocks.nodes - Initializing tool node
+2025-04-28 18:34:02,108 [INFO] src.graph_blocks.nodes - Tool node initialized successfully
+2025-04-28 18:34:02,112 [INFO] src.df_manager.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-28 18:34:02,114 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-28 18:34:02,114 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: Dataset\products.json
+2025-04-28 18:34:02,116 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: Dataset\products.json
+2025-04-28 18:34:02,119 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-28 18:34:02,159 [INFO] src.df_manager.df_manager - Successfully initialized DfManager
+2025-04-28 18:34:02,162 [INFO] src.graph - Creating new StateGraph
+2025-04-28 18:34:02,191 [INFO] src.graph - Successfully created and compiled graph
+2025-04-28 18:34:02,267 [INFO] src.graph_blocks.nodes - Running sales agent
+2025-04-28 18:34:02,270 [INFO] SalesAgent - Loading environment variables
+2025-04-28 18:34:02,275 [INFO] SalesAgent - Successfully loaded API key
+2025-04-28 18:34:02,276 [INFO] SalesAgent - Initializing Google Gemini LLM
+2025-04-28 18:34:02,401 [INFO] SalesAgent - Successfully initialized LLM with tools
+2025-04-28 18:34:02,402 [INFO] SalesAgent - Creating sales agent chain
+2025-04-28 18:34:02,404 [INFO] SalesAgent - Successfully created sales agent chain
+2025-04-28 18:34:02,404 [INFO] SalesAgent - Processing input through chain
+2025-04-28 18:34:04,751 [INFO] src.graph_blocks.nodes - Running output formatter
+2025-04-28 18:34:04,759 [INFO] OutputFormatter - Loading environment variables
+2025-04-28 18:34:04,768 [INFO] OutputFormatter - Successfully loaded API key
+2025-04-28 18:34:04,769 [INFO] OutputFormatter - Initializing Google Gemini LLM
+2025-04-28 18:34:04,803 [INFO] OutputFormatter - Successfully initialized LLM with tools
+2025-04-28 18:34:04,804 [INFO] OutputFormatter - Creating sales agent chain
+2025-04-28 18:34:04,810 [INFO] OutputFormatter - Successfully created sales agent chain
+2025-04-28 18:34:04,813 [INFO] OutputFormatter - Processing input through chain
+2025-04-28 18:35:02,205 [INFO] src.graph_blocks.tools.df_tools - Loading product data
+2025-04-28 18:35:02,226 [INFO] src.df_manager.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-28 18:35:02,228 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-28 18:35:02,253 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-28 18:35:02,267 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-28 18:35:02,285 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-28 18:35:02,369 [INFO] src.df_manager.df_manager - Successfully initialized DfManager
+2025-04-28 18:35:02,374 [INFO] src.graph_blocks.tools.df_tools - Successfully loaded 8 products
+2025-04-28 18:35:06,088 [INFO] src.graph_blocks.nodes - Initializing tool node
+2025-04-28 18:35:06,090 [INFO] src.graph_blocks.nodes - Tool node initialized successfully
+2025-04-28 18:35:59,223 [INFO] src.df_manager.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-28 18:35:59,223 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-28 18:35:59,224 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: Dataset\products.json
+2025-04-28 18:35:59,226 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: Dataset\products.json
+2025-04-28 18:35:59,228 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-28 18:35:59,245 [INFO] src.df_manager.df_manager - Successfully initialized DfManager
+2025-04-28 18:35:59,248 [INFO] src.graph - Creating new StateGraph
+2025-04-28 18:35:59,261 [INFO] src.graph - Successfully created and compiled graph
+2025-04-28 18:35:59,307 [INFO] src.graph_blocks.nodes - Running sales agent
+2025-04-28 18:35:59,308 [INFO] SalesAgent - Loading environment variables
+2025-04-28 18:35:59,312 [INFO] SalesAgent - Successfully loaded API key
+2025-04-28 18:35:59,312 [INFO] SalesAgent - Initializing Google Gemini LLM
+2025-04-28 18:35:59,350 [INFO] SalesAgent - Successfully initialized LLM with tools
+2025-04-28 18:35:59,352 [INFO] SalesAgent - Creating sales agent chain
+2025-04-28 18:35:59,354 [INFO] SalesAgent - Successfully created sales agent chain
+2025-04-28 18:35:59,354 [INFO] SalesAgent - Processing input through chain
+2025-04-28 18:36:00,639 [INFO] src.graph_blocks.nodes - Running output formatter
+2025-04-28 18:36:00,647 [INFO] OutputFormatter - Loading environment variables
+2025-04-28 18:36:00,651 [INFO] OutputFormatter - Successfully loaded API key
+2025-04-28 18:36:00,654 [INFO] OutputFormatter - Initializing Google Gemini LLM
+2025-04-28 18:36:00,670 [INFO] OutputFormatter - Successfully initialized LLM with tools
+2025-04-28 18:36:00,671 [INFO] OutputFormatter - Creating sales agent chain
+2025-04-28 18:36:00,675 [INFO] OutputFormatter - Successfully created sales agent chain
+2025-04-28 18:36:00,675 [INFO] OutputFormatter - Processing input through chain
+2025-04-28 18:36:13,457 [INFO] src.df_manager.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-28 18:36:13,459 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-28 18:36:13,459 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: Dataset\products.json
+2025-04-28 18:36:13,461 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: Dataset\products.json
+2025-04-28 18:36:13,464 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-28 18:36:13,487 [INFO] src.df_manager.df_manager - Successfully initialized DfManager
+2025-04-28 18:36:13,493 [INFO] src.graph - Creating new StateGraph
+2025-04-28 18:36:13,499 [INFO] src.graph - Successfully created and compiled graph
+2025-04-28 18:36:13,517 [INFO] src.graph_blocks.nodes - Running sales agent
+2025-04-28 18:36:13,518 [INFO] SalesAgent - Loading environment variables
+2025-04-28 18:36:13,523 [INFO] SalesAgent - Successfully loaded API key
+2025-04-28 18:36:13,523 [INFO] SalesAgent - Initializing Google Gemini LLM
+2025-04-28 18:36:13,546 [INFO] SalesAgent - Successfully initialized LLM with tools
+2025-04-28 18:36:13,554 [INFO] SalesAgent - Creating sales agent chain
+2025-04-28 18:36:13,558 [INFO] SalesAgent - Successfully created sales agent chain
+2025-04-28 18:36:13,559 [INFO] SalesAgent - Processing input through chain
+2025-04-28 18:36:14,643 [INFO] src.graph_blocks.nodes - Running output formatter
+2025-04-28 18:36:14,644 [INFO] OutputFormatter - Loading environment variables
+2025-04-28 18:36:14,649 [INFO] OutputFormatter - Successfully loaded API key
+2025-04-28 18:36:14,650 [INFO] OutputFormatter - Initializing Google Gemini LLM
+2025-04-28 18:36:14,663 [INFO] OutputFormatter - Successfully initialized LLM with tools
+2025-04-28 18:36:14,665 [INFO] OutputFormatter - Creating sales agent chain
+2025-04-28 18:36:14,670 [INFO] OutputFormatter - Successfully created sales agent chain
+2025-04-28 18:36:14,671 [INFO] OutputFormatter - Processing input through chain
+2025-04-28 18:36:26,277 [INFO] src.df_manager.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-28 18:36:26,278 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-28 18:36:26,279 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: Dataset\products.json
+2025-04-28 18:36:26,280 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: Dataset\products.json
+2025-04-28 18:36:26,283 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-28 18:36:26,315 [INFO] src.df_manager.df_manager - Successfully initialized DfManager
+2025-04-28 18:36:26,326 [INFO] src.graph - Creating new StateGraph
+2025-04-28 18:36:26,335 [INFO] src.graph - Successfully created and compiled graph
+2025-04-28 18:36:26,351 [INFO] src.graph_blocks.nodes - Running sales agent
+2025-04-28 18:36:26,352 [INFO] SalesAgent - Loading environment variables
+2025-04-28 18:36:26,358 [INFO] SalesAgent - Successfully loaded API key
+2025-04-28 18:36:26,358 [INFO] SalesAgent - Initializing Google Gemini LLM
+2025-04-28 18:36:26,381 [INFO] SalesAgent - Successfully initialized LLM with tools
+2025-04-28 18:36:26,383 [INFO] SalesAgent - Creating sales agent chain
+2025-04-28 18:36:26,385 [INFO] SalesAgent - Successfully created sales agent chain
+2025-04-28 18:36:26,386 [INFO] SalesAgent - Processing input through chain
+2025-04-28 18:36:27,283 [INFO] src.graph_blocks.nodes - Running output formatter
+2025-04-28 18:36:27,286 [INFO] OutputFormatter - Loading environment variables
+2025-04-28 18:36:27,289 [INFO] OutputFormatter - Successfully loaded API key
+2025-04-28 18:36:27,290 [INFO] OutputFormatter - Initializing Google Gemini LLM
+2025-04-28 18:36:27,310 [INFO] OutputFormatter - Successfully initialized LLM with tools
+2025-04-28 18:36:27,311 [INFO] OutputFormatter - Creating sales agent chain
+2025-04-28 18:36:27,317 [INFO] OutputFormatter - Successfully created sales agent chain
+2025-04-28 18:36:27,317 [INFO] OutputFormatter - Processing input through chain
+2025-04-28 18:36:39,020 [INFO] src.df_manager.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-28 18:36:39,027 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-28 18:36:39,028 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: Dataset\products.json
+2025-04-28 18:36:39,029 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: Dataset\products.json
+2025-04-28 18:36:39,032 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-28 18:36:39,069 [INFO] src.df_manager.df_manager - Successfully initialized DfManager
+2025-04-28 18:36:39,072 [INFO] src.graph - Creating new StateGraph
+2025-04-28 18:36:39,083 [INFO] src.graph - Successfully created and compiled graph
+2025-04-28 18:36:39,094 [INFO] src.graph_blocks.nodes - Running sales agent
+2025-04-28 18:36:39,096 [INFO] SalesAgent - Loading environment variables
+2025-04-28 18:36:39,099 [INFO] SalesAgent - Successfully loaded API key
+2025-04-28 18:36:39,100 [INFO] SalesAgent - Initializing Google Gemini LLM
+2025-04-28 18:36:39,117 [INFO] SalesAgent - Successfully initialized LLM with tools
+2025-04-28 18:36:39,118 [INFO] SalesAgent - Creating sales agent chain
+2025-04-28 18:36:39,120 [INFO] SalesAgent - Successfully created sales agent chain
+2025-04-28 18:36:39,120 [INFO] SalesAgent - Processing input through chain
+2025-04-28 18:36:40,138 [INFO] src.graph_blocks.nodes - Running output formatter
+2025-04-28 18:36:40,139 [INFO] OutputFormatter - Loading environment variables
+2025-04-28 18:36:40,143 [INFO] OutputFormatter - Successfully loaded API key
+2025-04-28 18:36:40,144 [INFO] OutputFormatter - Initializing Google Gemini LLM
+2025-04-28 18:36:40,155 [INFO] OutputFormatter - Successfully initialized LLM with tools
+2025-04-28 18:36:40,155 [INFO] OutputFormatter - Creating sales agent chain
+2025-04-28 18:36:40,160 [INFO] OutputFormatter - Successfully created sales agent chain
+2025-04-28 18:36:40,161 [INFO] OutputFormatter - Processing input through chain
+2025-04-28 18:36:57,419 [INFO] src.df_manager.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-28 18:36:57,421 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-28 18:36:57,421 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: Dataset\products.json
+2025-04-28 18:36:57,423 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: Dataset\products.json
+2025-04-28 18:36:57,426 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-28 18:36:57,450 [INFO] src.df_manager.df_manager - Successfully initialized DfManager
+2025-04-28 18:36:57,453 [INFO] src.graph - Creating new StateGraph
+2025-04-28 18:36:57,457 [INFO] src.graph - Successfully created and compiled graph
+2025-04-28 18:36:57,468 [INFO] src.graph_blocks.nodes - Running sales agent
+2025-04-28 18:36:57,469 [INFO] SalesAgent - Loading environment variables
+2025-04-28 18:36:57,477 [INFO] SalesAgent - Successfully loaded API key
+2025-04-28 18:36:57,477 [INFO] SalesAgent - Initializing Google Gemini LLM
+2025-04-28 18:36:57,501 [INFO] SalesAgent - Successfully initialized LLM with tools
+2025-04-28 18:36:57,502 [INFO] SalesAgent - Creating sales agent chain
+2025-04-28 18:36:57,506 [INFO] SalesAgent - Successfully created sales agent chain
+2025-04-28 18:36:57,509 [INFO] SalesAgent - Processing input through chain
+2025-04-28 18:36:59,726 [INFO] src.graph_blocks.nodes - Running sales agent
+2025-04-28 18:36:59,728 [INFO] SalesAgent - Loading environment variables
+2025-04-28 18:36:59,732 [INFO] SalesAgent - Successfully loaded API key
+2025-04-28 18:36:59,732 [INFO] SalesAgent - Initializing Google Gemini LLM
+2025-04-28 18:36:59,756 [INFO] SalesAgent - Successfully initialized LLM with tools
+2025-04-28 18:36:59,758 [INFO] SalesAgent - Creating sales agent chain
+2025-04-28 18:36:59,760 [INFO] SalesAgent - Successfully created sales agent chain
+2025-04-28 18:36:59,761 [INFO] SalesAgent - Processing input through chain
+2025-04-28 18:37:03,833 [INFO] src.graph_blocks.nodes - Running output formatter
+2025-04-28 18:37:03,837 [INFO] OutputFormatter - Loading environment variables
+2025-04-28 18:37:03,841 [INFO] OutputFormatter - Successfully loaded API key
+2025-04-28 18:37:03,841 [INFO] OutputFormatter - Initializing Google Gemini LLM
+2025-04-28 18:37:03,853 [INFO] OutputFormatter - Successfully initialized LLM with tools
+2025-04-28 18:37:03,854 [INFO] OutputFormatter - Creating sales agent chain
+2025-04-28 18:37:03,857 [INFO] OutputFormatter - Successfully created sales agent chain
+2025-04-28 18:37:03,858 [INFO] OutputFormatter - Processing input through chain
+2025-04-28 18:37:25,662 [INFO] src.df_manager.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-28 18:37:25,663 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-28 18:37:25,663 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: Dataset\products.json
+2025-04-28 18:37:25,664 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: Dataset\products.json
+2025-04-28 18:37:25,667 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-28 18:37:25,684 [INFO] src.df_manager.df_manager - Successfully initialized DfManager
+2025-04-28 18:37:25,687 [INFO] src.graph - Creating new StateGraph
+2025-04-28 18:37:25,690 [INFO] src.graph - Successfully created and compiled graph
+2025-04-28 18:37:25,697 [INFO] src.graph_blocks.nodes - Running sales agent
+2025-04-28 18:37:25,699 [INFO] SalesAgent - Loading environment variables
+2025-04-28 18:37:25,702 [INFO] SalesAgent - Successfully loaded API key
+2025-04-28 18:37:25,702 [INFO] SalesAgent - Initializing Google Gemini LLM
+2025-04-28 18:37:25,716 [INFO] SalesAgent - Successfully initialized LLM with tools
+2025-04-28 18:37:25,718 [INFO] SalesAgent - Creating sales agent chain
+2025-04-28 18:37:25,719 [INFO] SalesAgent - Successfully created sales agent chain
+2025-04-28 18:37:25,719 [INFO] SalesAgent - Processing input through chain
+2025-04-28 18:37:26,680 [INFO] src.graph_blocks.nodes - Running output formatter
+2025-04-28 18:37:26,682 [INFO] OutputFormatter - Loading environment variables
+2025-04-28 18:37:26,687 [INFO] OutputFormatter - Successfully loaded API key
+2025-04-28 18:37:26,688 [INFO] OutputFormatter - Initializing Google Gemini LLM
+2025-04-28 18:37:26,715 [INFO] OutputFormatter - Successfully initialized LLM with tools
+2025-04-28 18:37:26,716 [INFO] OutputFormatter - Creating sales agent chain
+2025-04-28 18:37:26,721 [INFO] OutputFormatter - Successfully created sales agent chain
+2025-04-28 18:37:26,722 [INFO] OutputFormatter - Processing input through chain
+2025-04-28 18:37:50,095 [INFO] src.df_manager.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-28 18:37:50,095 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-28 18:37:50,096 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: Dataset\products.json
+2025-04-28 18:37:50,099 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: Dataset\products.json
+2025-04-28 18:37:50,102 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-28 18:37:50,136 [INFO] src.df_manager.df_manager - Successfully initialized DfManager
+2025-04-28 18:37:50,149 [INFO] src.graph - Creating new StateGraph
+2025-04-28 18:37:50,156 [INFO] src.graph - Successfully created and compiled graph
+2025-04-28 18:37:50,179 [INFO] src.graph_blocks.nodes - Running sales agent
+2025-04-28 18:37:50,180 [INFO] SalesAgent - Loading environment variables
+2025-04-28 18:37:50,183 [INFO] SalesAgent - Successfully loaded API key
+2025-04-28 18:37:50,185 [INFO] SalesAgent - Initializing Google Gemini LLM
+2025-04-28 18:37:50,204 [INFO] SalesAgent - Successfully initialized LLM with tools
+2025-04-28 18:37:50,205 [INFO] SalesAgent - Creating sales agent chain
+2025-04-28 18:37:50,206 [INFO] SalesAgent - Successfully created sales agent chain
+2025-04-28 18:37:50,208 [INFO] SalesAgent - Processing input through chain
+2025-04-28 18:37:51,066 [INFO] src.graph_blocks.nodes - Running output formatter
+2025-04-28 18:37:51,069 [INFO] OutputFormatter - Loading environment variables
+2025-04-28 18:37:51,073 [INFO] OutputFormatter - Successfully loaded API key
+2025-04-28 18:37:51,075 [INFO] OutputFormatter - Initializing Google Gemini LLM
+2025-04-28 18:37:51,096 [INFO] OutputFormatter - Successfully initialized LLM with tools
+2025-04-28 18:37:51,097 [INFO] OutputFormatter - Creating sales agent chain
+2025-04-28 18:37:51,102 [INFO] OutputFormatter - Successfully created sales agent chain
+2025-04-28 18:37:51,104 [INFO] OutputFormatter - Processing input through chain
+2025-04-28 18:38:10,658 [INFO] src.df_manager.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-28 18:38:10,660 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-28 18:38:10,660 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: Dataset\products.json
+2025-04-28 18:38:10,662 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: Dataset\products.json
+2025-04-28 18:38:10,666 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-28 18:38:10,711 [INFO] src.df_manager.df_manager - Successfully initialized DfManager
+2025-04-28 18:38:10,717 [INFO] src.graph - Creating new StateGraph
+2025-04-28 18:38:10,729 [INFO] src.graph - Successfully created and compiled graph
+2025-04-28 18:38:10,746 [INFO] src.graph_blocks.nodes - Running sales agent
+2025-04-28 18:38:10,749 [INFO] SalesAgent - Loading environment variables
+2025-04-28 18:38:10,758 [INFO] SalesAgent - Successfully loaded API key
+2025-04-28 18:38:10,759 [INFO] SalesAgent - Initializing Google Gemini LLM
+2025-04-28 18:38:10,792 [INFO] SalesAgent - Successfully initialized LLM with tools
+2025-04-28 18:38:10,793 [INFO] SalesAgent - Creating sales agent chain
+2025-04-28 18:38:10,796 [INFO] SalesAgent - Successfully created sales agent chain
+2025-04-28 18:38:10,797 [INFO] SalesAgent - Processing input through chain
+2025-04-28 18:38:13,156 [INFO] src.graph_blocks.nodes - Running sales agent
+2025-04-28 18:38:13,158 [INFO] SalesAgent - Loading environment variables
+2025-04-28 18:38:13,164 [INFO] SalesAgent - Successfully loaded API key
+2025-04-28 18:38:13,165 [INFO] SalesAgent - Initializing Google Gemini LLM
+2025-04-28 18:38:13,197 [INFO] SalesAgent - Successfully initialized LLM with tools
+2025-04-28 18:38:13,197 [INFO] SalesAgent - Creating sales agent chain
+2025-04-28 18:38:13,200 [INFO] SalesAgent - Successfully created sales agent chain
+2025-04-28 18:38:13,201 [INFO] SalesAgent - Processing input through chain
+2025-04-28 18:38:16,050 [INFO] src.graph_blocks.nodes - Running output formatter
+2025-04-28 18:38:16,054 [INFO] OutputFormatter - Loading environment variables
+2025-04-28 18:38:16,058 [INFO] OutputFormatter - Successfully loaded API key
+2025-04-28 18:38:16,058 [INFO] OutputFormatter - Initializing Google Gemini LLM
+2025-04-28 18:38:16,079 [INFO] OutputFormatter - Successfully initialized LLM with tools
+2025-04-28 18:38:16,081 [INFO] OutputFormatter - Creating sales agent chain
+2025-04-28 18:38:16,089 [INFO] OutputFormatter - Successfully created sales agent chain
+2025-04-28 18:38:16,090 [INFO] OutputFormatter - Processing input through chain
+2025-04-28 18:40:56,177 [INFO] src.df_manager.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-28 18:40:56,178 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-28 18:40:56,178 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: Dataset\products.json
+2025-04-28 18:40:56,179 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: Dataset\products.json
+2025-04-28 18:40:56,181 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-28 18:40:56,194 [INFO] src.df_manager.df_manager - Successfully initialized DfManager
+2025-04-28 18:40:56,199 [INFO] src.graph - Creating new StateGraph
+2025-04-28 18:40:56,202 [INFO] src.graph - Successfully created and compiled graph
+2025-04-28 18:40:56,209 [INFO] src.graph_blocks.nodes - Running sales agent
+2025-04-28 18:40:56,210 [INFO] SalesAgent - Loading environment variables
+2025-04-28 18:40:56,215 [INFO] SalesAgent - Successfully loaded API key
+2025-04-28 18:40:56,216 [INFO] SalesAgent - Initializing Google Gemini LLM
+2025-04-28 18:40:56,225 [INFO] SalesAgent - Successfully initialized LLM with tools
+2025-04-28 18:40:56,226 [INFO] SalesAgent - Creating sales agent chain
+2025-04-28 18:40:56,227 [INFO] SalesAgent - Successfully created sales agent chain
+2025-04-28 18:40:56,227 [INFO] SalesAgent - Processing input through chain
+2025-04-28 18:41:08,961 [INFO] src.graph_blocks.nodes - Running output formatter
+2025-04-28 18:41:08,965 [INFO] OutputFormatter - Loading environment variables
+2025-04-28 18:41:08,972 [INFO] OutputFormatter - Successfully loaded API key
+2025-04-28 18:41:08,974 [INFO] OutputFormatter - Initializing Google Gemini LLM
+2025-04-28 18:41:09,001 [INFO] OutputFormatter - Successfully initialized LLM with tools
+2025-04-28 18:41:09,004 [INFO] OutputFormatter - Creating sales agent chain
+2025-04-28 18:41:09,011 [INFO] OutputFormatter - Successfully created sales agent chain
+2025-04-28 18:41:09,014 [INFO] OutputFormatter - Processing input through chain
+2025-04-28 18:41:44,814 [INFO] src.df_manager.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-28 18:41:44,815 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-28 18:41:44,816 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: Dataset\products.json
+2025-04-28 18:41:44,821 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: Dataset\products.json
+2025-04-28 18:41:44,825 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-28 18:41:44,862 [INFO] src.df_manager.df_manager - Successfully initialized DfManager
+2025-04-28 18:41:44,869 [INFO] src.graph - Creating new StateGraph
+2025-04-28 18:41:44,874 [INFO] src.graph - Successfully created and compiled graph
+2025-04-28 18:41:44,898 [INFO] src.graph_blocks.nodes - Running sales agent
+2025-04-28 18:41:44,902 [INFO] SalesAgent - Loading environment variables
+2025-04-28 18:41:44,907 [INFO] SalesAgent - Successfully loaded API key
+2025-04-28 18:41:44,908 [INFO] SalesAgent - Initializing Google Gemini LLM
+2025-04-28 18:41:44,939 [INFO] SalesAgent - Successfully initialized LLM with tools
+2025-04-28 18:41:44,941 [INFO] SalesAgent - Creating sales agent chain
+2025-04-28 18:41:44,943 [INFO] SalesAgent - Successfully created sales agent chain
+2025-04-28 18:41:44,943 [INFO] SalesAgent - Processing input through chain
+2025-04-28 18:41:46,662 [INFO] src.graph_blocks.nodes - Running output formatter
+2025-04-28 18:41:46,665 [INFO] OutputFormatter - Loading environment variables
+2025-04-28 18:41:46,673 [INFO] OutputFormatter - Successfully loaded API key
+2025-04-28 18:41:46,673 [INFO] OutputFormatter - Initializing Google Gemini LLM
+2025-04-28 18:41:46,694 [INFO] OutputFormatter - Successfully initialized LLM with tools
+2025-04-28 18:41:46,695 [INFO] OutputFormatter - Creating sales agent chain
+2025-04-28 18:41:46,703 [INFO] OutputFormatter - Successfully created sales agent chain
+2025-04-28 18:41:46,704 [INFO] OutputFormatter - Processing input through chain
+2025-04-28 18:42:22,347 [INFO] src.df_manager.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-28 18:42:22,347 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-28 18:42:22,349 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: Dataset\products.json
+2025-04-28 18:42:22,351 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: Dataset\products.json
+2025-04-28 18:42:22,372 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-28 18:42:22,415 [INFO] src.df_manager.df_manager - Successfully initialized DfManager
+2025-04-28 18:42:22,424 [INFO] src.graph - Creating new StateGraph
+2025-04-28 18:42:22,445 [INFO] src.graph - Successfully created and compiled graph
+2025-04-28 18:42:22,460 [INFO] src.graph_blocks.nodes - Running sales agent
+2025-04-28 18:42:22,463 [INFO] SalesAgent - Loading environment variables
+2025-04-28 18:42:22,467 [INFO] SalesAgent - Successfully loaded API key
+2025-04-28 18:42:22,467 [INFO] SalesAgent - Initializing Google Gemini LLM
+2025-04-28 18:42:22,488 [INFO] SalesAgent - Successfully initialized LLM with tools
+2025-04-28 18:42:22,489 [INFO] SalesAgent - Creating sales agent chain
+2025-04-28 18:42:22,491 [INFO] SalesAgent - Successfully created sales agent chain
+2025-04-28 18:42:22,492 [INFO] SalesAgent - Processing input through chain
+2025-04-28 18:42:28,394 [INFO] src.graph_blocks.nodes - Running sales agent
+2025-04-28 18:42:28,395 [INFO] SalesAgent - Loading environment variables
+2025-04-28 18:42:28,399 [INFO] SalesAgent - Successfully loaded API key
+2025-04-28 18:42:28,401 [INFO] SalesAgent - Initializing Google Gemini LLM
+2025-04-28 18:42:28,420 [INFO] SalesAgent - Successfully initialized LLM with tools
+2025-04-28 18:42:28,421 [INFO] SalesAgent - Creating sales agent chain
+2025-04-28 18:42:28,429 [INFO] SalesAgent - Successfully created sales agent chain
+2025-04-28 18:42:28,433 [INFO] SalesAgent - Processing input through chain
+2025-04-28 18:42:31,365 [INFO] src.graph_blocks.nodes - Running output formatter
+2025-04-28 18:42:31,368 [INFO] OutputFormatter - Loading environment variables
+2025-04-28 18:42:31,370 [INFO] OutputFormatter - Successfully loaded API key
+2025-04-28 18:42:31,370 [INFO] OutputFormatter - Initializing Google Gemini LLM
+2025-04-28 18:42:31,381 [INFO] OutputFormatter - Successfully initialized LLM with tools
+2025-04-28 18:42:31,382 [INFO] OutputFormatter - Creating sales agent chain
+2025-04-28 18:42:31,385 [INFO] OutputFormatter - Successfully created sales agent chain
+2025-04-28 18:42:31,385 [INFO] OutputFormatter - Processing input through chain
+2025-04-28 18:43:27,197 [INFO] src.df_manager.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-28 18:43:27,198 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-28 18:43:27,199 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: Dataset\products.json
+2025-04-28 18:43:27,201 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: Dataset\products.json
+2025-04-28 18:43:27,204 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-28 18:43:27,279 [INFO] src.df_manager.df_manager - Successfully initialized DfManager
+2025-04-28 18:43:27,287 [INFO] src.graph - Creating new StateGraph
+2025-04-28 18:43:27,311 [INFO] src.graph - Successfully created and compiled graph
+2025-04-28 18:43:27,332 [INFO] src.graph_blocks.nodes - Running sales agent
+2025-04-28 18:43:27,333 [INFO] SalesAgent - Loading environment variables
+2025-04-28 18:43:27,348 [INFO] SalesAgent - Successfully loaded API key
+2025-04-28 18:43:27,349 [INFO] SalesAgent - Initializing Google Gemini LLM
+2025-04-28 18:43:27,383 [INFO] SalesAgent - Successfully initialized LLM with tools
+2025-04-28 18:43:27,386 [INFO] SalesAgent - Creating sales agent chain
+2025-04-28 18:43:27,388 [INFO] SalesAgent - Successfully created sales agent chain
+2025-04-28 18:43:27,388 [INFO] SalesAgent - Processing input through chain
+2025-04-28 18:43:28,962 [INFO] src.graph_blocks.nodes - Running sales agent
+2025-04-28 18:43:28,963 [INFO] SalesAgent - Loading environment variables
+2025-04-28 18:43:28,967 [INFO] SalesAgent - Successfully loaded API key
+2025-04-28 18:43:28,967 [INFO] SalesAgent - Initializing Google Gemini LLM
+2025-04-28 18:43:28,985 [INFO] SalesAgent - Successfully initialized LLM with tools
+2025-04-28 18:43:28,985 [INFO] SalesAgent - Creating sales agent chain
+2025-04-28 18:43:28,987 [INFO] SalesAgent - Successfully created sales agent chain
+2025-04-28 18:43:28,987 [INFO] SalesAgent - Processing input through chain
+2025-04-28 18:43:32,578 [INFO] src.graph_blocks.nodes - Running output formatter
+2025-04-28 18:43:32,582 [INFO] OutputFormatter - Loading environment variables
+2025-04-28 18:43:32,587 [INFO] OutputFormatter - Successfully loaded API key
+2025-04-28 18:43:32,588 [INFO] OutputFormatter - Initializing Google Gemini LLM
+2025-04-28 18:43:32,616 [INFO] OutputFormatter - Successfully initialized LLM with tools
+2025-04-28 18:43:32,617 [INFO] OutputFormatter - Creating sales agent chain
+2025-04-28 18:43:32,623 [INFO] OutputFormatter - Successfully created sales agent chain
+2025-04-28 18:43:32,626 [INFO] OutputFormatter - Processing input through chain
+2025-04-28 18:44:30,430 [INFO] src.df_manager.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-28 18:44:30,430 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-28 18:44:30,432 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: Dataset\products.json
+2025-04-28 18:44:30,434 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: Dataset\products.json
+2025-04-28 18:44:30,440 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-28 18:44:30,483 [INFO] src.df_manager.df_manager - Successfully initialized DfManager
+2025-04-28 18:44:30,487 [INFO] src.graph - Creating new StateGraph
+2025-04-28 18:44:30,493 [INFO] src.graph - Successfully created and compiled graph
+2025-04-28 18:44:30,516 [INFO] src.graph_blocks.nodes - Running sales agent
+2025-04-28 18:44:30,518 [INFO] SalesAgent - Loading environment variables
+2025-04-28 18:44:30,524 [INFO] SalesAgent - Successfully loaded API key
+2025-04-28 18:44:30,525 [INFO] SalesAgent - Initializing Google Gemini LLM
+2025-04-28 18:44:30,569 [INFO] SalesAgent - Successfully initialized LLM with tools
+2025-04-28 18:44:30,572 [INFO] SalesAgent - Creating sales agent chain
+2025-04-28 18:44:30,580 [INFO] SalesAgent - Successfully created sales agent chain
+2025-04-28 18:44:30,582 [INFO] SalesAgent - Processing input through chain
+2025-04-28 18:44:32,136 [INFO] src.graph_blocks.nodes - Running sales agent
+2025-04-28 18:44:32,138 [INFO] SalesAgent - Loading environment variables
+2025-04-28 18:44:32,141 [INFO] SalesAgent - Successfully loaded API key
+2025-04-28 18:44:32,144 [INFO] SalesAgent - Initializing Google Gemini LLM
+2025-04-28 18:44:32,159 [INFO] SalesAgent - Successfully initialized LLM with tools
+2025-04-28 18:44:32,161 [INFO] SalesAgent - Creating sales agent chain
+2025-04-28 18:44:32,162 [INFO] SalesAgent - Successfully created sales agent chain
+2025-04-28 18:44:32,162 [INFO] SalesAgent - Processing input through chain
+2025-04-28 18:44:37,465 [INFO] src.graph_blocks.nodes - Running output formatter
+2025-04-28 18:44:37,467 [INFO] OutputFormatter - Loading environment variables
+2025-04-28 18:44:37,471 [INFO] OutputFormatter - Successfully loaded API key
+2025-04-28 18:44:37,472 [INFO] OutputFormatter - Initializing Google Gemini LLM
+2025-04-28 18:44:37,489 [INFO] OutputFormatter - Successfully initialized LLM with tools
+2025-04-28 18:44:37,490 [INFO] OutputFormatter - Creating sales agent chain
+2025-04-28 18:44:37,494 [INFO] OutputFormatter - Successfully created sales agent chain
+2025-04-28 18:44:37,495 [INFO] OutputFormatter - Processing input through chain
+2025-04-28 18:45:10,750 [INFO] src.df_manager.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-28 18:45:10,751 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-28 18:45:10,752 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: Dataset\products.json
+2025-04-28 18:45:10,754 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: Dataset\products.json
+2025-04-28 18:45:10,756 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-28 18:45:10,782 [INFO] src.df_manager.df_manager - Successfully initialized DfManager
+2025-04-28 18:45:10,787 [INFO] src.graph - Creating new StateGraph
+2025-04-28 18:45:10,792 [INFO] src.graph - Successfully created and compiled graph
+2025-04-28 18:45:10,821 [INFO] src.graph_blocks.nodes - Running sales agent
+2025-04-28 18:45:10,824 [INFO] SalesAgent - Loading environment variables
+2025-04-28 18:45:10,828 [INFO] SalesAgent - Successfully loaded API key
+2025-04-28 18:45:10,828 [INFO] SalesAgent - Initializing Google Gemini LLM
+2025-04-28 18:45:10,854 [INFO] SalesAgent - Successfully initialized LLM with tools
+2025-04-28 18:45:10,854 [INFO] SalesAgent - Creating sales agent chain
+2025-04-28 18:45:10,856 [INFO] SalesAgent - Successfully created sales agent chain
+2025-04-28 18:45:10,857 [INFO] SalesAgent - Processing input through chain
+2025-04-28 18:45:12,076 [INFO] src.graph_blocks.nodes - Running output formatter
+2025-04-28 18:45:12,080 [INFO] OutputFormatter - Loading environment variables
+2025-04-28 18:45:12,082 [INFO] OutputFormatter - Successfully loaded API key
+2025-04-28 18:45:12,083 [INFO] OutputFormatter - Initializing Google Gemini LLM
+2025-04-28 18:45:12,097 [INFO] OutputFormatter - Successfully initialized LLM with tools
+2025-04-28 18:45:12,098 [INFO] OutputFormatter - Creating sales agent chain
+2025-04-28 18:45:12,103 [INFO] OutputFormatter - Successfully created sales agent chain
+2025-04-28 18:45:12,104 [INFO] OutputFormatter - Processing input through chain
+2025-04-28 18:45:47,485 [INFO] src.df_manager.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-28 18:45:47,486 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-28 18:45:47,486 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: Dataset\products.json
+2025-04-28 18:45:47,487 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: Dataset\products.json
+2025-04-28 18:45:47,493 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-28 18:45:47,520 [INFO] src.df_manager.df_manager - Successfully initialized DfManager
+2025-04-28 18:45:47,526 [INFO] src.graph - Creating new StateGraph
+2025-04-28 18:45:47,535 [INFO] src.graph - Successfully created and compiled graph
+2025-04-28 18:45:47,552 [INFO] src.graph_blocks.nodes - Running sales agent
+2025-04-28 18:45:47,555 [INFO] SalesAgent - Loading environment variables
+2025-04-28 18:45:47,564 [INFO] SalesAgent - Successfully loaded API key
+2025-04-28 18:45:47,565 [INFO] SalesAgent - Initializing Google Gemini LLM
+2025-04-28 18:45:47,596 [INFO] SalesAgent - Successfully initialized LLM with tools
+2025-04-28 18:45:47,597 [INFO] SalesAgent - Creating sales agent chain
+2025-04-28 18:45:47,598 [INFO] SalesAgent - Successfully created sales agent chain
+2025-04-28 18:45:47,599 [INFO] SalesAgent - Processing input through chain
+2025-04-28 18:45:49,316 [INFO] src.graph_blocks.nodes - Running sales agent
+2025-04-28 18:45:49,320 [INFO] SalesAgent - Loading environment variables
+2025-04-28 18:45:49,325 [INFO] SalesAgent - Successfully loaded API key
+2025-04-28 18:45:49,326 [INFO] SalesAgent - Initializing Google Gemini LLM
+2025-04-28 18:45:49,354 [INFO] SalesAgent - Successfully initialized LLM with tools
+2025-04-28 18:45:49,355 [INFO] SalesAgent - Creating sales agent chain
+2025-04-28 18:45:49,357 [INFO] SalesAgent - Successfully created sales agent chain
+2025-04-28 18:45:49,361 [INFO] SalesAgent - Processing input through chain
+2025-04-28 18:45:51,277 [INFO] src.graph_blocks.nodes - Running output formatter
+2025-04-28 18:45:51,281 [INFO] OutputFormatter - Loading environment variables
+2025-04-28 18:45:51,285 [INFO] OutputFormatter - Successfully loaded API key
+2025-04-28 18:45:51,285 [INFO] OutputFormatter - Initializing Google Gemini LLM
+2025-04-28 18:45:51,308 [INFO] OutputFormatter - Successfully initialized LLM with tools
+2025-04-28 18:45:51,310 [INFO] OutputFormatter - Creating sales agent chain
+2025-04-28 18:45:51,315 [INFO] OutputFormatter - Successfully created sales agent chain
+2025-04-28 18:45:51,316 [INFO] OutputFormatter - Processing input through chain
+2025-04-28 18:46:42,976 [INFO] src.df_manager.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-28 18:46:42,977 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-28 18:46:42,977 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: Dataset\products.json
+2025-04-28 18:46:42,980 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: Dataset\products.json
+2025-04-28 18:46:42,982 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-28 18:46:43,011 [INFO] src.df_manager.df_manager - Successfully initialized DfManager
+2025-04-28 18:46:43,020 [INFO] src.graph - Creating new StateGraph
+2025-04-28 18:46:43,024 [INFO] src.graph - Successfully created and compiled graph
+2025-04-28 18:46:43,050 [INFO] src.graph_blocks.nodes - Running sales agent
+2025-04-28 18:46:43,052 [INFO] SalesAgent - Loading environment variables
+2025-04-28 18:46:43,057 [INFO] SalesAgent - Successfully loaded API key
+2025-04-28 18:46:43,057 [INFO] SalesAgent - Initializing Google Gemini LLM
+2025-04-28 18:46:43,083 [INFO] SalesAgent - Successfully initialized LLM with tools
+2025-04-28 18:46:43,084 [INFO] SalesAgent - Creating sales agent chain
+2025-04-28 18:46:43,086 [INFO] SalesAgent - Successfully created sales agent chain
+2025-04-28 18:46:43,086 [INFO] SalesAgent - Processing input through chain
+2025-04-28 18:46:46,854 [INFO] src.graph_blocks.nodes - Running output formatter
+2025-04-28 18:46:46,860 [INFO] OutputFormatter - Loading environment variables
+2025-04-28 18:46:46,872 [INFO] OutputFormatter - Successfully loaded API key
+2025-04-28 18:46:46,872 [INFO] OutputFormatter - Initializing Google Gemini LLM
+2025-04-28 18:46:46,902 [INFO] OutputFormatter - Successfully initialized LLM with tools
+2025-04-28 18:46:46,902 [INFO] OutputFormatter - Creating sales agent chain
+2025-04-28 18:46:46,905 [INFO] OutputFormatter - Successfully created sales agent chain
+2025-04-28 18:46:46,906 [INFO] OutputFormatter - Processing input through chain
+2025-04-28 18:49:29,271 [INFO] src.df_manager.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-28 18:49:29,276 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-28 18:49:29,277 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: Dataset\products.json
+2025-04-28 18:49:29,279 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: Dataset\products.json
+2025-04-28 18:49:29,281 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-28 18:49:29,306 [INFO] src.df_manager.df_manager - Successfully initialized DfManager
+2025-04-28 18:49:29,309 [INFO] src.graph - Creating new StateGraph
+2025-04-28 18:49:29,312 [INFO] src.graph - Successfully created and compiled graph
+2025-04-28 18:49:29,325 [INFO] src.graph_blocks.nodes - Running sales agent
+2025-04-28 18:49:29,327 [INFO] SalesAgent - Loading environment variables
+2025-04-28 18:49:29,330 [INFO] SalesAgent - Successfully loaded API key
+2025-04-28 18:49:29,331 [INFO] SalesAgent - Initializing Google Gemini LLM
+2025-04-28 18:49:29,348 [INFO] SalesAgent - Successfully initialized LLM with tools
+2025-04-28 18:49:29,349 [INFO] SalesAgent - Creating sales agent chain
+2025-04-28 18:49:29,350 [INFO] SalesAgent - Successfully created sales agent chain
+2025-04-28 18:49:29,351 [INFO] SalesAgent - Processing input through chain
+2025-04-28 18:49:30,829 [INFO] src.graph_blocks.nodes - Running output formatter
+2025-04-28 18:49:30,832 [INFO] OutputFormatter - Loading environment variables
+2025-04-28 18:49:30,835 [INFO] OutputFormatter - Successfully loaded API key
+2025-04-28 18:49:30,836 [INFO] OutputFormatter - Initializing Google Gemini LLM
+2025-04-28 18:49:30,853 [INFO] OutputFormatter - Successfully initialized LLM with tools
+2025-04-28 18:49:30,853 [INFO] OutputFormatter - Creating sales agent chain
+2025-04-28 18:49:30,858 [INFO] OutputFormatter - Successfully created sales agent chain
+2025-04-28 18:49:30,858 [INFO] OutputFormatter - Processing input through chain
+2025-04-28 18:49:39,490 [INFO] src.graph_blocks.tools.df_tools - Loading product data
+2025-04-28 18:49:39,490 [INFO] src.df_manager.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-28 18:49:39,491 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-28 18:49:39,492 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-28 18:49:39,493 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-28 18:49:39,496 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-28 18:49:39,518 [INFO] src.df_manager.df_manager - Successfully initialized DfManager
+2025-04-28 18:49:39,518 [INFO] src.graph_blocks.tools.df_tools - Successfully loaded 8 products
+2025-04-28 18:49:42,251 [INFO] src.graph_blocks.nodes - Initializing tool node
+2025-04-28 18:49:42,252 [INFO] src.graph_blocks.nodes - Tool node initialized successfully
+2025-04-28 18:49:48,032 [INFO] src.df_manager.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-28 18:49:48,035 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-28 18:49:48,036 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: Dataset\products.json
+2025-04-28 18:49:48,037 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: Dataset\products.json
+2025-04-28 18:49:48,040 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-28 18:49:48,064 [INFO] src.df_manager.df_manager - Successfully initialized DfManager
+2025-04-28 18:49:48,073 [INFO] src.graph - Creating new StateGraph
+2025-04-28 18:49:48,087 [INFO] src.graph - Successfully created and compiled graph
+2025-04-28 18:49:48,141 [INFO] src.graph_blocks.nodes - Running sales agent
+2025-04-28 18:49:48,144 [INFO] SalesAgent - Loading environment variables
+2025-04-28 18:49:48,148 [INFO] SalesAgent - Successfully loaded API key
+2025-04-28 18:49:48,148 [INFO] SalesAgent - Initializing Google Gemini LLM
+2025-04-28 18:49:48,208 [INFO] SalesAgent - Successfully initialized LLM with tools
+2025-04-28 18:49:48,209 [INFO] SalesAgent - Creating sales agent chain
+2025-04-28 18:49:48,211 [INFO] SalesAgent - Successfully created sales agent chain
+2025-04-28 18:49:48,212 [INFO] SalesAgent - Processing input through chain
+2025-04-28 18:49:52,676 [INFO] src.graph_blocks.nodes - Running output formatter
+2025-04-28 18:49:52,679 [INFO] OutputFormatter - Loading environment variables
+2025-04-28 18:49:52,684 [INFO] OutputFormatter - Successfully loaded API key
+2025-04-28 18:49:52,685 [INFO] OutputFormatter - Initializing Google Gemini LLM
+2025-04-28 18:49:52,705 [INFO] OutputFormatter - Successfully initialized LLM with tools
+2025-04-28 18:49:52,706 [INFO] OutputFormatter - Creating sales agent chain
+2025-04-28 18:49:52,711 [INFO] OutputFormatter - Successfully created sales agent chain
+2025-04-28 18:49:52,712 [INFO] OutputFormatter - Processing input through chain

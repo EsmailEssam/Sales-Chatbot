@@ -1,5 +1,7 @@
 from langgraph.graph import END, StateGraph
 from langgraph.checkpoint.memory import MemorySaver
+from langgraph.checkpoint.sqlite import SqliteSaver
+import sqlite3
 from langgraph.prebuilt import tools_condition
 
 # local imports
@@ -57,8 +59,9 @@ def get_graph():
         
         # Create checkpointer and compile
         logger.debug("Creating memory saver and compiling graph")
-        checkpointer = MemorySaver()
-        graph = graph_builder.compile(checkpointer=checkpointer)
+        conn = sqlite3.connect('DataBase/checkpoint.sqlite' , check_same_thread=False)
+        memory = SqliteSaver(conn)
+        graph = graph_builder.compile(checkpointer=memory)
         
         logger.info("Successfully created and compiled graph")
         return graph
