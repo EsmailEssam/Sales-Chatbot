@@ -22,7 +22,7 @@ try:
         
     df_manager = DfManager(json_file_path)
     df = df_manager.get_cleaned_df() 
-    df.to_csv('products.csv', index=False)
+    # df.to_csv('products.csv', index=False)
      
         
     logger.info(f"Successfully loaded {len(df)} products")
