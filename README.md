@@ -52,13 +52,25 @@ python main.py
 
 ```
 sales-chatbot/
-├── app.py              # FastAPI application
-├── main.py            # Entry point
-├── tools/             # LangGraph tools
-│   └── df_tools.py    # DataFrame query tools
-├── modules/           # Core modules
-├── Dataset/           # Data files
-└── tests/            # Test files
+├── app.py                # streamlit application
+├── main.py              # Entry point
+├── main_api.py          # API endpoints
+├── Dataset/             # Data files
+│   └── products.json    # Product database
+├── src/             # Core src
+│   ├── df_manager/      # DataFrame management
+│   ├── graph_blocks/    # LangGraph components
+│   ├── llm_blocks/      # LLM integration
+│   ├── helper/          # Utility functions
+│   ├── log_manager/     # Logging system
+│   └── schemas/         # Data schemas
+├── routes/              # API routes
+├── assets/              # Project assets
+├── prompts/             # LLM prompt templates
+├── notebook/            # Jupyter notebooks
+└── tests/               # Test files
+    ├── test_df_manager/ # DataFrame tests
+    └── test_helper/     # Helper function tests
 ```
 
 ## Development
@@ -92,4 +104,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Uses LangChain for LLM integration 
 
 
-في الفيرجن ده انا ضفت نود جديده عشان تخرح الاوتبت في جسون زي ما احنا عاوزين واشتغلت بالفعل وظبط شويه حاجات في الاستركشر بتاع لمشروع وال وان تيست دلوقتي هو الي شغال 
+في الفيرجن ده انا ضفت نود جديده عشان تخرح الاوتبت في جسون زي ما احنا عاوزين واشتغلت بالفعل وظبط شويه حاجات في الاستركشر بتاع لمشروع وال وان تيست دلوقتي هو الي شغال

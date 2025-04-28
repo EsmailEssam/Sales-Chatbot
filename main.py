@@ -1,83 +1,72 @@
-# local imports
-from modules.graph import get_graph
-from modules.log_manager.log_manager import get_logger
-from modules.df_manager.df_manager import DfManager
+from src import graph
+from src.helper.get_the_data_from_the_end_point import ProductDataFetcher
+from src.df_manager.df_manager_helpers.convert_json_to_df import ConvertJsonToDf   
+from src.df_manager.df_manager import DfManager
+from src.graph import get_graph
 import os
-# Initialize logger
-logger = get_logger(__name__)
 
-try:
-    logger.info("Initializing graph")
-    graph = get_graph()
-    logger.info("Graph initialized successfully")
-except Exception as e:
-    logger.error(f"Failed to initialize graph: {str(e)}")
-    raise
+class App:
+    """
+    Sales Chatbot Application class for managing product data and generating responses.
+    """
+    def __init__(self, dataset_path=None):
+        """
+        Initialize the App with the path to the products dataset.
+        """
+        if dataset_path is None:
+            dataset_path = os.path.join("Dataset", "products.json")
+        self.dataset_path = dataset_path
+        self.df_manager = DfManager(self.dataset_path)
+        self.available_concerns = self.df_manager.get_concerns_set()
+        self.available_categories = self.df_manager.get_category_set()
+        self.available_ingredients = self.df_manager.get_ingredients_set()
 
-def get_answer(user_input):
-    try:
-        if not user_input or not isinstance(user_input, str):
-            logger.error(f"Invalid user input: {user_input}")
-            raise ValueError("User input must be a non-empty string")
-            
-        logger.info(f"Processing user input: {user_input}")
-        config = {"configurable": {"thread_id": "1"}}
-        df_manager = DfManager(os.path.join( 'Dataset', 'products.json'))
-        
-        available_concerns = df_manager.get_concerns_set()
-        available_categories = df_manager.get_category_set()
-        available_ingredients = df_manager.get_ingredients_set()
-        logger.info(f"Available concerns: {available_concerns}")
-        logger.info(f"Available categories: {available_categories}")
-        logger.info("Starting graph stream")
-        events = graph.stream(
-            {'messages': [('user', user_input)], 'available_concerns': available_concerns, 'available_categories': available_categories, 'available_ingredients': available_ingredients},
+    def run(self, messages, session_id ):
+        """
+        Process the chat messages and return the current event from the model.
+        Args:
+            messages (list): List of (role, content) tuples representing the chat history.
+            session_id (str or int): Unique session identifier.
+        Returns:
+            dict: The current event from the model's response stream.
+        """
+        config = {"configurable": {"thread_id": session_id}}
+        events = get_graph().invoke(
+            {
+                'messages': messages,
+                'available_concerns': self.available_concerns,
+                'available_categories': self.available_categories,
+                'available_ingredients': self.available_ingredients,
+                'session_id': session_id
+            },
             config,
             stream_mode='values',
         )
-        
-        event = None
-        for event in events:
-            try:
-                event['messages'][-1].pretty_print()
-                logger.debug(f"Processed message: {event['messages'][-1].content[:100]}...")
-            except Exception as e:
-                logger.warning(f"Error pretty printing message: {str(e)}")
-        
-        if event is None:
-            logger.error("No response generated from graph")
-            raise Exception("Failed to generate response")
-            
-        logger.info("Successfully generated response")
-        return event
-        
-    except ValueError as e:
-        logger.error(f"ValueError in get_answer: {str(e)}")
-        raise
-    except Exception as e:
-        logger.error(f"Error in get_answer: {str(e)}")
-        raise
+
+        # currant_event = None
+        # for event in events:
+        #     currant_event = event
+
+        return events
+    
+    def get_available_concerns(self):
+        return self.available_concerns
+
+    def get_available_categories(self):
+        return self.available_categories
+    
+    def get_available_ingredients(self):
+        return self.available_ingredients
+
 
 if __name__ == "__main__":
-    try:
-        logger.info("Starting main program")
-        user_input = "عاوز حاجه لتساقط الشعر؟"
-        logger.info(f"Test input: {user_input}")
-        
-        event = get_answer(user_input)
-        
-        logger.info("Test response received")
-        logger.debug("*" * 50)
-        logger.debug(event['messages'][-1].content)
-        logger.debug("*" * 50)
-        
-       
-        
-    except Exception as e:
-        logger.error(f"Main program error: {str(e)}")
-        raise
+    app = App()
+    # Example usage with a single message
+    messages = [("user", "hi")]
+    res =  app.run(messages=messages, session_id=1)
 
+    print(res['output_formatter_response'])
+    print("--------------------------------")
+    # print(res)
 
-
-
-
+# print(events.get_graph().draw_mermaid())

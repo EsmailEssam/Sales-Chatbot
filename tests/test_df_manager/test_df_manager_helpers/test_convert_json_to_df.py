@@ -3,9 +3,9 @@ import os
 import json
 import pandas as pd
 from pydantic import ValidationError
-from modules.df_manager.df_manager_helpers.convert_json_to_df import ConvertJsonToDf
-from modules.schemas.end_point_json_schema import EndPointJsonSchema
-from modules.schemas.products_from_end_point_schema import Product
+from src.df_manager.df_manager_helpers.convert_json_to_df import ConvertJsonToDf
+from src.schemas.end_point_json_schema import EndPointJsonSchema
+from src.schemas.products_from_end_point_schema import Product
 
 
 # Helper function to create sample JSON file with valid schema

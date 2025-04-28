@@ -2,8 +2,8 @@ import streamlit as st
 import os
 import speech_recognition as sr
 import functools
-from modules.log_manager.log_manager import get_logger
-from main import get_answer
+from src.log_manager.log_manager import get_logger
+from main import App
 
 
 # Initialize logger
@@ -39,7 +39,7 @@ if 'messages' not in st.session_state:
     st.session_state.messages = []
     logger.info("Initialized new chat session")
 
-chat_container = st.container(height=1050, border=True)
+chat_container = st.container(height=800, border=True)
 
 # Display chat history
 for message in st.session_state.messages:
@@ -58,7 +58,7 @@ for message in st.session_state.messages:
                 st.error("Error displaying message")
 
 # Get user input
-col1, col2 = st.columns([9, 1], vertical_alignment="top")
+col1, col2 = st.columns([7, 1], vertical_alignment="top")
 with col1:
     user_input = st.chat_input("What is your question?", key="input")
 with col2:
@@ -67,25 +67,30 @@ with col2:
 
 if user_input:
     logger.info(f"Received user input: {user_input}")
-    # Add user message to chat history
     st.session_state.messages.append({"role": "user", "content": user_input})
-    
-    # Display user message
+
+    # Convert messages to list of (role, content) tuples
+    formatted_messages = [
+        (msg["role"], msg["content"] if isinstance(msg["content"], str) else msg["content"].get("assistance_respond", ""))
+        for msg in st.session_state.messages
+    ]
+
     with chat_container:
         with st.chat_message("user"):
             st.markdown(user_input)
-    
-        # Get AI response
+
         with st.chat_message("assistant"):
             try:
                 with st.spinner("Thinking..."):
-                    respond = get_answer(user_input)
+                    app = App()
+                    respond = app.run(formatted_messages, session_id="10")               
                     logger.debug("Received response from AI")
                     
                     filterd_list = respond['messages'][-4:]
                     logger.debug(f"Response length: {len(respond['messages'])}")
                     
-                    personalized_sales_assistance = filterd_list[-1].content
+                    personalized_sales_assistance = respond['output_formatter_response']
+                    logger.debug("Successfully parsed personalized sales assistance")
                     
                     try:
                         book_recommendations = eval(filterd_list[2].content)
@@ -94,14 +99,18 @@ if user_input:
                         logger.warning(f"Could not parse book recommendations: {str(e)}")
                         book_recommendations = None
                     
-                    st.markdown(personalized_sales_assistance)
+                    print(personalized_sales_assistance)
+                    st.markdown(personalized_sales_assistance["response"]["text"])
+                    st.markdown(personalized_sales_assistance["response"]["suggestions"])
+                    st.markdown(personalized_sales_assistance["session_id"])
+
                     
                         
                 # Add assistant response to chat history
                 st.session_state.messages.append({
                     "role": "assistant", 
                     "content": {
-                        "assistance_respond": personalized_sales_assistance, 
+                        "assistance_respond": personalized_sales_assistance["response"]["text"], 
                     }
                 })
                 logger.info("Successfully processed and displayed AI response")

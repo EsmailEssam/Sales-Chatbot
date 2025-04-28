@@ -1,6 +1,6 @@
 import pytest
 import pandas as pd
-from modules.df_manager.df_manager import DfManager
+from src.df_manager.df_manager import DfManager
 from pathlib import Path
 import json
 
