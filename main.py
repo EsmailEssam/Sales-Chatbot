@@ -62,7 +62,7 @@ class App:
 if __name__ == "__main__":
     app = App()
     # Example usage with a single message
-    messages = [("user", "hi")]
+    messages = [("user", "عاوز حاجه لتساقط الشعر")]
     res =  app.run(messages=messages, session_id=1)
 
     print(res['output_formatter_response'])

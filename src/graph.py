@@ -59,8 +59,11 @@ def get_graph():
         
         # Create checkpointer and compile
         logger.debug("Creating memory saver and compiling graph")
+        
+        logger.info('connect to sql database....')
         conn = sqlite3.connect('DataBase/checkpoint.sqlite' , check_same_thread=False)
         memory = SqliteSaver(conn)
+        logger.info('connect to sql database complited.')
         graph = graph_builder.compile(checkpointer=memory)
         
         logger.info("Successfully created and compiled graph")

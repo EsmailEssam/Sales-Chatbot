@@ -26,12 +26,13 @@ def run_sales_agent(state: AgentState):
     """
     try:
         logger.info("Running sales agent")
-        logger.debug(f"Input state messages count: {len(state['messages'])}")
+        logger.info(f"Input state messages count: {len(state['messages'])}")
         
         sales_agent = SalesAgent()
         
         response = sales_agent.run({"messages": state["messages"] , "available_concerns": state["available_concerns"], "available_categories": state["available_categories"] , "available_ingredients": state["available_ingredients"]})
         
+        logger.info(f"the sales agent response is: {response}")
         logger.debug(f"Sales agent response received")
         return {"messages": response , "doctor_suggesions": response}
         

@@ -6,7 +6,6 @@ from langchain_core.runnables import RunnableSequence
 import os
 from src.log_manager.log_manager import get_logger
 
-
 class BaseLLMBlock(ABC):
     """
     Abstract base class for LLM blocks that defines common functionality and structure.

@@ -1,0 +1,7 @@
+{
+    "graphs": {
+        "sales_agent" : "src/graph.py:graph"
+    },
+    "env" : ".env",
+    "dependencies" : ["."]
+}

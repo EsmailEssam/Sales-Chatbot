@@ -5,12 +5,24 @@ from langchain_core.output_parsers import JsonOutputParser
 from langchain_core.prompts import PromptTemplate
 from pydantic import BaseModel, Field
 from langchain_google_genai import ChatGoogleGenerativeAI
+import os
+import re
+from dotenv import load_dotenv
 
 from src.schemas.output_formatter import ResponseModel
-from src.helper.config import get_settings 
 
 
 # Load environment variables
+
+
+
+
+
+
+
+
+from dotenv import load_dotenv
+from langchain_core.prompts import ChatPromptTemplate
 from langchain_google_genai import ChatGoogleGenerativeAI
 import os
 from ...log_manager.log_manager import get_logger
@@ -43,7 +55,7 @@ class OutputFormatter(BaseLLMBlock):
     
     def _validate_environment(self) -> None:
         """Validate that the GEMINI_API_KEY environment variable is present."""
-        self.api_key = get_settings().GEMINI_API_KEY
+        self.api_key = os.getenv('GEMINI_API_KEY')
         if not self.api_key:
             self.logger.error("GEMINI_API_KEY not found in environment variables")
             raise ValueError("GEMINI_API_KEY not found in environment variables")

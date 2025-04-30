@@ -21,9 +21,7 @@ try:
         raise FileNotFoundError(f"Products file not found at {json_file_path}")
         
     df_manager = DfManager(json_file_path)
-    df = df_manager.get_cleaned_df() 
-    # df.to_csv('products.csv', index=False)
-     
+    df = df_manager.get_cleaned_df()    
         
     logger.info(f"Successfully loaded {len(df)} products")
 except Exception as e:
