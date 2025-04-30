@@ -16,3 +16,4 @@ speechrecognition==3.11.0
 streamlit==1.44.1
 langgraph-checkpoint-sqlite==2.0.6
 packaging == 24.0
+uvicorn == 0.34.2

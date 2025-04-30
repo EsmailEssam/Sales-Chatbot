@@ -12253,3 +12253,83 @@ timestamp
 2025-04-30 15:29:07,518 [INFO] OutputFormatter - Successfully created sales agent chain
 2025-04-30 15:29:07,519 [INFO] OutputFormatter - Processing input through chain
 2025-04-30 15:29:09,902 [INFO] routes.chat_route - Chat response successful | session_id: 55
+2025-04-30 13:22:19,754 [INFO] src.graph_blocks.tools.df_tools - Loading product data
+2025-04-30 13:22:19,757 [INFO] src.df_manager.df_manager - Initializing DfManager with file: /app/Dataset/products.json
+2025-04-30 13:22:19,761 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: /app/Dataset/products.json
+2025-04-30 13:22:19,761 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: /app/Dataset/products.json
+2025-04-30 13:22:19,770 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: /app/Dataset/products.json
+2025-04-30 13:22:19,779 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-30 13:22:19,817 [INFO] src.df_manager.df_manager - Successfully initialized DfManager
+2025-04-30 13:22:19,818 [INFO] src.graph_blocks.tools.df_tools - Successfully loaded 8 products
+2025-04-30 13:22:21,049 [INFO] src.graph_blocks.nodes - Initializing tool node
+2025-04-30 13:22:21,049 [INFO] src.graph_blocks.nodes - Tool node initialized successfully
+2025-04-30 13:22:51,417 [INFO] src.df_manager.df_manager - Initializing DfManager with file: Dataset/products.json
+2025-04-30 13:22:51,422 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: Dataset/products.json
+2025-04-30 13:22:51,422 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: Dataset/products.json
+2025-04-30 13:22:51,433 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: Dataset/products.json
+2025-04-30 13:22:51,437 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-30 13:22:51,477 [INFO] src.df_manager.df_manager - Successfully initialized DfManager
+2025-04-30 13:22:51,487 [INFO] src.graph - Creating new StateGraph
+2025-04-30 13:22:51,491 [INFO] src.graph - connect to sql database....
+2025-04-30 13:22:51,504 [INFO] src.graph - connect to sql database complited.
+2025-04-30 13:22:51,536 [INFO] src.graph - Successfully created and compiled graph
+2025-04-30 13:22:51,540 [INFO] routes.chat_route - Received chat request | user_query: عاندي حساسيه من الزنك بس | session_id: 55
+2025-04-30 13:22:51,657 [INFO] src.graph_blocks.nodes - Running sales agent
+2025-04-30 13:22:51,657 [INFO] src.graph_blocks.nodes - Input state messages count: 21
+2025-04-30 13:22:51,660 [INFO] SalesAgent - Loading environment variables
+2025-04-30 13:22:51,699 [INFO] SalesAgent - Successfully loaded API key
+2025-04-30 13:22:51,700 [INFO] SalesAgent - Initializing Google Gemini LLM
+2025-04-30 13:22:51,781 [INFO] SalesAgent - Successfully initialized LLM with tools
+2025-04-30 13:22:51,782 [INFO] SalesAgent - Creating sales agent chain
+2025-04-30 13:22:51,787 [INFO] SalesAgent - Successfully created sales agent chain
+2025-04-30 13:22:51,788 [INFO] SalesAgent - Processing input through chain
+2025-04-30 13:22:53,479 [INFO] src.graph_blocks.nodes - the sales agent response is: content='بالتأكيد يا فندم،  نظراً لحساسيتكِ من الزنك، سأساعدكِ في إيجاد كريم مرطب مناسب.  للبشرة الجافة، أنصح بكريم يحتوي على مكونات طبيعية مثل زيت جوز الهند أو زيت الزيتون أو زبدة الشيا، فهي غنية بالمرطبات وتُناسب البشرة الحساسة. هل لديكِ أي تفضيلات أخرى؟ مثلًا، هل تفضلين كريمًا خفيفًا أم ثقيلًا؟' additional_kwargs={} response_metadata={'prompt_feedback': {'block_reason': 0, 'safety_ratings': []}, 'finish_reason': 'STOP', 'model_name': 'gemini-1.5-flash', 'safety_ratings': []} id='run-8d123914-0736-4ea4-bdf0-c15f04afa032-0' usage_metadata={'input_tokens': 4628, 'output_tokens': 112, 'total_tokens': 4740, 'input_token_details': {'cache_read': 0}}
+2025-04-30 13:22:53,481 [INFO] src.graph_blocks.nodes - Running output formatter
+2025-04-30 13:22:53,484 [INFO] OutputFormatter - Loading environment variables
+2025-04-30 13:22:53,509 [INFO] OutputFormatter - Successfully loaded API key
+2025-04-30 13:22:53,510 [INFO] OutputFormatter - Initializing Google Gemini LLM
+2025-04-30 13:22:53,532 [INFO] OutputFormatter - Successfully initialized LLM with tools
+2025-04-30 13:22:53,532 [INFO] OutputFormatter - Creating sales agent chain
+2025-04-30 13:22:53,542 [INFO] OutputFormatter - Successfully created sales agent chain
+2025-04-30 13:22:53,542 [INFO] OutputFormatter - Processing input through chain
+2025-04-30 13:22:56,030 [INFO] routes.chat_route - Chat response successful | session_id: 55
+2025-04-30 13:23:20,496 [INFO] routes.chat_route - Received chat request | user_query: hi | session_id: 55
+2025-04-30 13:23:20,504 [INFO] src.graph_blocks.nodes - Running sales agent
+2025-04-30 13:23:20,505 [INFO] src.graph_blocks.nodes - Input state messages count: 23
+2025-04-30 13:23:20,506 [INFO] SalesAgent - Loading environment variables
+2025-04-30 13:23:20,540 [INFO] SalesAgent - Successfully loaded API key
+2025-04-30 13:23:20,541 [INFO] SalesAgent - Initializing Google Gemini LLM
+2025-04-30 13:23:20,567 [INFO] SalesAgent - Successfully initialized LLM with tools
+2025-04-30 13:23:20,568 [INFO] SalesAgent - Creating sales agent chain
+2025-04-30 13:23:20,573 [INFO] SalesAgent - Successfully created sales agent chain
+2025-04-30 13:23:20,574 [INFO] SalesAgent - Processing input through chain
+2025-04-30 13:23:22,180 [INFO] src.graph_blocks.nodes - the sales agent response is: content='بالتأكيد يا فندم،  نظراً لحساسيتكِ من الزنك، سأساعدكِ في إيجاد كريم مرطب مناسب.  للبشرة الجافة، أنصح بكريم يحتوي على مكونات طبيعية مثل زيت جوز الهند أو زيت الزيتون أو زبدة الشيا، فهي غنية بالمرطبات وتُناسب البشرة الحساسة. هل لديكِ أي تفضيلات أخرى؟ مثلًا، هل تفضلين كريمًا خفيفًا أم ثقيلًا؟' additional_kwargs={} response_metadata={'prompt_feedback': {'block_reason': 0, 'safety_ratings': []}, 'finish_reason': 'STOP', 'model_name': 'gemini-1.5-flash', 'safety_ratings': []} id='run-edf05c84-d211-4018-863e-712736efc44a-0' usage_metadata={'input_tokens': 4941, 'output_tokens': 112, 'total_tokens': 5053, 'input_token_details': {'cache_read': 0}}
+2025-04-30 13:23:22,182 [INFO] src.graph_blocks.nodes - Running output formatter
+2025-04-30 13:23:22,184 [INFO] OutputFormatter - Loading environment variables
+2025-04-30 13:23:22,207 [INFO] OutputFormatter - Successfully loaded API key
+2025-04-30 13:23:22,208 [INFO] OutputFormatter - Initializing Google Gemini LLM
+2025-04-30 13:23:22,236 [INFO] OutputFormatter - Successfully initialized LLM with tools
+2025-04-30 13:23:22,237 [INFO] OutputFormatter - Creating sales agent chain
+2025-04-30 13:23:22,246 [INFO] OutputFormatter - Successfully created sales agent chain
+2025-04-30 13:23:22,247 [INFO] OutputFormatter - Processing input through chain
+2025-04-30 13:23:24,744 [INFO] routes.chat_route - Chat response successful | session_id: 55
+2025-04-30 13:25:02,485 [INFO] routes.chat_route - Received chat request | user_query: عندكو شامبو؟ | session_id: 7
+2025-04-30 13:25:02,517 [INFO] src.graph_blocks.nodes - Running sales agent
+2025-04-30 13:25:02,517 [INFO] src.graph_blocks.nodes - Input state messages count: 79
+2025-04-30 13:25:02,520 [INFO] SalesAgent - Loading environment variables
+2025-04-30 13:25:02,555 [INFO] SalesAgent - Successfully loaded API key
+2025-04-30 13:25:02,555 [INFO] SalesAgent - Initializing Google Gemini LLM
+2025-04-30 13:25:02,579 [INFO] SalesAgent - Successfully initialized LLM with tools
+2025-04-30 13:25:02,580 [INFO] SalesAgent - Creating sales agent chain
+2025-04-30 13:25:02,587 [INFO] SalesAgent - Successfully created sales agent chain
+2025-04-30 13:25:02,587 [INFO] SalesAgent - Processing input through chain
+2025-04-30 13:25:04,368 [INFO] src.graph_blocks.nodes - the sales agent response is: content='أكيد يا عمر!  لدينا العديد من أنواع الشامبوهات.  للتوصية الأنسب، أخبرني من فضلك، ما نوع شعرك؟ (دهني، جاف، عادي، أو مختلط) وما هي مشاكله إن وجدت؟ (مثل القشرة، التساقط، الجفاف...)' additional_kwargs={} response_metadata={'prompt_feedback': {'block_reason': 0, 'safety_ratings': []}, 'finish_reason': 'STOP', 'model_name': 'gemini-1.5-flash', 'safety_ratings': []} id='run-f83f062c-e75b-4a60-8d7e-83d125e7473c-0' usage_metadata={'input_tokens': 14142, 'output_tokens': 72, 'total_tokens': 14214, 'input_token_details': {'cache_read': 0}}
+2025-04-30 13:25:04,370 [INFO] src.graph_blocks.nodes - Running output formatter
+2025-04-30 13:25:04,372 [INFO] OutputFormatter - Loading environment variables
+2025-04-30 13:25:04,396 [INFO] OutputFormatter - Successfully loaded API key
+2025-04-30 13:25:04,396 [INFO] OutputFormatter - Initializing Google Gemini LLM
+2025-04-30 13:25:04,418 [INFO] OutputFormatter - Successfully initialized LLM with tools
+2025-04-30 13:25:04,419 [INFO] OutputFormatter - Creating sales agent chain
+2025-04-30 13:25:04,428 [INFO] OutputFormatter - Successfully created sales agent chain
+2025-04-30 13:25:04,429 [INFO] OutputFormatter - Processing input through chain
+2025-04-30 13:25:05,934 [INFO] routes.chat_route - Chat response successful | session_id: 7
