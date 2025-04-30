@@ -10,6 +10,7 @@ import re
 from dotenv import load_dotenv
 
 from src.schemas.output_formatter import ResponseModel
+from src.schemas.enums.llm_enums import GeminiMmodelName
 
 
 # Load environment variables
@@ -43,7 +44,7 @@ class OutputFormatter(BaseLLMBlock):
     Inherits from BaseLLMBlock to maintain consistent structure with other LLM blocks.
     """
     
-    def __init__(self, model_name: str = "gemini-2.0-flash", temperature: float = 0.0):
+    def __init__(self, model_name: str = GeminiMmodelName.Gemini_1_5_flash.value, temperature: float = 0.0):
         """
         Initialize the sales agent.
         

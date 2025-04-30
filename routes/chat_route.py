@@ -1,36 +1,40 @@
-from fastapi import FastAPI , APIRouter , Depends , HTTPException
-from main import App
+from fastapi import APIRouter, Depends, HTTPException
 from functools import lru_cache
+from src.schemas.routes_schemes.chat_request import ChatRequest
 from src.schemas.enums.api_errors_message import ErrorMessage
 from src.log_manager.log_manager import get_logger
+from main import App
 
 chat_router = APIRouter(
-    tags= ['api_v1' , 'chat']
+    tags=["api_v1", "chat"]
 )
 
 logger = get_logger(__name__)
 
-@lru_cache()  # to make the App class Singleton (called once in the run time)
+@lru_cache()
 def get_app():
     return App()
 
-@chat_router.get('/chat')
-async def chat(user_query: str , session_id: str = None, app: App = Depends(get_app)):
-    logger.info(f"Received chat request | user_query: {user_query} | session_id: {session_id}")
+@chat_router.post('/chat')
+async def chat(request: ChatRequest, app: App = Depends(get_app)):
+    logger.info(f"Received chat request | user_query: {request.user_query} | session_id: {request.session_id}")
+    
     try:
-        events = app.run(user_query, session_id)
+        events = app.run(request.user_query, request.session_id)
         response = events.get('output_formatter_response', {})
-        logger.info(f"Chat response successful | session_id: {session_id}")
+        logger.info(f"Chat response successful | session_id: {request.session_id}")
         return response
     
     
     except ValueError as e:
-        logger.warning(f"Invalid input error | user_query: {user_query} | session_id: {session_id} | error details: {str(e)}")
-        raise HTTPException(status_code=400, detail=ErrorMessage.INVALID_INPUT)
+        logger.error(f"Invalid input error | session_id: {request.session_id} | error: {str(e)}")
+        raise HTTPException(status_code=400, detail=ErrorMessage.INVALID_INPUT.value)
+
     except RuntimeError as e:
-        logger.error(f"Model processing error | user_query: {user_query} | session_id: {session_id} | error details: {str(e)}")
-        raise HTTPException(status_code=500, detail=ErrorMessage.MODEL_PROCESSING_ERROR)
+        logger.error(f"Model processing error | session_id: {request.session_id} | error: {str(e)}")
+        raise HTTPException(status_code=500, detail=ErrorMessage.MODEL_PROCESSING_ERROR.value)
+
     except Exception as e:
-        logger.exception(f"Internal error | user_query: {user_query} | session_id: {session_id} | error details: {str(e)}")
-        raise HTTPException(status_code=500, detail=ErrorMessage.INTERNAL_ERROR)
+        logger.error(f"Internal error | session_id: {request.session_id} | error: {str(e)}")
+        raise HTTPException(status_code=500, detail=ErrorMessage.INTERNAL_ERROR.value)
         

@@ -9,7 +9,7 @@ class App:
     """
     Sales Chatbot Application class for managing product data and generating responses.
     """
-    def __init__(self, dataset_path=None):
+    def __init__(self, dataset_path: str = None):
         """
         Initialize the App with the path to the products dataset.
         """
@@ -20,18 +20,16 @@ class App:
         self.available_concerns = self.df_manager.get_concerns_set()
         self.available_categories = self.df_manager.get_category_set()
         self.available_ingredients = self.df_manager.get_ingredients_set()
+        
+        # Create and store the graph instance once (singleton pattern)
+        self.graph = get_graph()
 
-    def run(self, messages, session_id ):
+    def run(self, messages, session_id):
         """
         Process the chat messages and return the current event from the model.
-        Args:
-            messages (list): List of (role, content) tuples representing the chat history.
-            session_id (str or int): Unique session identifier.
-        Returns:
-            dict: The current event from the model's response stream.
         """
         config = {"configurable": {"thread_id": session_id}}
-        events = get_graph().invoke(
+        events = self.graph.invoke(
             {
                 'messages': messages,
                 'available_concerns': self.available_concerns,
@@ -43,21 +41,8 @@ class App:
             stream_mode='values',
         )
 
-        # currant_event = None
-        # for event in events:
-        #     currant_event = event
-
         return events
     
-    def get_available_concerns(self):
-        return self.available_concerns
-
-    def get_available_categories(self):
-        return self.available_categories
-    
-    def get_available_ingredients(self):
-        return self.available_ingredients
-
 
 if __name__ == "__main__":
     app = App()

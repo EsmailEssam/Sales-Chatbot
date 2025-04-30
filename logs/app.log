@@ -11576,3 +11576,680 @@ timestamp
 2025-04-30 12:51:43,102 [INFO] OutputFormatter - Successfully created sales agent chain
 2025-04-30 12:51:43,102 [INFO] OutputFormatter - Processing input through chain
 2025-04-30 12:51:50,306 [INFO] routes.chat_route - Chat response successful | session_id: 8
+2025-04-30 14:00:17,211 [INFO] src.graph_blocks.tools.df_tools - Loading product data
+2025-04-30 14:00:17,212 [INFO] src.df_manager.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 14:00:17,212 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 14:00:17,212 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 14:00:17,213 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 14:00:17,219 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-30 14:00:17,245 [INFO] src.df_manager.df_manager - Successfully initialized DfManager
+2025-04-30 14:00:17,246 [INFO] src.graph_blocks.tools.df_tools - Successfully loaded 8 products
+2025-04-30 14:00:19,213 [INFO] src.graph_blocks.nodes - Initializing tool node
+2025-04-30 14:00:19,213 [INFO] src.graph_blocks.nodes - Tool node initialized successfully
+2025-04-30 14:01:49,300 [INFO] src.df_manager.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-30 14:01:49,300 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-30 14:01:49,301 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: Dataset\products.json
+2025-04-30 14:01:49,302 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: Dataset\products.json
+2025-04-30 14:01:49,304 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-30 14:01:49,323 [INFO] src.df_manager.df_manager - Successfully initialized DfManager
+2025-04-30 14:01:49,328 [INFO] routes.chat_route - Received chat request | user_query: hi | session_id: 8
+2025-04-30 14:01:49,328 [INFO] src.graph - Creating new StateGraph
+2025-04-30 14:01:49,330 [INFO] src.graph - connect to sql database....
+2025-04-30 14:01:49,332 [INFO] src.graph - connect to sql database complited.
+2025-04-30 14:01:49,342 [INFO] src.graph - Successfully created and compiled graph
+2025-04-30 14:01:49,367 [INFO] src.graph_blocks.nodes - Running sales agent
+2025-04-30 14:01:49,367 [INFO] src.graph_blocks.nodes - Input state messages count: 3
+2025-04-30 14:01:49,367 [INFO] SalesAgent - Loading environment variables
+2025-04-30 14:01:49,371 [INFO] SalesAgent - Successfully loaded API key
+2025-04-30 14:01:49,372 [INFO] SalesAgent - Initializing Google Gemini LLM
+2025-04-30 14:01:49,427 [INFO] SalesAgent - Successfully initialized LLM with tools
+2025-04-30 14:01:49,427 [INFO] SalesAgent - Creating sales agent chain
+2025-04-30 14:01:49,428 [INFO] SalesAgent - Successfully created sales agent chain
+2025-04-30 14:01:49,428 [INFO] SalesAgent - Processing input through chain
+2025-04-30 14:01:54,238 [INFO] src.graph_blocks.nodes - the sales agent response is: content='أهلاً بك مرة أخرى! كيف يمكنني أن أساعدك اليوم؟' additional_kwargs={} response_metadata={'prompt_feedback': {'block_reason': 0, 'safety_ratings': []}, 'finish_reason': 'STOP', 'safety_ratings': []} id='run-07023991-ff06-465a-92ba-a1e5c81d3791-0' usage_metadata={'input_tokens': 2024, 'output_tokens': 17, 'total_tokens': 2041, 'input_token_details': {'cache_read': 0}}
+2025-04-30 14:01:54,242 [INFO] src.graph_blocks.nodes - Running output formatter
+2025-04-30 14:01:54,244 [INFO] OutputFormatter - Loading environment variables
+2025-04-30 14:01:54,246 [INFO] OutputFormatter - Successfully loaded API key
+2025-04-30 14:01:54,247 [INFO] OutputFormatter - Initializing Google Gemini LLM
+2025-04-30 14:01:54,258 [INFO] OutputFormatter - Successfully initialized LLM with tools
+2025-04-30 14:01:54,259 [INFO] OutputFormatter - Creating sales agent chain
+2025-04-30 14:01:54,265 [INFO] OutputFormatter - Successfully created sales agent chain
+2025-04-30 14:01:54,266 [INFO] OutputFormatter - Processing input through chain
+2025-04-30 14:02:25,324 [INFO] routes.chat_route - Chat response successful | session_id: 8
+2025-04-30 14:02:37,804 [INFO] routes.chat_route - Received chat request | user_query: hi | session_id: 478
+2025-04-30 14:02:37,804 [INFO] src.graph - Creating new StateGraph
+2025-04-30 14:02:37,805 [INFO] src.graph - connect to sql database....
+2025-04-30 14:02:37,806 [INFO] src.graph - connect to sql database complited.
+2025-04-30 14:02:37,808 [INFO] src.graph - Successfully created and compiled graph
+2025-04-30 14:02:37,814 [INFO] src.graph_blocks.nodes - Running sales agent
+2025-04-30 14:02:37,814 [INFO] src.graph_blocks.nodes - Input state messages count: 1
+2025-04-30 14:02:37,815 [INFO] SalesAgent - Loading environment variables
+2025-04-30 14:02:37,818 [INFO] SalesAgent - Successfully loaded API key
+2025-04-30 14:02:37,819 [INFO] SalesAgent - Initializing Google Gemini LLM
+2025-04-30 14:02:37,832 [INFO] SalesAgent - Successfully initialized LLM with tools
+2025-04-30 14:02:37,833 [INFO] SalesAgent - Creating sales agent chain
+2025-04-30 14:02:37,834 [INFO] SalesAgent - Successfully created sales agent chain
+2025-04-30 14:02:37,834 [INFO] SalesAgent - Processing input through chain
+2025-04-30 14:02:41,294 [ERROR] SalesAgent - Chain processing failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 18
+}
+]
+2025-04-30 14:02:41,294 [ERROR] src.graph_blocks.nodes - Error running sales agent: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 18
+}
+]
+2025-04-30 14:02:41,298 [ERROR] routes.chat_route - Internal error | session_id: 478 | error: Failed to run sales agent: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 18
+}
+]
+2025-04-30 14:04:46,463 [INFO] src.graph_blocks.tools.df_tools - Loading product data
+2025-04-30 14:04:46,464 [INFO] src.df_manager.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 14:04:46,464 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 14:04:46,464 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 14:04:46,466 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 14:04:46,468 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-30 14:04:46,488 [INFO] src.df_manager.df_manager - Successfully initialized DfManager
+2025-04-30 14:04:46,489 [INFO] src.graph_blocks.tools.df_tools - Successfully loaded 8 products
+2025-04-30 14:04:48,753 [INFO] src.graph_blocks.nodes - Initializing tool node
+2025-04-30 14:04:48,754 [INFO] src.graph_blocks.nodes - Tool node initialized successfully
+2025-04-30 14:06:34,322 [INFO] src.df_manager.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-30 14:06:34,323 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-30 14:06:34,324 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: Dataset\products.json
+2025-04-30 14:06:34,326 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: Dataset\products.json
+2025-04-30 14:06:34,329 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-30 14:06:34,378 [INFO] src.df_manager.df_manager - Successfully initialized DfManager
+2025-04-30 14:06:34,388 [INFO] routes.chat_route - Received chat request | user_query: hi | session_id: 478
+2025-04-30 14:06:34,388 [INFO] src.graph - Creating new StateGraph
+2025-04-30 14:06:34,390 [INFO] src.graph - connect to sql database....
+2025-04-30 14:06:34,392 [INFO] src.graph - connect to sql database complited.
+2025-04-30 14:06:34,411 [INFO] src.graph - Successfully created and compiled graph
+2025-04-30 14:06:34,449 [INFO] src.graph_blocks.nodes - Running sales agent
+2025-04-30 14:06:34,450 [INFO] src.graph_blocks.nodes - Input state messages count: 2
+2025-04-30 14:06:34,452 [INFO] SalesAgent - Loading environment variables
+2025-04-30 14:06:34,461 [INFO] SalesAgent - Successfully loaded API key
+2025-04-30 14:06:34,462 [INFO] SalesAgent - Initializing Google Gemini LLM
+2025-04-30 14:06:34,528 [INFO] SalesAgent - Successfully initialized LLM with tools
+2025-04-30 14:06:34,528 [INFO] SalesAgent - Creating sales agent chain
+2025-04-30 14:06:34,530 [INFO] SalesAgent - Successfully created sales agent chain
+2025-04-30 14:06:34,532 [INFO] SalesAgent - Processing input through chain
+2025-04-30 14:06:58,520 [INFO] src.graph_blocks.nodes - the sales agent response is: content='اهلاً بك! كيف يمكنني مساعدتك اليوم؟' additional_kwargs={} response_metadata={'prompt_feedback': {'block_reason': 0, 'safety_ratings': []}, 'finish_reason': 'STOP', 'safety_ratings': []} id='run-6e634c3e-f8ba-4d30-bc1e-dd5b2d2124c0-0' usage_metadata={'input_tokens': 1878, 'output_tokens': 13, 'total_tokens': 1891, 'input_token_details': {'cache_read': 0}}
+2025-04-30 14:06:58,523 [INFO] src.graph_blocks.nodes - Running output formatter
+2025-04-30 14:06:58,525 [INFO] OutputFormatter - Loading environment variables
+2025-04-30 14:06:58,526 [INFO] OutputFormatter - Successfully loaded API key
+2025-04-30 14:06:58,527 [INFO] OutputFormatter - Initializing Google Gemini LLM
+2025-04-30 14:06:58,539 [INFO] OutputFormatter - Successfully initialized LLM with tools
+2025-04-30 14:06:58,539 [INFO] OutputFormatter - Creating sales agent chain
+2025-04-30 14:06:58,545 [INFO] OutputFormatter - Successfully created sales agent chain
+2025-04-30 14:06:58,545 [INFO] OutputFormatter - Processing input through chain
+2025-04-30 14:07:09,164 [ERROR] OutputFormatter - Chain processing failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 50
+}
+]
+2025-04-30 14:07:09,165 [ERROR] src.graph_blocks.nodes - Error running output formatter: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 50
+}
+]
+2025-04-30 14:07:09,170 [ERROR] routes.chat_route - Internal error | session_id: 478 | error: Failed to run output formatter: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 50
+}
+]
+2025-04-30 14:07:33,255 [INFO] src.graph_blocks.tools.df_tools - Loading product data
+2025-04-30 14:07:33,255 [INFO] src.df_manager.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 14:07:33,256 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 14:07:33,256 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 14:07:33,257 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 14:07:33,258 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-30 14:07:33,267 [INFO] src.df_manager.df_manager - Successfully initialized DfManager
+2025-04-30 14:07:33,268 [INFO] src.graph_blocks.tools.df_tools - Successfully loaded 8 products
+2025-04-30 14:07:34,590 [INFO] src.graph_blocks.nodes - Initializing tool node
+2025-04-30 14:07:34,592 [INFO] src.graph_blocks.nodes - Tool node initialized successfully
+2025-04-30 14:08:00,186 [INFO] src.df_manager.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-30 14:08:00,187 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-30 14:08:00,187 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: Dataset\products.json
+2025-04-30 14:08:00,189 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: Dataset\products.json
+2025-04-30 14:08:00,190 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-30 14:08:00,209 [INFO] src.df_manager.df_manager - Successfully initialized DfManager
+2025-04-30 14:08:00,214 [INFO] routes.chat_route - Received chat request | user_query: hi | session_id: 478
+2025-04-30 14:08:00,215 [INFO] src.graph - Creating new StateGraph
+2025-04-30 14:08:00,218 [INFO] src.graph - connect to sql database....
+2025-04-30 14:08:00,220 [INFO] src.graph - connect to sql database complited.
+2025-04-30 14:08:00,229 [INFO] src.graph - Successfully created and compiled graph
+2025-04-30 14:08:00,262 [INFO] src.graph_blocks.nodes - Running sales agent
+2025-04-30 14:08:00,265 [INFO] src.graph_blocks.nodes - Input state messages count: 4
+2025-04-30 14:08:00,267 [INFO] SalesAgent - Loading environment variables
+2025-04-30 14:08:00,271 [INFO] SalesAgent - Successfully loaded API key
+2025-04-30 14:08:00,272 [INFO] SalesAgent - Initializing Google Gemini LLM
+2025-04-30 14:08:00,321 [INFO] SalesAgent - Successfully initialized LLM with tools
+2025-04-30 14:08:00,321 [INFO] SalesAgent - Creating sales agent chain
+2025-04-30 14:08:00,324 [INFO] SalesAgent - Successfully created sales agent chain
+2025-04-30 14:08:00,324 [INFO] SalesAgent - Processing input through chain
+2025-04-30 14:08:04,891 [INFO] src.graph_blocks.nodes - the sales agent response is: content='اهلاً بك! كيف يمكنني مساعدتك اليوم؟' additional_kwargs={} response_metadata={'prompt_feedback': {'block_reason': 0, 'safety_ratings': []}, 'finish_reason': 'STOP', 'safety_ratings': []} id='run-e881f3c1-2695-46a3-9c03-77c8141e5815-0' usage_metadata={'input_tokens': 2081, 'output_tokens': 13, 'total_tokens': 2094, 'input_token_details': {'cache_read': 0}}
+2025-04-30 14:08:04,894 [INFO] src.graph_blocks.nodes - Running output formatter
+2025-04-30 14:08:04,898 [INFO] OutputFormatter - Loading environment variables
+2025-04-30 14:08:04,901 [INFO] OutputFormatter - Successfully loaded API key
+2025-04-30 14:08:04,901 [INFO] OutputFormatter - Initializing Google Gemini LLM
+2025-04-30 14:08:04,916 [INFO] OutputFormatter - Successfully initialized LLM with tools
+2025-04-30 14:08:04,916 [INFO] OutputFormatter - Creating sales agent chain
+2025-04-30 14:08:04,919 [INFO] OutputFormatter - Successfully created sales agent chain
+2025-04-30 14:08:04,920 [INFO] OutputFormatter - Processing input through chain
+2025-04-30 14:08:12,629 [INFO] routes.chat_route - Chat response successful | session_id: 478
+2025-04-30 14:08:31,459 [INFO] routes.chat_route - Received chat request | user_query: ممكن حاجه للقشره؟ | session_id: 478
+2025-04-30 14:08:31,460 [INFO] src.graph - Creating new StateGraph
+2025-04-30 14:08:31,461 [INFO] src.graph - connect to sql database....
+2025-04-30 14:08:31,461 [INFO] src.graph - connect to sql database complited.
+2025-04-30 14:08:31,463 [INFO] src.graph - Successfully created and compiled graph
+2025-04-30 14:08:31,562 [INFO] src.graph_blocks.nodes - Running sales agent
+2025-04-30 14:08:31,562 [INFO] src.graph_blocks.nodes - Input state messages count: 6
+2025-04-30 14:08:31,562 [INFO] SalesAgent - Loading environment variables
+2025-04-30 14:08:31,565 [INFO] SalesAgent - Successfully loaded API key
+2025-04-30 14:08:31,566 [INFO] SalesAgent - Initializing Google Gemini LLM
+2025-04-30 14:08:31,573 [INFO] SalesAgent - Successfully initialized LLM with tools
+2025-04-30 14:08:31,575 [INFO] SalesAgent - Creating sales agent chain
+2025-04-30 14:08:31,576 [INFO] SalesAgent - Successfully created sales agent chain
+2025-04-30 14:08:31,576 [INFO] SalesAgent - Processing input through chain
+2025-04-30 14:08:52,949 [INFO] src.graph_blocks.nodes - the sales agent response is: content='اهلاً بك! طبعاً، عندي لك حل للقشرة. عشان أقدر أفيدك بشكل أفضل، ممكن تقولي إذا كنتِ تعاني من قشرة دهنية أو جافة؟ وهل فروة رأسك حساسة؟' additional_kwargs={} response_metadata={'prompt_feedback': {'block_reason': 0, 'safety_ratings': []}, 'finish_reason': 'STOP', 'safety_ratings': []} id='run-dbefc2c9-4d3f-466d-b5fd-d08eb30dead2-0' usage_metadata={'input_tokens': 2294, 'output_tokens': 52, 'total_tokens': 2346, 'input_token_details': {'cache_read': 0}}
+2025-04-30 14:08:52,956 [INFO] src.graph_blocks.nodes - Running output formatter
+2025-04-30 14:08:52,959 [INFO] OutputFormatter - Loading environment variables
+2025-04-30 14:08:52,964 [INFO] OutputFormatter - Successfully loaded API key
+2025-04-30 14:08:52,965 [INFO] OutputFormatter - Initializing Google Gemini LLM
+2025-04-30 14:08:52,980 [INFO] OutputFormatter - Successfully initialized LLM with tools
+2025-04-30 14:08:52,981 [INFO] OutputFormatter - Creating sales agent chain
+2025-04-30 14:08:52,984 [INFO] OutputFormatter - Successfully created sales agent chain
+2025-04-30 14:08:52,985 [INFO] OutputFormatter - Processing input through chain
+2025-04-30 14:09:11,946 [INFO] routes.chat_route - Chat response successful | session_id: 478
+2025-04-30 14:09:42,055 [INFO] src.graph_blocks.tools.df_tools - Loading product data
+2025-04-30 14:09:42,056 [INFO] src.df_manager.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 14:09:42,056 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 14:09:42,056 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 14:09:42,058 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 14:09:42,060 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-30 14:09:42,077 [INFO] src.df_manager.df_manager - Successfully initialized DfManager
+2025-04-30 14:09:42,077 [INFO] src.graph_blocks.tools.df_tools - Successfully loaded 8 products
+2025-04-30 14:09:43,632 [INFO] src.graph_blocks.nodes - Initializing tool node
+2025-04-30 14:09:43,634 [INFO] src.graph_blocks.nodes - Tool node initialized successfully
+2025-04-30 14:09:44,541 [INFO] src.df_manager.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-30 14:09:44,541 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-30 14:09:44,541 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: Dataset\products.json
+2025-04-30 14:09:44,543 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: Dataset\products.json
+2025-04-30 14:09:44,545 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-30 14:09:44,569 [INFO] src.df_manager.df_manager - Successfully initialized DfManager
+2025-04-30 14:09:44,575 [INFO] routes.chat_route - Received chat request | user_query: ممكن حاجه للقشره؟ | session_id: 478
+2025-04-30 14:09:44,575 [INFO] src.graph - Creating new StateGraph
+2025-04-30 14:09:44,577 [INFO] src.graph - connect to sql database....
+2025-04-30 14:09:44,578 [INFO] src.graph - connect to sql database complited.
+2025-04-30 14:09:44,586 [INFO] src.graph - Successfully created and compiled graph
+2025-04-30 14:09:44,608 [INFO] src.graph_blocks.nodes - Running sales agent
+2025-04-30 14:09:44,608 [INFO] src.graph_blocks.nodes - Input state messages count: 8
+2025-04-30 14:09:44,610 [INFO] SalesAgent - Loading environment variables
+2025-04-30 14:09:44,612 [INFO] SalesAgent - Successfully loaded API key
+2025-04-30 14:09:44,612 [INFO] SalesAgent - Initializing Google Gemini LLM
+2025-04-30 14:09:44,650 [INFO] SalesAgent - Successfully initialized LLM with tools
+2025-04-30 14:09:44,650 [INFO] SalesAgent - Creating sales agent chain
+2025-04-30 14:09:44,652 [INFO] SalesAgent - Successfully created sales agent chain
+2025-04-30 14:09:44,652 [INFO] SalesAgent - Processing input through chain
+2025-04-30 14:10:02,000 [INFO] src.graph_blocks.nodes - the sales agent response is: content='اهلاً بك! طبعاً، عندي لك حل للقشرة. عشان أقدر أفيدك بشكل أفضل، ممكن تقولي إذا كنتِ تعاني من قشرة دهنية أو جافة؟ وهل فروة رأسك حساسة؟' additional_kwargs={} response_metadata={'prompt_feedback': {'block_reason': 0, 'safety_ratings': []}, 'finish_reason': 'STOP', 'safety_ratings': []} id='run-146b62e8-735d-4a93-b358-442a8bb1679c-0' usage_metadata={'input_tokens': 2537, 'output_tokens': 52, 'total_tokens': 2589, 'input_token_details': {'cache_read': 0}}
+2025-04-30 14:10:02,002 [INFO] src.graph_blocks.nodes - Running output formatter
+2025-04-30 14:10:02,004 [INFO] OutputFormatter - Loading environment variables
+2025-04-30 14:10:02,005 [INFO] OutputFormatter - Successfully loaded API key
+2025-04-30 14:10:02,006 [INFO] OutputFormatter - Initializing Google Gemini LLM
+2025-04-30 14:10:02,014 [INFO] OutputFormatter - Successfully initialized LLM with tools
+2025-04-30 14:10:02,015 [INFO] OutputFormatter - Creating sales agent chain
+2025-04-30 14:10:02,016 [INFO] OutputFormatter - Successfully created sales agent chain
+2025-04-30 14:10:02,016 [INFO] OutputFormatter - Processing input through chain
+2025-04-30 14:10:06,961 [INFO] routes.chat_route - Chat response successful | session_id: 478
+2025-04-30 14:16:55,079 [INFO] routes.chat_route - Received chat request | user_query: ممكن حاجه للقشره؟ | session_id: 478
+2025-04-30 14:16:55,080 [INFO] src.graph - Creating new StateGraph
+2025-04-30 14:16:55,082 [INFO] src.graph - connect to sql database....
+2025-04-30 14:16:55,082 [INFO] src.graph - connect to sql database complited.
+2025-04-30 14:16:55,085 [INFO] src.graph - Successfully created and compiled graph
+2025-04-30 14:16:55,108 [INFO] src.graph_blocks.nodes - Running sales agent
+2025-04-30 14:16:55,108 [INFO] src.graph_blocks.nodes - Input state messages count: 10
+2025-04-30 14:16:55,110 [INFO] SalesAgent - Loading environment variables
+2025-04-30 14:16:55,115 [INFO] SalesAgent - Successfully loaded API key
+2025-04-30 14:16:55,115 [INFO] SalesAgent - Initializing Google Gemini LLM
+2025-04-30 14:16:55,307 [INFO] SalesAgent - Successfully initialized LLM with tools
+2025-04-30 14:16:55,307 [INFO] SalesAgent - Creating sales agent chain
+2025-04-30 14:16:55,308 [INFO] SalesAgent - Successfully created sales agent chain
+2025-04-30 14:16:55,309 [INFO] SalesAgent - Processing input through chain
+2025-04-30 14:17:17,281 [INFO] src.graph_blocks.nodes - the sales agent response is: content='اهلاً بك! طبعاً، عندي لك حل للقشرة. عشان أقدر أفيدك بشكل أفضل، ممكن تقولي إذا كنتِ تعاني من قشرة دهنية أو جافة؟ وهل فروة رأسك حساسة؟' additional_kwargs={} response_metadata={'prompt_feedback': {'block_reason': 0, 'safety_ratings': []}, 'finish_reason': 'STOP', 'safety_ratings': []} id='run-1a1aa643-47d5-4050-846c-6200b1078212-0' usage_metadata={'input_tokens': 2786, 'output_tokens': 52, 'total_tokens': 2838, 'input_token_details': {'cache_read': 0}}
+2025-04-30 14:17:17,286 [INFO] src.graph_blocks.nodes - Running output formatter
+2025-04-30 14:17:17,289 [INFO] OutputFormatter - Loading environment variables
+2025-04-30 14:17:17,293 [INFO] OutputFormatter - Successfully loaded API key
+2025-04-30 14:17:17,295 [INFO] OutputFormatter - Initializing Google Gemini LLM
+2025-04-30 14:17:17,314 [INFO] OutputFormatter - Successfully initialized LLM with tools
+2025-04-30 14:17:17,315 [INFO] OutputFormatter - Creating sales agent chain
+2025-04-30 14:17:17,320 [INFO] OutputFormatter - Successfully created sales agent chain
+2025-04-30 14:17:17,320 [INFO] OutputFormatter - Processing input through chain
+2025-04-30 14:17:23,874 [INFO] routes.chat_route - Chat response successful | session_id: 478
+2025-04-30 14:17:32,238 [INFO] src.graph_blocks.tools.df_tools - Loading product data
+2025-04-30 14:17:32,238 [INFO] src.df_manager.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 14:17:32,238 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 14:17:32,238 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 14:17:32,240 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 14:17:32,242 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-30 14:17:32,252 [INFO] src.df_manager.df_manager - Successfully initialized DfManager
+2025-04-30 14:17:32,253 [INFO] src.graph_blocks.tools.df_tools - Successfully loaded 8 products
+2025-04-30 14:17:33,618 [INFO] src.graph_blocks.nodes - Initializing tool node
+2025-04-30 14:17:33,619 [INFO] src.graph_blocks.nodes - Tool node initialized successfully
+2025-04-30 14:17:36,778 [INFO] src.graph_blocks.tools.df_tools - Loading product data
+2025-04-30 14:17:36,779 [INFO] src.df_manager.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 14:17:36,779 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 14:17:36,780 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 14:17:36,780 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 14:17:36,783 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-30 14:17:36,795 [INFO] src.df_manager.df_manager - Successfully initialized DfManager
+2025-04-30 14:17:36,795 [INFO] src.graph_blocks.tools.df_tools - Successfully loaded 8 products
+2025-04-30 14:17:38,054 [INFO] src.graph_blocks.nodes - Initializing tool node
+2025-04-30 14:17:38,055 [INFO] src.graph_blocks.nodes - Tool node initialized successfully
+2025-04-30 14:17:45,741 [INFO] src.df_manager.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-30 14:17:45,742 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-30 14:17:45,742 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: Dataset\products.json
+2025-04-30 14:17:45,743 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: Dataset\products.json
+2025-04-30 14:17:45,745 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-30 14:17:45,767 [INFO] src.df_manager.df_manager - Successfully initialized DfManager
+2025-04-30 14:17:45,770 [INFO] src.graph - Creating new StateGraph
+2025-04-30 14:17:45,772 [INFO] src.graph - connect to sql database....
+2025-04-30 14:17:45,773 [INFO] src.graph - connect to sql database complited.
+2025-04-30 14:17:45,779 [INFO] src.graph - Successfully created and compiled graph
+2025-04-30 14:17:45,781 [INFO] routes.chat_route - Received chat request | user_query: ممكن شامبو للقشره | session_id: 55
+2025-04-30 14:17:45,795 [INFO] src.graph_blocks.nodes - Running sales agent
+2025-04-30 14:17:45,796 [INFO] src.graph_blocks.nodes - Input state messages count: 1
+2025-04-30 14:17:45,797 [INFO] SalesAgent - Loading environment variables
+2025-04-30 14:17:45,799 [INFO] SalesAgent - Successfully loaded API key
+2025-04-30 14:17:45,800 [INFO] SalesAgent - Initializing Google Gemini LLM
+2025-04-30 14:17:45,825 [INFO] SalesAgent - Successfully initialized LLM with tools
+2025-04-30 14:17:45,825 [INFO] SalesAgent - Creating sales agent chain
+2025-04-30 14:17:45,826 [INFO] SalesAgent - Successfully created sales agent chain
+2025-04-30 14:17:45,826 [INFO] SalesAgent - Processing input through chain
+2025-04-30 14:17:50,818 [INFO] src.graph_blocks.nodes - the sales agent response is: content='أكيد يا فندم، طبعًا ممكن. عشان نقدر نوفر لحضرتك أفضل شامبو للقشرة، محتاجين نعرف شوية تفاصيل عن نوع شعرك وفروة رأسك. يعني، هل شعرك دهني، جاف، ولا عادي؟ وهل القشرة اللي عندك خفيفة ولا شديدة؟ بناءً على المعلومات دي، هنقدر نختارلك الشامبو المناسب اللي هيخلصك من القشرة ويرجع لشعرك صحته ولمعانه.' additional_kwargs={'function_call': {'name': 'query_products', 'arguments': '{"concerns": "Dandruff", "category": "Shampoos"}'}} response_metadata={'prompt_feedback': {'block_reason': 0, 'safety_ratings': []}, 'finish_reason': 'STOP', 'safety_ratings': []} id='run-bcbd01ab-8b32-44ad-af25-f1b31ec33c10-0' tool_calls=[{'name': 'query_products', 'args': {'concerns': 'Dandruff', 'category': 'Shampoos'}, 'id': '39d2d9fd-dd20-4105-8f99-7f94168d758b', 'type': 'tool_call'}] usage_metadata={'input_tokens': 1834, 'output_tokens': 123, 'total_tokens': 1957, 'input_token_details': {'cache_read': 0}}
+2025-04-30 14:17:50,848 [INFO] src.graph_blocks.nodes - Running sales agent
+2025-04-30 14:17:50,848 [INFO] src.graph_blocks.nodes - Input state messages count: 3
+2025-04-30 14:17:50,850 [INFO] SalesAgent - Loading environment variables
+2025-04-30 14:17:50,853 [INFO] SalesAgent - Successfully loaded API key
+2025-04-30 14:17:50,854 [INFO] SalesAgent - Initializing Google Gemini LLM
+2025-04-30 14:17:50,862 [INFO] SalesAgent - Successfully initialized LLM with tools
+2025-04-30 14:17:50,862 [INFO] SalesAgent - Creating sales agent chain
+2025-04-30 14:17:50,863 [INFO] SalesAgent - Successfully created sales agent chain
+2025-04-30 14:17:50,863 [INFO] SalesAgent - Processing input through chain
+2025-04-30 14:17:55,824 [INFO] src.graph_blocks.nodes - the sales agent response is: content='أكيد يا فندم، بناءً على المعلومات اللي وصلتنا، بنرشح لحضرتك "Hairforte Shampoo". الشامبو ده مش بس بيعالج القشرة، ده كمان فيه مكونات طبيعية وزيوت مهمة بتغذي الشعر وبتخليه صحي ولامع. فيه كمان كافيين وزيت جوجوبا وزيت لافندر وزيت جوز الهند وزيت زيتون وزيت روزماري وفيتامين إي وبانثينول والصبار وزنك بيريثيون وخلاصة الثوم وتريكلوسان. كل ده بيساعد على التخلص من القشرة وتقليل تساقط الشعر وتحفيز نموه. الشامبو ده مناسب للشعر المعالج والشعر العادي. سعره 150 جنيه. إيه رأيك؟' additional_kwargs={} response_metadata={'prompt_feedback': {'block_reason': 0, 'safety_ratings': []}, 'finish_reason': 'STOP', 'safety_ratings': []} id='run-1da8595e-2483-4e6f-9636-c114c5d4ecfd-0' usage_metadata={'input_tokens': 2588, 'output_tokens': 173, 'total_tokens': 2761, 'input_token_details': {'cache_read': 0}}
+2025-04-30 14:17:55,828 [INFO] src.graph_blocks.nodes - Running output formatter
+2025-04-30 14:17:55,831 [INFO] OutputFormatter - Loading environment variables
+2025-04-30 14:17:55,833 [INFO] OutputFormatter - Successfully loaded API key
+2025-04-30 14:17:55,833 [INFO] OutputFormatter - Initializing Google Gemini LLM
+2025-04-30 14:17:55,850 [INFO] OutputFormatter - Successfully initialized LLM with tools
+2025-04-30 14:17:55,851 [INFO] OutputFormatter - Creating sales agent chain
+2025-04-30 14:17:55,856 [INFO] OutputFormatter - Successfully created sales agent chain
+2025-04-30 14:17:55,857 [INFO] OutputFormatter - Processing input through chain
+2025-04-30 14:17:59,321 [INFO] routes.chat_route - Chat response successful | session_id: 55
+2025-04-30 14:18:16,051 [INFO] routes.chat_route - Received chat request | user_query: بكام طيب؟ | session_id: 55
+2025-04-30 14:18:16,056 [INFO] src.graph_blocks.nodes - Running sales agent
+2025-04-30 14:18:16,057 [INFO] src.graph_blocks.nodes - Input state messages count: 5
+2025-04-30 14:18:16,057 [INFO] SalesAgent - Loading environment variables
+2025-04-30 14:18:16,063 [INFO] SalesAgent - Successfully loaded API key
+2025-04-30 14:18:16,063 [INFO] SalesAgent - Initializing Google Gemini LLM
+2025-04-30 14:18:16,075 [INFO] SalesAgent - Successfully initialized LLM with tools
+2025-04-30 14:18:16,076 [INFO] SalesAgent - Creating sales agent chain
+2025-04-30 14:18:16,077 [INFO] SalesAgent - Successfully created sales agent chain
+2025-04-30 14:18:16,078 [INFO] SalesAgent - Processing input through chain
+2025-04-30 14:19:11,041 [INFO] src.graph_blocks.nodes - the sales agent response is: content='سعر شامبو Hairforte هو 150 جنيه. تحت أمرك في أي استفسار تاني.' additional_kwargs={} response_metadata={'prompt_feedback': {'block_reason': 0, 'safety_ratings': []}, 'finish_reason': 'STOP', 'safety_ratings': []} id='run-d5c2cf66-2429-42c3-b028-1a6075c53af3-0' usage_metadata={'input_tokens': 2953, 'output_tokens': 26, 'total_tokens': 2979, 'input_token_details': {'cache_read': 0}}
+2025-04-30 14:19:11,043 [INFO] src.graph_blocks.nodes - Running output formatter
+2025-04-30 14:19:11,044 [INFO] OutputFormatter - Loading environment variables
+2025-04-30 14:19:11,045 [INFO] OutputFormatter - Successfully loaded API key
+2025-04-30 14:19:11,045 [INFO] OutputFormatter - Initializing Google Gemini LLM
+2025-04-30 14:19:11,053 [INFO] OutputFormatter - Successfully initialized LLM with tools
+2025-04-30 14:19:11,054 [INFO] OutputFormatter - Creating sales agent chain
+2025-04-30 14:19:11,056 [INFO] OutputFormatter - Successfully created sales agent chain
+2025-04-30 14:19:11,057 [INFO] OutputFormatter - Processing input through chain
+2025-04-30 14:19:13,852 [INFO] routes.chat_route - Chat response successful | session_id: 55
+2025-04-30 14:19:42,185 [INFO] src.graph_blocks.tools.df_tools - Loading product data
+2025-04-30 14:19:42,188 [INFO] src.df_manager.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 14:19:42,188 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 14:19:42,188 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 14:19:42,191 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 14:19:42,194 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-30 14:19:42,233 [INFO] src.df_manager.df_manager - Successfully initialized DfManager
+2025-04-30 14:19:42,237 [INFO] src.graph_blocks.tools.df_tools - Successfully loaded 8 products
+2025-04-30 14:19:45,559 [INFO] src.graph_blocks.nodes - Initializing tool node
+2025-04-30 14:19:45,560 [INFO] src.graph_blocks.nodes - Tool node initialized successfully
+2025-04-30 14:19:49,569 [INFO] src.graph_blocks.tools.df_tools - Loading product data
+2025-04-30 14:19:49,570 [INFO] src.df_manager.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 14:19:49,570 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 14:19:49,571 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 14:19:49,572 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 14:19:49,574 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-30 14:19:49,587 [INFO] src.df_manager.df_manager - Successfully initialized DfManager
+2025-04-30 14:19:49,587 [INFO] src.graph_blocks.tools.df_tools - Successfully loaded 8 products
+2025-04-30 14:19:51,031 [INFO] src.graph_blocks.nodes - Initializing tool node
+2025-04-30 14:19:51,045 [INFO] src.graph_blocks.nodes - Tool node initialized successfully
+2025-04-30 14:19:56,349 [INFO] src.df_manager.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-30 14:19:56,350 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-30 14:19:56,350 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: Dataset\products.json
+2025-04-30 14:19:56,351 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: Dataset\products.json
+2025-04-30 14:19:56,353 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-30 14:19:56,364 [INFO] src.df_manager.df_manager - Successfully initialized DfManager
+2025-04-30 14:19:56,367 [INFO] src.graph - Creating new StateGraph
+2025-04-30 14:19:56,368 [INFO] src.graph - connect to sql database....
+2025-04-30 14:19:56,370 [INFO] src.graph - connect to sql database complited.
+2025-04-30 14:19:56,378 [INFO] src.graph - Successfully created and compiled graph
+2025-04-30 14:19:56,379 [INFO] routes.chat_route - Received chat request | user_query: بكام طيب؟ | session_id: 55
+2025-04-30 14:19:56,396 [INFO] src.graph_blocks.nodes - Running sales agent
+2025-04-30 14:19:56,398 [INFO] src.graph_blocks.nodes - Input state messages count: 7
+2025-04-30 14:19:56,398 [INFO] SalesAgent - Loading environment variables
+2025-04-30 14:19:56,402 [INFO] SalesAgent - Successfully loaded API key
+2025-04-30 14:19:56,402 [INFO] SalesAgent - Initializing Google Gemini LLM
+2025-04-30 14:19:56,442 [INFO] SalesAgent - Successfully initialized LLM with tools
+2025-04-30 14:19:56,442 [INFO] SalesAgent - Creating sales agent chain
+2025-04-30 14:19:56,444 [INFO] SalesAgent - Successfully created sales agent chain
+2025-04-30 14:19:56,445 [INFO] SalesAgent - Processing input through chain
+2025-04-30 14:19:57,347 [INFO] src.graph_blocks.nodes - the sales agent response is: content='سعر شامبو Hairforte هو 150 جنيه. تحت أمرك في أي استفسار تاني.' additional_kwargs={} response_metadata={'prompt_feedback': {'block_reason': 0, 'safety_ratings': []}, 'finish_reason': 'STOP', 'safety_ratings': []} id='run-c5d93eae-8615-4ba0-a715-537a409c1367-0' usage_metadata={'input_tokens': 3168, 'output_tokens': 26, 'total_tokens': 3194, 'input_token_details': {'cache_read': 0}}
+2025-04-30 14:19:57,349 [INFO] src.graph_blocks.nodes - Running output formatter
+2025-04-30 14:19:57,351 [INFO] OutputFormatter - Loading environment variables
+2025-04-30 14:19:57,352 [INFO] OutputFormatter - Successfully loaded API key
+2025-04-30 14:19:57,353 [INFO] OutputFormatter - Initializing Google Gemini LLM
+2025-04-30 14:19:57,363 [INFO] OutputFormatter - Successfully initialized LLM with tools
+2025-04-30 14:19:57,363 [INFO] OutputFormatter - Creating sales agent chain
+2025-04-30 14:19:57,365 [INFO] OutputFormatter - Successfully created sales agent chain
+2025-04-30 14:19:57,367 [INFO] OutputFormatter - Processing input through chain
+2025-04-30 14:19:58,640 [INFO] routes.chat_route - Chat response successful | session_id: 55
+2025-04-30 14:20:24,431 [INFO] routes.chat_route - Received chat request | user_query: طب عاوز كريم مرطب للبشره الجافه | session_id: 55
+2025-04-30 14:20:24,438 [INFO] src.graph_blocks.nodes - Running sales agent
+2025-04-30 14:20:24,439 [INFO] src.graph_blocks.nodes - Input state messages count: 9
+2025-04-30 14:20:24,440 [INFO] SalesAgent - Loading environment variables
+2025-04-30 14:20:24,443 [INFO] SalesAgent - Successfully loaded API key
+2025-04-30 14:20:24,443 [INFO] SalesAgent - Initializing Google Gemini LLM
+2025-04-30 14:20:24,454 [INFO] SalesAgent - Successfully initialized LLM with tools
+2025-04-30 14:20:24,455 [INFO] SalesAgent - Creating sales agent chain
+2025-04-30 14:20:24,456 [INFO] SalesAgent - Successfully created sales agent chain
+2025-04-30 14:20:24,456 [INFO] SalesAgent - Processing input through chain
+2025-04-30 14:20:25,698 [INFO] src.graph_blocks.nodes - the sales agent response is: content='بالتأكيد يا فندم،  للبشرة الجافة ننصحكِ بكريم مرطب غني بالزيوت الطبيعية والمرطبات العميقة.  سنساعدكِ في إيجاد الأنسب لبشرتكِ.  هل لديكِ أي حساسية تجاه مكونات معينة؟ وهل هناك أي مشاكل جلدية أخرى تعانين منها؟' additional_kwargs={} response_metadata={'prompt_feedback': {'block_reason': 0, 'safety_ratings': []}, 'finish_reason': 'STOP', 'safety_ratings': []} id='run-77d6dbb2-cabb-4215-9c9b-d8076fca6ac7-0' usage_metadata={'input_tokens': 3391, 'output_tokens': 84, 'total_tokens': 3475, 'input_token_details': {'cache_read': 0}}
+2025-04-30 14:20:25,699 [INFO] src.graph_blocks.nodes - Running output formatter
+2025-04-30 14:20:25,700 [INFO] OutputFormatter - Loading environment variables
+2025-04-30 14:20:25,701 [INFO] OutputFormatter - Successfully loaded API key
+2025-04-30 14:20:25,702 [INFO] OutputFormatter - Initializing Google Gemini LLM
+2025-04-30 14:20:25,801 [INFO] OutputFormatter - Successfully initialized LLM with tools
+2025-04-30 14:20:25,801 [INFO] OutputFormatter - Creating sales agent chain
+2025-04-30 14:20:25,805 [INFO] OutputFormatter - Successfully created sales agent chain
+2025-04-30 14:20:25,805 [INFO] OutputFormatter - Processing input through chain
+2025-04-30 14:20:27,791 [INFO] routes.chat_route - Chat response successful | session_id: 55
+2025-04-30 14:35:35,673 [INFO] routes.chat_route - Received chat request | user_query: عاندي حساسيه من الزنك بس | session_id: 55
+2025-04-30 14:35:35,679 [INFO] src.graph_blocks.nodes - Running sales agent
+2025-04-30 14:35:35,681 [INFO] src.graph_blocks.nodes - Input state messages count: 11
+2025-04-30 14:35:35,681 [INFO] SalesAgent - Loading environment variables
+2025-04-30 14:35:35,685 [INFO] SalesAgent - Successfully loaded API key
+2025-04-30 14:35:35,686 [INFO] SalesAgent - Initializing Google Gemini LLM
+2025-04-30 14:35:35,699 [INFO] SalesAgent - Successfully initialized LLM with tools
+2025-04-30 14:35:35,700 [INFO] SalesAgent - Creating sales agent chain
+2025-04-30 14:35:35,701 [INFO] SalesAgent - Successfully created sales agent chain
+2025-04-30 14:35:35,701 [INFO] SalesAgent - Processing input through chain
+2025-04-30 14:35:37,218 [INFO] src.graph_blocks.nodes - the sales agent response is: content='بالتأكيد يا فندم،  نظراً لحساسيتكِ من الزنك، سنحرص على اختيار كريم مرطب مناسب.  للبشرة الجافة، ننصح بكريم يحتوي على مكونات طبيعية مثل زيت جوز الهند أو زيت الزيتون أو زبدة الشيا،  فهي غنية بالمرطبات وتُناسب البشرة الحساسة.  هل لديكِ أي تفضيلات أخرى؟  مثلًا، هل تفضلين كريمًا خفيفًا أم ثقيلًا؟' additional_kwargs={} response_metadata={'prompt_feedback': {'block_reason': 0, 'safety_ratings': []}, 'finish_reason': 'STOP', 'safety_ratings': []} id='run-d5835711-f13b-46df-815c-b2db115b62bc-0' usage_metadata={'input_tokens': 3666, 'output_tokens': 113, 'total_tokens': 3779, 'input_token_details': {'cache_read': 0}}
+2025-04-30 14:35:37,223 [INFO] src.graph_blocks.nodes - Running output formatter
+2025-04-30 14:35:37,225 [INFO] OutputFormatter - Loading environment variables
+2025-04-30 14:35:37,227 [INFO] OutputFormatter - Successfully loaded API key
+2025-04-30 14:35:37,228 [INFO] OutputFormatter - Initializing Google Gemini LLM
+2025-04-30 14:35:37,241 [INFO] OutputFormatter - Successfully initialized LLM with tools
+2025-04-30 14:35:37,242 [INFO] OutputFormatter - Creating sales agent chain
+2025-04-30 14:35:37,245 [INFO] OutputFormatter - Successfully created sales agent chain
+2025-04-30 14:35:37,245 [INFO] OutputFormatter - Processing input through chain
+2025-04-30 14:35:39,547 [INFO] routes.chat_route - Chat response successful | session_id: 55
+2025-04-30 15:25:04,419 [INFO] src.graph_blocks.tools.df_tools - Loading product data
+2025-04-30 15:25:04,420 [INFO] src.df_manager.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 15:25:04,420 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 15:25:04,421 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 15:25:04,423 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 15:25:04,425 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-30 15:25:04,442 [INFO] src.df_manager.df_manager - Successfully initialized DfManager
+2025-04-30 15:25:04,442 [INFO] src.graph_blocks.tools.df_tools - Successfully loaded 8 products
+2025-04-30 15:25:09,813 [INFO] src.graph_blocks.nodes - Initializing tool node
+2025-04-30 15:25:09,814 [INFO] src.graph_blocks.nodes - Tool node initialized successfully
+2025-04-30 15:25:11,720 [INFO] src.df_manager.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-30 15:25:11,722 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-30 15:25:11,722 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: Dataset\products.json
+2025-04-30 15:25:11,722 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: Dataset\products.json
+2025-04-30 15:25:11,725 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-30 15:25:11,738 [INFO] src.df_manager.df_manager - Successfully initialized DfManager
+2025-04-30 15:25:11,740 [INFO] src.graph - Creating new StateGraph
+2025-04-30 15:25:11,741 [INFO] src.graph - connect to sql database....
+2025-04-30 15:25:11,742 [INFO] src.graph - connect to sql database complited.
+2025-04-30 15:25:11,759 [INFO] src.graph - Successfully created and compiled graph
+2025-04-30 15:25:11,759 [INFO] routes.chat_route - Received chat request | user_query: عاندي حساسيه من الزنك بس | session_id: 55
+2025-04-30 15:25:11,812 [INFO] src.graph_blocks.nodes - Running sales agent
+2025-04-30 15:25:11,813 [INFO] src.graph_blocks.nodes - Input state messages count: 13
+2025-04-30 15:25:11,814 [INFO] SalesAgent - Loading environment variables
+2025-04-30 15:25:11,821 [INFO] SalesAgent - Successfully loaded API key
+2025-04-30 15:25:11,822 [INFO] SalesAgent - Initializing Google Gemini LLM
+2025-04-30 15:25:11,871 [INFO] SalesAgent - Successfully initialized LLM with tools
+2025-04-30 15:25:11,871 [INFO] SalesAgent - Creating sales agent chain
+2025-04-30 15:25:11,873 [INFO] SalesAgent - Successfully created sales agent chain
+2025-04-30 15:25:11,873 [INFO] SalesAgent - Processing input through chain
+2025-04-30 15:25:12,292 [ERROR] SalesAgent - Chain processing failed: Invalid argument provided to Gemini: 400 * GenerateContentRequest.model: unexpected model name format
+
+2025-04-30 15:25:12,293 [ERROR] src.graph_blocks.nodes - Error running sales agent: Invalid argument provided to Gemini: 400 * GenerateContentRequest.model: unexpected model name format
+
+2025-04-30 15:25:12,296 [ERROR] routes.chat_route - Internal error | session_id: 55 | error: Failed to run sales agent: Invalid argument provided to Gemini: 400 * GenerateContentRequest.model: unexpected model name format
+
+2025-04-30 15:25:56,446 [INFO] routes.chat_route - Received chat request | user_query: عاندي حساسيه من الزنك بس | session_id: 55
+2025-04-30 15:25:56,454 [INFO] src.graph_blocks.nodes - Running sales agent
+2025-04-30 15:25:56,455 [INFO] src.graph_blocks.nodes - Input state messages count: 14
+2025-04-30 15:25:56,455 [INFO] SalesAgent - Loading environment variables
+2025-04-30 15:25:56,460 [INFO] SalesAgent - Successfully loaded API key
+2025-04-30 15:25:56,461 [INFO] SalesAgent - Initializing Google Gemini LLM
+2025-04-30 15:25:56,476 [INFO] SalesAgent - Successfully initialized LLM with tools
+2025-04-30 15:25:56,477 [INFO] SalesAgent - Creating sales agent chain
+2025-04-30 15:25:56,478 [INFO] SalesAgent - Successfully created sales agent chain
+2025-04-30 15:25:56,479 [INFO] SalesAgent - Processing input through chain
+2025-04-30 15:25:56,916 [ERROR] SalesAgent - Chain processing failed: Invalid argument provided to Gemini: 400 * GenerateContentRequest.model: unexpected model name format
+
+2025-04-30 15:25:56,916 [ERROR] src.graph_blocks.nodes - Error running sales agent: Invalid argument provided to Gemini: 400 * GenerateContentRequest.model: unexpected model name format
+
+2025-04-30 15:25:56,923 [ERROR] routes.chat_route - Internal error | session_id: 55 | error: Failed to run sales agent: Invalid argument provided to Gemini: 400 * GenerateContentRequest.model: unexpected model name format
+
+2025-04-30 15:26:01,735 [INFO] src.graph_blocks.tools.df_tools - Loading product data
+2025-04-30 15:26:01,735 [INFO] src.df_manager.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 15:26:01,736 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 15:26:01,736 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 15:26:01,737 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 15:26:01,738 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-30 15:26:01,746 [INFO] src.df_manager.df_manager - Successfully initialized DfManager
+2025-04-30 15:26:01,746 [INFO] src.graph_blocks.tools.df_tools - Successfully loaded 8 products
+2025-04-30 15:26:02,800 [INFO] src.graph_blocks.nodes - Initializing tool node
+2025-04-30 15:26:02,801 [INFO] src.graph_blocks.nodes - Tool node initialized successfully
+2025-04-30 15:26:05,350 [INFO] src.graph_blocks.tools.df_tools - Loading product data
+2025-04-30 15:26:05,350 [INFO] src.df_manager.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 15:26:05,351 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 15:26:05,351 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 15:26:05,352 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 15:26:05,353 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-30 15:26:05,361 [INFO] src.df_manager.df_manager - Successfully initialized DfManager
+2025-04-30 15:26:05,362 [INFO] src.graph_blocks.tools.df_tools - Successfully loaded 8 products
+2025-04-30 15:26:06,418 [INFO] src.graph_blocks.nodes - Initializing tool node
+2025-04-30 15:26:06,418 [INFO] src.graph_blocks.nodes - Tool node initialized successfully
+2025-04-30 15:26:12,460 [INFO] src.df_manager.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-30 15:26:12,460 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-30 15:26:12,461 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: Dataset\products.json
+2025-04-30 15:26:12,463 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: Dataset\products.json
+2025-04-30 15:26:12,464 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-30 15:26:12,473 [INFO] src.df_manager.df_manager - Successfully initialized DfManager
+2025-04-30 15:26:12,474 [INFO] src.graph - Creating new StateGraph
+2025-04-30 15:26:12,475 [INFO] src.graph - connect to sql database....
+2025-04-30 15:26:12,475 [INFO] src.graph - connect to sql database complited.
+2025-04-30 15:26:12,483 [INFO] src.graph - Successfully created and compiled graph
+2025-04-30 15:26:12,485 [INFO] routes.chat_route - Received chat request | user_query: عاندي حساسيه من الزنك بس | session_id: 55
+2025-04-30 15:26:12,502 [INFO] src.graph_blocks.nodes - Running sales agent
+2025-04-30 15:26:12,503 [INFO] src.graph_blocks.nodes - Input state messages count: 15
+2025-04-30 15:26:12,504 [INFO] SalesAgent - Loading environment variables
+2025-04-30 15:26:12,507 [INFO] SalesAgent - Successfully loaded API key
+2025-04-30 15:26:12,507 [INFO] SalesAgent - Initializing Google Gemini LLM
+2025-04-30 15:26:12,531 [INFO] SalesAgent - Successfully initialized LLM with tools
+2025-04-30 15:26:12,531 [INFO] SalesAgent - Creating sales agent chain
+2025-04-30 15:26:12,532 [INFO] SalesAgent - Successfully created sales agent chain
+2025-04-30 15:26:12,532 [INFO] SalesAgent - Processing input through chain
+2025-04-30 15:26:12,955 [ERROR] SalesAgent - Chain processing failed: Invalid argument provided to Gemini: 400 * GenerateContentRequest.model: unexpected model name format
+
+2025-04-30 15:26:12,955 [ERROR] src.graph_blocks.nodes - Error running sales agent: Invalid argument provided to Gemini: 400 * GenerateContentRequest.model: unexpected model name format
+
+2025-04-30 15:26:12,960 [ERROR] routes.chat_route - Internal error | session_id: 55 | error: Failed to run sales agent: Invalid argument provided to Gemini: 400 * GenerateContentRequest.model: unexpected model name format
+
+2025-04-30 15:27:28,499 [INFO] routes.chat_route - Received chat request | user_query: عاندي حساسيه من الزنك بس | session_id: 55
+2025-04-30 15:27:28,508 [INFO] src.graph_blocks.nodes - Running sales agent
+2025-04-30 15:27:28,509 [INFO] src.graph_blocks.nodes - Input state messages count: 16
+2025-04-30 15:27:28,510 [INFO] SalesAgent - Loading environment variables
+2025-04-30 15:27:28,514 [INFO] SalesAgent - Successfully loaded API key
+2025-04-30 15:27:28,515 [INFO] SalesAgent - Initializing Google Gemini LLM
+2025-04-30 15:27:28,527 [INFO] SalesAgent - Successfully initialized LLM with tools
+2025-04-30 15:27:28,527 [INFO] SalesAgent - Creating sales agent chain
+2025-04-30 15:27:28,528 [INFO] SalesAgent - Successfully created sales agent chain
+2025-04-30 15:27:28,529 [INFO] SalesAgent - Processing input through chain
+2025-04-30 15:27:28,985 [ERROR] SalesAgent - Chain processing failed: Invalid argument provided to Gemini: 400 * GenerateContentRequest.model: unexpected model name format
+
+2025-04-30 15:27:28,986 [ERROR] src.graph_blocks.nodes - Error running sales agent: Invalid argument provided to Gemini: 400 * GenerateContentRequest.model: unexpected model name format
+
+2025-04-30 15:27:28,992 [ERROR] routes.chat_route - Internal error | session_id: 55 | error: Failed to run sales agent: Invalid argument provided to Gemini: 400 * GenerateContentRequest.model: unexpected model name format
+
+2025-04-30 15:27:33,958 [INFO] src.graph_blocks.tools.df_tools - Loading product data
+2025-04-30 15:27:33,959 [INFO] src.df_manager.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 15:27:33,959 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 15:27:33,959 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 15:27:33,960 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 15:27:33,962 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-30 15:27:33,976 [INFO] src.df_manager.df_manager - Successfully initialized DfManager
+2025-04-30 15:27:33,976 [INFO] src.graph_blocks.tools.df_tools - Successfully loaded 8 products
+2025-04-30 15:27:35,079 [INFO] src.graph_blocks.nodes - Initializing tool node
+2025-04-30 15:27:35,080 [INFO] src.graph_blocks.nodes - Tool node initialized successfully
+2025-04-30 15:27:37,878 [INFO] src.graph_blocks.tools.df_tools - Loading product data
+2025-04-30 15:27:37,879 [INFO] src.df_manager.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 15:27:37,880 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 15:27:37,880 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 15:27:37,881 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 15:27:37,882 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-30 15:27:37,893 [INFO] src.df_manager.df_manager - Successfully initialized DfManager
+2025-04-30 15:27:37,893 [INFO] src.graph_blocks.tools.df_tools - Successfully loaded 8 products
+2025-04-30 15:27:39,030 [INFO] src.graph_blocks.nodes - Initializing tool node
+2025-04-30 15:27:39,031 [INFO] src.graph_blocks.nodes - Tool node initialized successfully
+2025-04-30 15:27:39,623 [INFO] src.df_manager.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-30 15:27:39,624 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-30 15:27:39,624 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: Dataset\products.json
+2025-04-30 15:27:39,625 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: Dataset\products.json
+2025-04-30 15:27:39,626 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-30 15:27:39,637 [INFO] src.df_manager.df_manager - Successfully initialized DfManager
+2025-04-30 15:27:39,639 [INFO] src.graph - Creating new StateGraph
+2025-04-30 15:27:39,639 [INFO] src.graph - connect to sql database....
+2025-04-30 15:27:39,640 [INFO] src.graph - connect to sql database complited.
+2025-04-30 15:27:39,645 [INFO] src.graph - Successfully created and compiled graph
+2025-04-30 15:27:39,647 [INFO] routes.chat_route - Received chat request | user_query: عاندي حساسيه من الزنك بس | session_id: 55
+2025-04-30 15:27:39,664 [INFO] src.graph_blocks.nodes - Running sales agent
+2025-04-30 15:27:39,664 [INFO] src.graph_blocks.nodes - Input state messages count: 17
+2025-04-30 15:27:39,665 [INFO] SalesAgent - Loading environment variables
+2025-04-30 15:27:39,669 [INFO] SalesAgent - Successfully loaded API key
+2025-04-30 15:27:39,669 [INFO] SalesAgent - Initializing Google Gemini LLM
+2025-04-30 15:27:39,693 [INFO] SalesAgent - Successfully initialized LLM with tools
+2025-04-30 15:27:39,694 [INFO] SalesAgent - Creating sales agent chain
+2025-04-30 15:27:39,694 [INFO] SalesAgent - Successfully created sales agent chain
+2025-04-30 15:27:39,695 [INFO] SalesAgent - Processing input through chain
+2025-04-30 15:27:40,131 [ERROR] SalesAgent - Chain processing failed: Invalid argument provided to Gemini: 400 * GenerateContentRequest.model: unexpected model name format
+
+2025-04-30 15:27:40,132 [ERROR] src.graph_blocks.nodes - Error running sales agent: Invalid argument provided to Gemini: 400 * GenerateContentRequest.model: unexpected model name format
+
+2025-04-30 15:27:40,147 [ERROR] routes.chat_route - Internal error | session_id: 55 | error: Failed to run sales agent: Invalid argument provided to Gemini: 400 * GenerateContentRequest.model: unexpected model name format
+
+2025-04-30 15:28:54,169 [INFO] routes.chat_route - Received chat request | user_query: عاندي حساسيه من الزنك بس | session_id: 55
+2025-04-30 15:28:54,179 [INFO] src.graph_blocks.nodes - Running sales agent
+2025-04-30 15:28:54,179 [INFO] src.graph_blocks.nodes - Input state messages count: 18
+2025-04-30 15:28:54,180 [INFO] SalesAgent - Loading environment variables
+2025-04-30 15:28:54,185 [INFO] SalesAgent - Successfully loaded API key
+2025-04-30 15:28:54,186 [INFO] SalesAgent - Initializing Google Gemini LLM
+2025-04-30 15:28:54,199 [INFO] SalesAgent - Successfully initialized LLM with tools
+2025-04-30 15:28:54,201 [INFO] SalesAgent - Creating sales agent chain
+2025-04-30 15:28:54,203 [INFO] SalesAgent - Successfully created sales agent chain
+2025-04-30 15:28:54,203 [INFO] SalesAgent - Processing input through chain
+2025-04-30 15:28:54,543 [ERROR] SalesAgent - Chain processing failed: Invalid argument provided to Gemini: 400 * GenerateContentRequest.model: unexpected model name format
+
+2025-04-30 15:28:54,543 [ERROR] src.graph_blocks.nodes - Error running sales agent: Invalid argument provided to Gemini: 400 * GenerateContentRequest.model: unexpected model name format
+
+2025-04-30 15:28:54,548 [ERROR] routes.chat_route - Internal error | session_id: 55 | error: Failed to run sales agent: Invalid argument provided to Gemini: 400 * GenerateContentRequest.model: unexpected model name format
+
+2025-04-30 15:28:59,392 [INFO] src.graph_blocks.tools.df_tools - Loading product data
+2025-04-30 15:28:59,393 [INFO] src.df_manager.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 15:28:59,393 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 15:28:59,393 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 15:28:59,393 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 15:28:59,394 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-30 15:28:59,403 [INFO] src.df_manager.df_manager - Successfully initialized DfManager
+2025-04-30 15:28:59,403 [INFO] src.graph_blocks.tools.df_tools - Successfully loaded 8 products
+2025-04-30 15:29:00,456 [INFO] src.graph_blocks.nodes - Initializing tool node
+2025-04-30 15:29:00,458 [INFO] src.graph_blocks.nodes - Tool node initialized successfully
+2025-04-30 15:29:03,230 [INFO] src.graph_blocks.tools.df_tools - Loading product data
+2025-04-30 15:29:03,230 [INFO] src.df_manager.df_manager - Initializing DfManager with file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 15:29:03,231 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 15:29:03,231 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 15:29:03,232 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: D:\Electro Pi\Sales-Chatbot\Dataset\products.json
+2025-04-30 15:29:03,234 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-30 15:29:03,248 [INFO] src.df_manager.df_manager - Successfully initialized DfManager
+2025-04-30 15:29:03,248 [INFO] src.graph_blocks.tools.df_tools - Successfully loaded 8 products
+2025-04-30 15:29:04,752 [INFO] src.graph_blocks.nodes - Initializing tool node
+2025-04-30 15:29:04,752 [INFO] src.graph_blocks.nodes - Tool node initialized successfully
+2025-04-30 15:29:05,914 [INFO] src.df_manager.df_manager - Initializing DfManager with file: Dataset\products.json
+2025-04-30 15:29:05,915 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Converting JSON file to DataFrame: Dataset\products.json
+2025-04-30 15:29:05,915 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Reading JSON file: Dataset\products.json
+2025-04-30 15:29:05,916 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully read JSON file: Dataset\products.json
+2025-04-30 15:29:05,918 [INFO] src.df_manager.df_manager_helpers.convert_json_to_df - Successfully converted JSON to DataFrame with 8 rows
+2025-04-30 15:29:05,931 [INFO] src.df_manager.df_manager - Successfully initialized DfManager
+2025-04-30 15:29:05,932 [INFO] src.graph - Creating new StateGraph
+2025-04-30 15:29:05,933 [INFO] src.graph - connect to sql database....
+2025-04-30 15:29:05,935 [INFO] src.graph - connect to sql database complited.
+2025-04-30 15:29:05,944 [INFO] src.graph - Successfully created and compiled graph
+2025-04-30 15:29:05,947 [INFO] routes.chat_route - Received chat request | user_query: عاندي حساسيه من الزنك بس | session_id: 55
+2025-04-30 15:29:05,958 [INFO] src.graph_blocks.nodes - Running sales agent
+2025-04-30 15:29:05,958 [INFO] src.graph_blocks.nodes - Input state messages count: 19
+2025-04-30 15:29:05,960 [INFO] SalesAgent - Loading environment variables
+2025-04-30 15:29:05,962 [INFO] SalesAgent - Successfully loaded API key
+2025-04-30 15:29:05,963 [INFO] SalesAgent - Initializing Google Gemini LLM
+2025-04-30 15:29:05,986 [INFO] SalesAgent - Successfully initialized LLM with tools
+2025-04-30 15:29:05,987 [INFO] SalesAgent - Creating sales agent chain
+2025-04-30 15:29:05,988 [INFO] SalesAgent - Successfully created sales agent chain
+2025-04-30 15:29:05,988 [INFO] SalesAgent - Processing input through chain
+2025-04-30 15:29:07,484 [INFO] src.graph_blocks.nodes - the sales agent response is: content='بالتأكيد يا فندم،  نظراً لحساسيتكِ من الزنك، سأساعدكِ في إيجاد كريم مرطب مناسب.  للبشرة الجافة، أنصح بكريم يحتوي على مكونات طبيعية مثل زيت جوز الهند أو زيت الزيتون أو زبدة الشيا، فهي غنية بالمرطبات وتُناسب البشرة الحساسة. هل لديكِ أي تفضيلات أخرى؟ مثلًا، هل تفضلين كريمًا خفيفًا أم ثقيلًا؟' additional_kwargs={} response_metadata={'prompt_feedback': {'block_reason': 0, 'safety_ratings': []}, 'finish_reason': 'STOP', 'safety_ratings': []} id='run-55315371-0bb1-46eb-9ea0-9ddf48a97ea8-0' usage_metadata={'input_tokens': 4322, 'output_tokens': 112, 'total_tokens': 4434, 'input_token_details': {'cache_read': 0}}
+2025-04-30 15:29:07,490 [INFO] src.graph_blocks.nodes - Running output formatter
+2025-04-30 15:29:07,493 [INFO] OutputFormatter - Loading environment variables
+2025-04-30 15:29:07,496 [INFO] OutputFormatter - Successfully loaded API key
+2025-04-30 15:29:07,497 [INFO] OutputFormatter - Initializing Google Gemini LLM
+2025-04-30 15:29:07,514 [INFO] OutputFormatter - Successfully initialized LLM with tools
+2025-04-30 15:29:07,514 [INFO] OutputFormatter - Creating sales agent chain
+2025-04-30 15:29:07,518 [INFO] OutputFormatter - Successfully created sales agent chain
+2025-04-30 15:29:07,519 [INFO] OutputFormatter - Processing input through chain
+2025-04-30 15:29:09,902 [INFO] routes.chat_route - Chat response successful | session_id: 55
