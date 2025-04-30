@@ -105,3 +105,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 
 في الفيرجن ده انا ضفت نود جديده عشان تخرح الاوتبت في جسون زي ما احنا عاوزين واشتغلت بالفعل وظبط شويه حاجات في الاستركشر بتاع لمشروع وال وان تيست دلوقتي هو الي شغال
+
+.\.venv\Scripts\Activate
