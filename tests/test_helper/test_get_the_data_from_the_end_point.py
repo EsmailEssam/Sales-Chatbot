@@ -6,7 +6,7 @@ from src.helper.get_the_data_from_the_end_point import ProductDataFetcher
 
 
 # ✅ اختبار: fetch_data بيجيب بيانات صحيحة
-@patch("modules.helper.get_the_data_from_the_end_point.requests.get")
+@patch("src.helper.get_the_data_from_the_end_point.requests.get")
 def test_fetch_data_success(mock_get):
     mock_response = MagicMock()
     expected_data = {"products": [{"id": 1, "name": "Product 1"}]}
@@ -22,7 +22,7 @@ def test_fetch_data_success(mock_get):
 
 
 # ✅ اختبار: fetch_data بيرفع Exception لو الـ API واقع
-@patch("modules.helper.get_the_data_from_the_end_point.requests.get")
+@patch("src.helper.get_the_data_from_the_end_point.requests.get")
 def test_fetch_data_failure(mock_get):
     mock_get.side_effect = Exception("API is down")
 
