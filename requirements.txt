@@ -2,7 +2,7 @@ fastapi==0.115.12
 jsonschema==4.23.0
 langchain>=1.2
 langchain-core>=1.2.22
-langchain_google_genai==2.1.4
+langchain_google_genai>=4.0.0
 langgraph>=1.0.10
 pandas==2.2.3
 prometheus_client==0.21.0
